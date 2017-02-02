@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Ashish Dutt
-  avatar: bio-photo.jpg
+  avatar: my-profile-pic.jpg
   email: ashishdutt@yahoo.com.my
   disqus-shortname:
   twitter: #username
