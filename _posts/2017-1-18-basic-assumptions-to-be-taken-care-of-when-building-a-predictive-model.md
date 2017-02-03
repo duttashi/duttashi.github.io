@@ -213,7 +213,7 @@ The `> gvlma()` from the gvlma package offers to check for the important assumpt
 
 Three of the assumptions are not satisfied. This is probably because we have only 50 data points in the data and having even 2 or 3 outliers can impact the quality of the model. So the immediate approach to address this is to remove those outliers and re-build the model. Take a look at the diagnostic plot below.
 
-![diagnosticplot](https://duttashi.github.io/images/diagnosticplt-1.png)
+![diagnosticplot](https://duttashi.github.io/images/rplot1-1.png)
 
 Figure 8: The diagnostic plot
 
