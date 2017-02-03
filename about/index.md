@@ -1,8 +1,6 @@
 ---
-
 layout: page
 title: About Me
-image: ![my pic](https://duttashi.github.io/images/my-profile-pic.jpg)
 
 ---
 
