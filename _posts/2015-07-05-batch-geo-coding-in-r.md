@@ -1,15 +1,12 @@
 ---
 layout: post
-
 title: Batch Geo-coding in R
-
 date: 2015-07-05 02:34
-
+excerpt: "Learn how to geocode geographical locations in R"
+categories: blog
+tags: [R, geocoding, preprocessing]
 comments: true
-
-categories: [geocoding, pre-processing]
-
-tags: R
+share: true
 
 ---
 

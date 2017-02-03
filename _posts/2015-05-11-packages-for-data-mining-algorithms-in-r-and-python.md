@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Packages for data mining algorithms in R and Python
-
 date: 2015-05-11 17:47
-
+share: true
+excerpt: "Packages for data mining in R"
+categories: blog
+tags: [R, Python]
 comments: true
-
-categories: [Resources]
-
-tags: R, Python
 
 ---
 Although there is abundance of such data both in print and electronic format but it is mostly either buried deep in voluminous books or in a long threaded conversation?

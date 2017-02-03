@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Data Analysis with R Series- Part 1
-
 date: 2015-04-09 17:29
-
+excerpt: "Understanding the basics of data analysis"
+categories: blog
+tags: [R, data-analysis]
 comments: true
-
-categories: [data analysis]
-
-tags: R
+share: true
 
 ---
 In this post we will see the preliminary information that can be derived from the data using R. I have used the <a href="http://apps.who.int/gho/data/node.main.271?lang=en" target="_blank">tobacco consumption</a> (Male and Female) data from the World Health Organization Global Health Observatory Data Repository.

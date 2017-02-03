@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Assessing Clustering Tendency in R
-
 date: 2015-05-13 14:51
-
+excerpt: "Determining the possible number of clusters present in data"
+categories: blog
+tags: [R, clustering, preprocessing]
 comments: true
-
-categories: [clustering, pre-processing]
-
-tags: R
+share: true
 
 ---
 While searching for a R package that applied 'Hopkin statistic' (mentioned in chapter 10, example 10.9 page 484 of the book) that determines if a given non-random or non-uniform dataset has the possibility of cluster's present in it or not, I accidentally discovered this <a href="http://cedric.cnam.fr/fichiers/art_2554.pdf" target="_blank">R package</a> for finding the best number of clusters. The <em>NbClust</em> package provides most of the popular indices for cluster validation. It also proposes to the user the best clustering scheme from the different results obtained by varying all combinations of number of clusters,distance measures, and clustering methods.

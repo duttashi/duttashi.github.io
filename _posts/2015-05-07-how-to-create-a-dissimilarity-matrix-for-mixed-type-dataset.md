@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: How to create a dissimilarity matrix for mixed type dataset
-
 date: 2015-05-07 09:33
-
+excerpt: "What in the world is a dissimilarity matrix? Interested? Read on.."
+categories: blog
+tags: [R, data analysis]
 comments: true
-
-categories: data preprocessing
-
-tags: R
+share: true
 
 ---
 Today, I will discuss on how to create a dissimilarity matrix for mixed type dataset. A quick recap of what a dissimilarity matrix and mixed type dataset is should be good enough to grab your attention.

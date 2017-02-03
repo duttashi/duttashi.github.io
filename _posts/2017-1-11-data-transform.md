@@ -1,15 +1,12 @@
 ---
 layout: post
-
 title: Data Transformations in R
-
 date: 2017-1-11
-
-category: data analysis
-
-published: true
-
-tags: R
+excerpt: "Types of data transformations"
+categories: blog
+tags: [R, preprocessing]
+comments: true
+share: true
 
 ---
 

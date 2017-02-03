@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: How to split a data frame in R with over a million observations in above 50 variables?
-
 date: 2015-04-17 16:06
-
+excerpt: "Does data size matter in analysis?"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: [preprocessing]
-
-tags: R
+share: true
 
 ---
 In a previous post dated April 6<sup>th</sup> 2015 I had written on how to split a data frame to training and test dataset. Today, I had to do it again so I was following my own post when I stumbled into the following error,

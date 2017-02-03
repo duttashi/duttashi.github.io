@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: To read multiple files from a directory and save to a data frame
-
 date: 2015-06-23 16:16
-
+excerpt: "Basic data manipulation techniques in R"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: pre-processing
-
-tags: R
+share: true
 
 ---
 There are various solution to this questions like these but I will attempt to answer the problems that I encountered with there working solution that either I found or created by my own.

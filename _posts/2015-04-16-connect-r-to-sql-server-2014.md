@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Connect R to SQL Server 2014
-
 date: 2015-04-16 16:58
-
+excerpt: "Building a Data Pipeline"
+categories: blog
+tags: [R, data-pipeline]
 comments: true
-
-categories: [Environment Setup]
-
-tags: R
+share: true
 
 ---
 For a long time, I had been traversing a long winding road for data extraction from SQL Server. Initially, I was using MS BI Studio to connect MS SQL Server to Excel to extract data from SQL Server and write it to .csv format. Which was then imported into R data frame. This process was indeed cumbersome to me. My recent involvement with R and its majestic features have indeed got me hooked to it. So, to cut the story short in this post we will see how to connect R to SQL Server 2014 and manipulate the SQL database tables in R data frames. So let’s get started.

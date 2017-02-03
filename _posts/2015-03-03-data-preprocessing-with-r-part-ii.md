@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Data preprocessing with R- part II
-
 date: 2015-03-03 13:18
-
+share: true
+excerpt: "More concepts in data cleaning"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: [pre-processing]
-
-tags: R
 
 ---
 This post is a sequel to my earlier post dated December 9th, 2014

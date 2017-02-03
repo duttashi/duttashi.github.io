@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Gini index to compute inequality or impurity in the data
-
 date: 2015-05-18 14:25
-
+excerpt: "Understanding Gini index and its usage in determining data purity quality"
+categories: blog
+tags: [R, descriptive-statistics]
 comments: true
-
-categories: [descriptive statistics, pre-processing]
-
-tags: R
+share: true
 
 ---
 

@@ -1,16 +1,11 @@
 ---
 
 layout: post
-
 title: Learning from data science competitions- baby steps
-
 date: 2016-08-24 08:17
-
-comments: true
-
-categories: [classification techniques, competition, exploratory data analysis]
-
-tags: R
+excerpt: "What it takes to compete and excel in data science competitions"
+categories: blog
+tags: [R, competition, classification]
 
 ---
 Off lately a considerable number of winner machine learning enthusiasts have used <a href="https://github.com/dmlc/xgboost" target="_blank">XGBoost</a> as their predictive analytics solution. This algorithm has taken a preceedence over the traditional tree based algorithms like Random Forests and Neural Networks.

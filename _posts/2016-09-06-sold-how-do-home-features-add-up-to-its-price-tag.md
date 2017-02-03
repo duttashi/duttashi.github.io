@@ -1,14 +1,13 @@
 ---
 
 layout: post
-
 title: Sold! How do home features add up to its price tag?
-
 date: 2016-09-06 13:20
-
+excerpt: "Predicting the house price based on its features"
+categories: blog
+tags: [R, competition, preprocessing]
 comments: true
-
-categories: [Competition, exploratory statistics, pre-processing, R]
+share: true
 
 ---
 <span style="color:#000000;">I begin with a new project. It is from the</span> <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques" target="_blank">Kaggle</a> <span style="color:#000000;">playground wherein the objective is to build a regression model <em>(as the response variable or the outcome or dependent variable is continuous in nature) </em>from a given set of predictors or independent variables. </span>

@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Splitting a data frame into training and testing sets in R
-
 date: 2015-04-06 14:37
-
+excerpt: "Learning to split data"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: [preprocessing]
-
-tags: R
+share: true
 
 ---
 Step 1: <strong>Loading data in R</strong>

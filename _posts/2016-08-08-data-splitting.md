@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Data Splitting
-
 date: 2016-08-08 13:41
-
+excerpt: "How to split data into training and testing sets"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: [data splitting, pre-processing]
-
-tags: R
+share: true
 
 ---
 A few common steps in data model building are;

@@ -1,15 +1,12 @@
 ---
 layout: post
-
 title: Data preprocessing with R
-
 date: 2014-12-09 15:58
-
+share: true
+excerpt: "Concepts in data cleaning"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: [pre-processing]
-
-tags: R
 
 ---
 In my previous post, I have detailed how to load data into R. Continuing further from there, after the data has been loaded the next step is to clean it and apply some clustering algorithm to it so as to reveal some patterns. 

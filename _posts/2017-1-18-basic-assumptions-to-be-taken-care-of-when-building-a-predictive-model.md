@@ -1,17 +1,13 @@
 ---
 
 layout: post
-
 title: Basic assumptions to be taken care of when building a predictive model
-
 date: 2017-01-18
-
-category: data analysis
-
-tags: R
-
+share: true
+excerpt: "Fundamental concepts in building a predictive model"
+categories: blog
+tags: [R, data analysis]
 comments: true
-
 published: true
 
 ---

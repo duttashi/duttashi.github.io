@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: How to solve the missing data problem?
-
 date: 2015-05-04 18:47
-
+excerpt: "Solving the missing data mystery!"
+categories: blog
+tags: [R, preprocessing]
 comments: true
-
-categories: [missing data treatment, preprocessing]
-
-tags: R
+share: true
 
 ---
 There are several solution to it.
