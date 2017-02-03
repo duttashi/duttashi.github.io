@@ -5,7 +5,7 @@ title: Data Analysis with R Series- Part 1
 date: 2015-04-09 17:29
 excerpt: "Understanding the basics of data analysis"
 categories: blog
-tags: [R, data-analysis]
+tags: [R, data analysis]
 comments: true
 share: true
 
