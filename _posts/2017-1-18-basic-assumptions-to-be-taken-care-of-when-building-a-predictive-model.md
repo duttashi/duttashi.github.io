@@ -4,7 +4,7 @@ layout: post
 
 title: Basic assumptions to be taken care of when building a predictive model
 
-date: 2017-1-18
+date: 2017-01-18
 
 category: data analysis
 
