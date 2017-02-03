@@ -2,7 +2,7 @@
 
 layout: post
 
-title: Hierarchical Clustering Methods implementation in R: A Case Study
+title: Hierarchical Clustering Methods implementation in R- A Case Study
 
 date: 2015-05-05 14:13
 
@@ -13,6 +13,7 @@ categories: [Cluster analysis]
 tags: R
 
 ---
+
 Today I will present the implementation of agglomerative hierarchical clustering in R. You can do a similar implementation in the language of your choice.
 
 I will use the iris dataset here for explanation purpose. If you don’t have it in your R version you can download it from <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data">here</a>
