@@ -47,6 +47,7 @@ This produces four plots. The top-left and bottom-left plots shows how the resid
 	> par(mfrow=c(2,2)) # set 2 rows and 2 column plot layout
 	> mod_1 <- lm(mpg ~ disp, data=mtcars) # linear model 
 	> plot(mod_1) 
+	
 ![image](https://duttashi.github.io/images/lrassum-1.png)
 
 Figure 1: An example of heteroscedasticity in mtcars dataset
