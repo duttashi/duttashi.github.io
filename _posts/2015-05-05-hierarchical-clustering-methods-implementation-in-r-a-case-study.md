@@ -1,16 +1,13 @@
 ---
 
 layout: post
-
 title: Hierarchical Clustering Methods implementation in R- A Case Study
-
 date: 2015-05-05 14:13
-
 comments: true
-
-categories: [Cluster analysis]
-
-tags: R
+share: true
+excerpt: "implementation of agglomerative hierarchical clustering in R"
+categories: blog
+tags: [R, clustering]
 
 ---
 

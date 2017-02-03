@@ -1,15 +1,12 @@
 ---
 layout: post
-
 title: How to read CSV file into R
-
 date: 2014-12-06 17:06
-
 comments: true
-
-categories: [pre-processing]
-
-tags: R
+share: true
+excerpt: "An example on reading csv file in R"
+categories: blog
+tags: [R, preprocessing]
 
 ---
 If you are using R much you will likely need to read in data at some point. While R can read excel .xls and .xlsx files these file types often cause problems. Comma separated files (.csv) are much easier to work with. It’s best to save these files as csv before reading them into R. If you need to read in a csv with R the best way to do it is with the command read.csv. 
