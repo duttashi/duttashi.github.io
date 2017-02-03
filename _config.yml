@@ -39,12 +39,12 @@ owner:
   name: Ashish Dutt
   avatar: my-profile-pic.jpg
   email: ashishdutt@yahoo.com.my
-  disqus-shortname:
-  twitter: #username
+  disqus-shortname: duttashi
+  twitter: dutash #username
   facebook: #username
-  github: duttashi #username
+  github: duttashi 
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: duttashish 
   instagram: #username
   flickr: #username
   tumblr: #username
@@ -52,7 +52,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-83995249-1
     verify:
     ad-client:
     ad-slot:
