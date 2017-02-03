@@ -8,7 +8,9 @@ date: 2015-05-07 09:33
 
 comments: true
 
-categories: [preprocessing, R]
+categories: data preprocessing
+
+tags: R
 
 ---
 Today, I will discuss on how to create a dissimilarity matrix for mixed type dataset. A quick recap of what a dissimilarity matrix and mixed type dataset is should be good enough to grab your attention.
