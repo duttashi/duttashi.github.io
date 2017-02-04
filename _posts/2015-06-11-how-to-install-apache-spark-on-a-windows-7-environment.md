@@ -32,23 +32,23 @@ This is the most important step. If the Path variable is not properly setup, you
 	<li>Click on Advanced System Settings</li>
 	<li>Under Start up &amp; Recovery, Click on the button labelled as "Environment Variable"</li>
 	<li>You will see the window divided into two parts, the upper part will read User variables for username and the lower part will read System variables. We will create two new system variables, So click on "New" button under System variable</li>
-	<li>Set the variable name as[sourcecode language="R"]JAVA_HOME [/sourcecode]
+	<li>Set the variable name as <code> JAVA_HOME </code>
 
 (in case JAVA is not installed on your computer then follow these steps). Next set the variable value as the <code>JDK PATH</code>. In my case it is <code>'C:\Program Files\Java\jdk1.7.0_79\'</code>
 
-(please type the path without the single quote)</li>
+(please type the path without the single quote)
 	<li>Similarly, create a new system variable and name it as</li>
 <code>PYTHON_PATH</code>
 
 Set the variable value as the Python Path on your computer. In my case it is <code> 'C:\Python27\' </code>
 
-(please type the path without the single quote)</li>
+(please type the path without the single quote)
 	<li>Create a new system variable and name it as</li> 
 <code>HADOOP_HOME</code>
 
 Set the variable value as <code>C:\winutils</code> 
 
-(Note: There is no need to install Hadoop. The spark shell only requires the Hadoop path which in this case holds the value to winutils that will let us compile the spark program on a windows environment.</li>
+(Note: There is no need to install Hadoop. The spark shell only requires the Hadoop path which in this case holds the value to winutils that will let us compile the spark program on a windows environment.
 	<li>Create a new system variable and name it as </li> 
 <code>SPARK_HOME </code>
 
@@ -56,24 +56,15 @@ Assign the variable value as the path to your Spark binary location. In my case 
 
 <span style="text-decoration:underline;"><strong>NOTE:</strong></span><strong> Apache Maven installation is an optional step. </strong>I am mentioning it here because I want to install SparkR a R version of Spark.
 <ul>
-	<li>Download Apache Maven 3.1.1 from <a href="https://maven.apache.org/download.cgi" target="_blank">here</a> 
-	<li>Choose Maven 3.1.1. (binary zip) and unpack it using WinZip or WinRAR. Create a new system variable and name it as</li>
-	
-	MAVEN_HOME and M2_HOME 
+	<li>Download Apache Maven 3.1.1 from <a href="https://maven.apache.org/download.cgi" target="_blank">here</a> </li>
+	<li>Choose Maven 3.1.1. (binary zip) and unpack it using WinZip or WinRAR. Create a new system variable and name it as</li> <code> MAVEN_HOME and M2_HOME</code> 
 </ul>
-<strong> </strong>Assign the both these variables the value as the path to your Maven binary location. In my case it is in
+<strong> </strong>Assign the both these variables the value as the path to your Maven binary location. In my case it is in <code>'D:\APACHE-MAVEN-3.1.1\BIN'</code> so I have <code> MAVEN_HOME=D:\APACHE-MAVEN-3.1.1\BIN </code> 
+and <code> M2_HOME=D:\APACHE-MAVEN-3.1.1\BIN </code>
 
-	'D:\APACHE-MAVEN-3.1.1\BIN' 
-so I have
- 
-	MAVEN_HOME=D:\APACHE-MAVEN-3.1.1\BIN 
-and
- 
-	M2_HOME=D:\APACHE-MAVEN-3.1.1\BIN
-Now, all you have to do is append these four system variables namely JAVA_HOME, PYTHON_PATH, HADOOP_HOME &amp; SPARK_HOME to your Path variable. Which can be done as follows
+Now, all you have to do is append these four system variables namely JAVA_HOME, PYTHON_PATH, HADOOP_HOME &amp; SPARK_HOME to your Path variable. 
 
-	%JAVA_HOME%\BIN; %PYTHON_PATH%; %HADOOP_HOME%; %SPARK_HOME%; %M2_HOME%\BIN %MAVEN_HOME%\BIN  
-(Note: Do not forget to end each entry with a semi-colon) 
+This can be done as follows <code> %JAVA_HOME%\BIN; %PYTHON_PATH%; %HADOOP_HOME%; %SPARK_HOME%; %M2_HOME%\BIN %MAVEN_HOME%\BIN </code> (Note: Do not forget to end each entry with a semi-colon) 
 
 Click on Ok to close the Environment variable window and then similarly on System properties window.
 
