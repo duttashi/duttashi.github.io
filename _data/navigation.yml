@@ -6,13 +6,13 @@
 - title: About
   url: /about/
   
-- title: Resume
-  url: /resume/
+#- title: Resume
+#  url: /resume/
 
 - title: Github
   url: http://github.com/duttashi
 
-- title: ResearchGate
+- title: Research
   url: https://www.researchgate.net/profile/Ashish_Dutt
 
 - title: LinkedIn
