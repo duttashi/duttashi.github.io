@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Big or small-let’s save them all: Making Data Management Decisions
+title: Big or small-lets save them all- Making Data Management Decisions
 date: 2016-01-15 
 excerpt: "Making data powered decisions for the gapminder dataset"
 categories: blog
