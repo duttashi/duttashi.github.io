@@ -24,7 +24,7 @@ In this post, I present to the readers an exploratory data analysis of the gapmi
 
 Although, for this course we are provided with the relevant dataset, however if you are not taking this course and are interested in the source of the data, then you can get it from <a href="http://www.gapminder.org/data/">here</a>. In the List of indicators search box type “breast cancer, new cases per 100,000 women” to download the dataset.
 
-I will be using python for Exploratory Data Analysis (EDA). I begin by importing the libraries pandas and numpy
+I will be using python for Exploratory Data Analysis (EDA). I begin by importing the libraries pandas and numpy as
 
 	# Importing the libraries
 	import pandas as pd
