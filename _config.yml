@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: "Stories Data Speaks"
+title: "Stories Data Speak"
 locale: en_US
 description: My thoughts and learnings.
 logo: site-logo.png
@@ -43,7 +43,7 @@ owner:
   twitter: dutash #username
   facebook: #username
   github: duttashi 
-  stackexchange: #http://stackoverflow.com/users/123456/username
+  stackexchange: 4195053 #http://stackoverflow.com/users/123456/username
   linkedin: duttashish 
   instagram: #username
   flickr: #username
