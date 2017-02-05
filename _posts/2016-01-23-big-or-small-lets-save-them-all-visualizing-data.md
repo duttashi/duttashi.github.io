@@ -163,7 +163,7 @@ I now come to the conclusion of this analytical series. After performing descrip
 
 Finally, to conclude this exploratory data analysis series of posts has been very fruitful and immensely captivating to me. In the next post, I will discuss on the statistical relationships between the variables and testing the hypotheses in the context of Analysis of Variance (when you have one quantitative variable and one categorical variable). And since the dataset that I chose does not have any categorical variable, I will also show how to categorize a quantitative variable.
 
-I hope you enjoyed reading it as much as I enjoyed writing and presenting the results to you. The complete python code is listed on my GitHub account <a href="https://github.com/duttashi/Data-Analysis-Visualization/blob/master/gapminder_data_analysis.py" target="_blank">here</a>
+The complete python code is listed on my GitHub account <a href="https://github.com/duttashi/Data-Analysis-Visualization/blob/master/gapminder_data_analysis.py" target="_blank">here</a>
 
 Cheers!
 
