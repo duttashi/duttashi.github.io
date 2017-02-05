@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Big or small-let's save them all: Exploratory Data Analysis
-date: 2016-01-09 18:03
+date: 2016-01-09 
 excerpt: "Exploratory data analysis of the gapminder dataset"
 categories: blog
 tags: [python, data analysis]

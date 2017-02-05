@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Big or small-let’s save them all: Visualizing Data
-date: 2016-01-23 15:48
+date: 2016-01-23 
 excerpt: "Making data powered visualizations for the gapminder dataset"
 categories: blog
 tags: [python, data analysis]
