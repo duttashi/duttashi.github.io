@@ -10,7 +10,7 @@ published: true
 share: true
 
 ---
-So far I have discussed the data-set, the research question, introduced the variables to analyze and performed some exploratory data analysis in which I showed how to get a brief overview of the data using python. Continuing further, I have now reached a stage wherein I must ‘dive into’ the data-set and make some strategic data management decisions. This stage cannot be taken lightly because it lays the foundation of the entire project. A misjudgment here can spell doom to the entire data analysis cycle.
+So far I have discussed the data-set, the research question, introduced the variables to analyze and performed some exploratory data analysis in which I showed how to get a brief overview of the data using python. Continuing further, I have now reached a stage wherein I must ‘dive into’ the data-set and make some strategic data management decisions. This stage cannot be taken lightly because it lays the foundation of the entire project. A misjudgment here can spell doom to the entire data analysis cycle. 
 
 The first step is to see, if the data is complete or not? By completeness, I mean to check the rows and the columns of the data-set for any missing values or junk values. (<em>Do note, here I have asked two questions. In this post I will answer the first question only. In another post i will answer the second question</em>); a) How to deal with missing values and b) How to deal with junk values.
 
