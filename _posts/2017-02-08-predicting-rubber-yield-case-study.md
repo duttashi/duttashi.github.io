@@ -4,7 +4,7 @@ layout: post
 title: Predicting rubber plantation yield- A regression analysis approach
 date: 2017-02-09
 share: true
-excerpt: "A case study on predicting yield per tonne for rubber based on rubber plantation data of Malaysia"
+excerpt: "A case study on predicting rubber yield per tonne based on rubber plantation data of Malaysia"
 categories: blog
 tags: [R, data analysis]
 comments: true
