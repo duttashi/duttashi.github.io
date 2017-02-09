@@ -206,6 +206,7 @@ Since the predictors are continuous in nature, we begin by univariate data visua
 	...         col = c("red","sienna","palevioletred1","royalblue2","brown"),
 	...         ylab="Count", xlab="Predictors"
 	...         )
+
 ![boxplot1](https://duttashi.github.io/images/casestudy-MY-Rubber-boxplot1.png)
 
 Fig-1: Boxplot
@@ -215,6 +216,7 @@ Looks like there are some outlier values for the `YieldperHectKg` predictor in F
 Now, we use the line plots to determine relationships between continuous predictors.
 
 	> ggplot(df.master)+ geom_line(aes(x=AreaPlantedHect, y=YieldperHectKg, color=”red”))
+
 ![lineplot1](https://duttashi.github.io/images/casestudy-MY-Rubber-lineplot1.png)
 
 Fig-2: Line Plot for predictors `AreaPlantedHect` and `YieldperHectKg`
@@ -226,6 +228,7 @@ Lets’ explore the remaining predictors;
 We see that produce increases with area but then it begins to decline after 600 hectares.
 
 	> ggplot(df.master)+ geom_line(aes(x=AreaPlantedHect, y=ProduceTonne, color="red"))
+
 ![lineplot2](https://duttashi.github.io/images/casestudy-MY-Rubber-lineplot2.png)
 
 Fig-3: Line Plot for predictors `AreaPlantedHect` and `ProduceTonne`
@@ -233,6 +236,7 @@ Fig-3: Line Plot for predictors `AreaPlantedHect` and `ProduceTonne`
 We see that produce increases with area but then it begins to decline after 600 hectares. There is a positive linear relationship between area planted and tap area as shown below in Fig-4. 
 
 	> ggplot(df.master)+ geom_line(aes(x=AreaPlantedHect, y=TapAreaHect, color="red"))
+
 ![lineplot3](https://duttashi.github.io/images/casestudy-MY-Rubber-lineplot3.png)
 
 Fig-4: Line Plot for predictors `AreaPlantedHect` and `TapAreaHect`
@@ -240,6 +244,7 @@ Fig-4: Line Plot for predictors `AreaPlantedHect` and `TapAreaHect`
 Again, a positive linear relationship between area planted and paid employees but there is a sharp decline at 600 hectares is revealed in Fig-5.
 
 	> ggplot(df.master)+ geom_line(aes(x=AreaPlantedHect, y=TotalPaidEmployee, color="red"))
+
 ![lineplot4](https://duttashi.github.io/images/casestudy-MY-Rubber-lineplot4.png)
 
 Fig-5: Line Plot for predictors `AreaPlantedHect` and `TotalPaidEmployee`
@@ -260,6 +265,7 @@ Continuing further, it is evident that the predictors, `TotalPaidEmployee`,`Area
 
 	> correlations<- cor(df.master)
 	> corrplot(correlations, method="number")
+
 ![corrplot-1](https://duttashi.github.io/images/casestudy-MY-Rubber-corrplot.png)
 
 Fig-6: Correlation Plot for predictors and response variables.
@@ -334,6 +340,7 @@ We are interested in predicting the variable Yield per hectare in kg (`YieldperH
 	[6] "YieldperHectKg"   
 
 	> plot(bor.results)
+
 ![plot](https://duttashi.github.io/images/casestudy-MY-Rubber-boruta.png)
 
 Fig-8: Feature importance plot
@@ -450,6 +457,7 @@ We now test the model performance on some supervised algorithms to determine the
 		> round(rmse, digits = 3) # 0.049
 
 The Variance Inflation factor plot shows the predictors, `TotalPaidEmployee`, `ProduceTonne` and `TapAreaHect` as most important.
+
 ![plot](https://duttashi.github.io/images/casestudy-MY-Rubber-VIFPlot.png)
 
 Fig-9: VIF plot
@@ -544,6 +552,7 @@ Residual = Observed value - Predicted value
 Both the sum and the mean of the residuals are equal to zero. That is, `Σ e = 0` and `e = 0`. 
 
 A residual plot is a graph that shows the residuals on the vertical axis and the independent variable on the horizontal axis. If the points in a residual plot are randomly dispersed around the horizontal axis, a linear regression model is appropriate for the data; otherwise, a non-linear model is more appropriate.
+
 ![plot](https://duttashi.github.io/images/casestudy-MY-Rubber-residualplot.png)
 
 Fig-10: Residual plot
