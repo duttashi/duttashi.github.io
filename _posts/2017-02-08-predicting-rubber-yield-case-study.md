@@ -586,7 +586,7 @@ Looks like we have a good model in here because the MAPE value is **0.029** whic
 
 **H. Conclusion**
 
-As we have seen, a rigorous model testing must be applied to build an efficient model. The predictors, `ProduceTonne` is most significant for prediction of the response variable, `` and is closely followed by other predictors, `TotalPaidEmployee` and `TapAreaHect`. We also see that Regression tree based approach provides **98% accurate** in predicting the response variable while Random Forest model (**0.049%**) does not even come close. 
+As we have seen, a rigorous model testing must be applied to build an efficient model. The predictors, `ProduceTonne` is most significant for prediction of the response variable, `` and is closely followed by other predictors, `TotalPaidEmployee` and `TapAreaHect`. We also see that Regression tree based approach provides **98% accurate** in predicting the response variable while Random Forest model (**0.049%**) does not even come close. The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
 
 
 References
