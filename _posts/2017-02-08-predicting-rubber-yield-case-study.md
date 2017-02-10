@@ -230,7 +230,7 @@ Now, the dataset is ready for visualization. This will help us in determining a 
 
 **B. Data visualization**: visualizing data in pursuit of finding relationship between predictors 
 
-Since the predictors are continuous in nature, we begin by univariate data visualization by using density plots. These are shown in text box 7 below. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
+Since the predictors are continuous in nature, we begin by univariate data visualization. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
 
 	> library(magrittr)
 	
@@ -253,7 +253,7 @@ Since the predictors are continuous in nature, we begin by univariate data visua
 
 Fig-1: Boxplot
 
-Looks like there are some outlier values for the `YieldperHectKg` predictor in Fig-1.
+From Fig-1, it seems that there are some outlier values for the `YieldperHectKg` predictor. We will come to it later, for now, we continue exploring the data.
 
 Now, we use the line plots to determine relationships between continuous predictors.
 
@@ -263,12 +263,10 @@ Now, we use the line plots to determine relationships between continuous predict
 
 Fig-2: Line Plot for predictors `AreaPlantedHect` and `YieldperHectKg`
 
-An interesting pattern is revealed in Fig-2. The yield per hectare has a sharp decline (after 600 hectares) as plantation area increases. 
+An interesting pattern is revealed in Fig-2. The *yield per hectare has a sharp decline (after 600 hectares) as plantation area increases*. 
 
 Lets’ explore the remaining predictors;
  
-We see that produce increases with area but then it begins to decline after 600 hectares.
-
 	> ggplot(df.master)+ geom_line(aes(x=AreaPlantedHect, y=ProduceTonne, color="red"))
 
 ![lineplot2](https://duttashi.github.io/images/casestudy-MY-Rubber-lineplot2.png)
@@ -283,7 +281,7 @@ We see that produce increases with area but then it begins to decline after 600 
 
 Fig-4: Line Plot for predictors `AreaPlantedHect` and `TapAreaHect`
  
-Again, a positive linear relationship between area planted and paid employees but there is a sharp decline at 600 hectares is revealed in Fig-5.
+Again, in Fig-5, we notice a positive linear relationship between area planted and paid employees but there is a sharp decline at 600 hectares persists.
 
 	> ggplot(df.master)+ geom_line(aes(x=AreaPlantedHect, y=TotalPaidEmployee, color="red"))
 
@@ -309,7 +307,7 @@ The evidence of strong positive linear relationship between the predictors, `Are
 	
 	[1] -0.5466433
 
-Continuing further, it is evident that the predictors, `TotalPaidEmployee`,`AreaPlantedHect`,`ProduceTonee` and `TapAreaHect` have a strong positive correlationship. Let’s visualize it.
+we now have ample evidence that the predictors, `TotalPaidEmployee`,`AreaPlantedHect`,`ProduceTonee` and `TapAreaHect` have a strong positive correlationship. Let’s visualize it.
 
 	> correlations<- cor(df.master)
 	
@@ -696,7 +694,7 @@ Looks like we have a good model in here because the MAPE value is **0.029** whic
 
 **H. Conclusion**
 
-As we have seen, a rigorous model testing must be applied to build an efficient model. The predictors, `ProduceTonne` is most significant for prediction of the response variable, `` and is closely followed by other predictors, `TotalPaidEmployee` and `TapAreaHect`. We also see that Regression tree based approach provides **98% accurate** in predicting the response variable while Random Forest model (**0.049%**) does not even come close. The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
+As we have seen, a rigorous model testing must be applied to build an efficient model. The predictors, `ProduceTonne` is most significant for prediction of the response variable, `` and is closely followed by other predictors, `TotalPaidEmployee` and `TapAreaHect`. We also see that **Regression tree** based approach provides **98% accurate** in predicting the response variable while Random Forest model (**0.049%**) does not even come close. The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
 
 
 References
