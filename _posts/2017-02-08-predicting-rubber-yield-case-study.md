@@ -450,8 +450,8 @@ Regression is a supervised technique, a statistical process for estimating the r
 
 Regression analysis is a widely used technique which is useful for evaluating multiple independent variables. It serves to answer the question, "Which factors matter the most?". Interested readers should see (Kleinbaum, Kupper and Muller, 2013) for more details on regression analysis and its many applications.
 
-We then, created a multiple linear regression model for the response variable `YieldperHectKg` and the summary statistic showed that the predictors, `TapAreaHect` and `ProduceTonne` are the most significant predictors such that if included in the model will enhance the predictive power of the response variable. 
-The other predictors like `Year`, `TotalPaidEmployee` and `AreaPlantedHect` do not contribute to the regression model.  
+We then, created a multiple linear regression model for the response variable `YieldperHectKg` and the summary statistic showed that the predictors, `TapAreaHect`, `ProduceTonne` and `TotalPaidEmployee` are the most significant predictors such that if included in the model will enhance the predictive power of the response variable. 
+The other predictors like `Year` and `AreaPlantedHect` do not contribute to the regression model.  
 
 	> linear.mod<- lm(YieldperHectKg~., data = Training)
 	
@@ -483,7 +483,7 @@ The t value also known as the t-test which is positive for predictors, `Year`, `
 
 Again, as the p-value for `ProduceTonne`, `TapAreaHect` and `TotalPaidEmployee` is less than 0.05 they are both statistically significant in the multiple linear regression model for `YieldperHectKg` response variable. The model's, `p-value: < 2.2e-16` is also lower than the statistical significance level of `0.05`, this indicates that we can safely reject the null hypothesis that the value for the coefficient is zero (or in other words, the predictor variable has no explanatory relationship with the response variable).
 
-In Linear Regression, the Null Hypothesis is that the coefficients associated with the variables is equal to zero. The alternate hypothesis is that the coefficients are not equal to zero (i.e. there exists a relationship
+In Regression, the Null Hypothesis is that the coefficients associated with the variables is equal to zero. The alternate hypothesis is that the coefficients are not equal to zero (i.e. there exists a relationship
 between the independent variable in question and the dependent variable).
  
 We tested this model using the root mean square evaluation method. 
