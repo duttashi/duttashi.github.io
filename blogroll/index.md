@@ -9,6 +9,8 @@ title: Helpful Data Science Resources Elsewhere
 
 [Jobs for R Users](http://www.r-users.com)
 
+[Nate Silver](https://fivethirtyeight.com/)
+
 [No Free Hunch @ Kaggle](http://blog.kaggle.com)
 
 [MultiThreaded @ Stitch Fix](http://multithreaded.stitchfix.com/blog/)
