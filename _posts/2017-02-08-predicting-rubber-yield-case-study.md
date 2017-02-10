@@ -18,7 +18,7 @@ Malaysia is the leading producer of natural rubber in the world. Being a leader 
 
 The favorable rubber plantation climate requires a mean temperature of 27°C, never falling below 22°C. It also requires heavy rainfall above 200 cm. with no drought including deep rich soils with good drainage preferably brittle, well-oxidized and acidic in reaction. Sufficient supply of labour is an important factor for the collection and plantation of rubber over large holdings. 
 
-In Malaysia, Rubber can grow anywhere, because of the suitability of climate and top soil; but most of the rubber estates are located in the western coastal plains of Malaysia. The plantation in coastal zone gets the benefit of nearest port for its export. Yet very low areas are avoided in order not to suffer from stagnation of water. The greatest production is in it's Johor State of Southern Malaysia. Over here the rubber cultivation occupies about 4-2 million acres or about 66% of the total cultivated area in the nation.
+In Malaysia, rubber can grow anywhere, because of the suitability of climate and top soil; but most of the rubber estates are located in the western coastal plains of Malaysia. The plantation in coastal zone gets the benefit of nearest port for its export. Yet very low areas are avoided in order not to suffer from stagnation of water. The greatest production is in it's Johor State of Southern Malaysia. Over here the rubber cultivation occupies about 4-2 million acres or about 66% of the total cultivated area in the nation.
 
 The rest of this report consist of the following sections;
 
@@ -539,7 +539,7 @@ We now test the model performance on some supervised algorithms to determine the
 	
 		> round(rmse, digits = 3) # 0.049
 
-The Variance Inflation factor plot shows the predictors, `TotalPaidEmployee`, `ProduceTonne` and `TapAreaHect` as most important.
+The Variance Inflation Factor (VIF) plot shows the predictors, `TotalPaidEmployee`, `ProduceTonne` and `TapAreaHect` as most important.
 
 ![plot](https://duttashi.github.io/images/casestudy-MY-Rubber-VIFPlot.png)
 
