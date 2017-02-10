@@ -86,7 +86,7 @@ The data comes from the Department of Statistics, Malaysia. This is an open data
 
 **4. Making data management decisions**
 
-Initially, the dataset consisted of six comma-separated files. Each data file provided a time series based data (from year 1965 to year 2014) on factors like number of rubber estates in Malaysia, total planted area, production of natural rubber, tapped area, yield per hectare and total number of paid employees in the rubber estate.
+Initially, the dataset consisted of six comma-separated files. Each file provided data (from year 1965 to year 2014) on factors like number of rubber estates in Malaysia, total planted area, production of natural rubber, tapped area, yield per hectare and total number of paid employees in the rubber estate.
 
 **A. Exploratory Data Analysis (EDA)**
 
