@@ -230,7 +230,7 @@ Now, the dataset is ready for visualization. This will help us in determining a 
 
 **B. Data visualization**: visualizing data in pursuit of finding relationship between predictors 
 
-Since the predictors are continuous in nature, we begin by univariate data visualization. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
+We begin the data exploration by univariate data visualization. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
 
 	> library(magrittr)
 	
@@ -253,7 +253,7 @@ Since the predictors are continuous in nature, we begin by univariate data visua
 
 Fig-1: Boxplot
 
-From Fig-1, it seems that there are some outlier values for the `YieldperHectKg` predictor. We will come to it later, for now, we continue exploring the data.
+From Fig-1, it seems that there are some outlier's for the `YieldperHectKg` predictor. We will come to it later, for now, we continue exploring the data.
 
 Now, we use the line plots to determine relationships between continuous predictors.
 
