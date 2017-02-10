@@ -1,26 +1,22 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About Me
+
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+My name is Ashish Dutt.
 
-## So Simple Theme is all about:
+As the tag line suggests, this blog primarily focusses on data analytical activities. I chose to create this blog so as to keep readers with similar interest updated of my research work. The technical aspects of my research work as well my continued tryst with data analysis will be updated here.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+<b>Current association</b>: 
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+With a blended work experience of over a decade in teaching and educational technologies. my research interest is in the soft set theory and its applicability in data clustering. I am a data analyst by profession and a PhD candidate by interest in the Department of Information Systems, University of Malaya (UM), Kuala Lumpur, Malaysia. 
 
-[^1]: Example: *domain.com/category-name/post-title*
+My supervisors are [Assoc. Prof. Dr. Tutut Herawan](https://www.researchgate.net/profile/Tutut_Herawan2) and [Assoc. Prof. Dr. Maizatul Akmar Ismail](https://umexpert.um.edu.my/maizatul).  
+
+Subject matter of the posts on this blog typically deals with my day-to-day encounters with mathematical or scientific ideas that I find beautiful, valuable, interesting, amusing, or (less often) infuriating. I benefit much from online sources – hence, I’d like to return something to the community by posting tutorials and code-snippets on this platform.
+
+Look at my work on [Github](https://github.com/duttashi/) or find me on [LinkedIn](https://my.linkedin.com/in/duttashish)
+
+My blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+<br /><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />

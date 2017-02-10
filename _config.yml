@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: "Stories Data Speak"
 locale: en_US
-description: Describe your website here.
+description: My thoughts and learnings.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: https://duttashi.github.io
 
 # Jekyll configuration
 
@@ -36,15 +36,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
+  name: Ashish Dutt
+  avatar: my-profile-pic.jpg
+  email: ashishdutt@yahoo.com.my
+  disqus-shortname: duttashi
+  twitter: dutash #username
   facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  github: duttashi 
+  stackoverflow: 4195053 #http://stackoverflow.com/users/123456/username
+  linkedin: duttashish 
   instagram: #username
   flickr: #username
   tumblr: #username
@@ -52,7 +52,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-83995249-1
     verify:
     ad-client:
     ad-slot:
