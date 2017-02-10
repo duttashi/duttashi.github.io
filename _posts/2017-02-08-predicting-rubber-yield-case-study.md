@@ -90,7 +90,7 @@ Initially, the dataset consisted of six comma-separated files. Each file provide
 
 **A. Exploratory Data Analysis (EDA)**
 
-Each data file had the same dimension of 51 rows in 2 continuous variables. On knowing that each of the six-data file had the same dimensions, it confirmed our initial assumption that the initial dataset was divided into six portions. 
+Each data file had the same dimension of 51 rows in 2 continuous variables. On knowing that each of the six-data file had the same dimensions, it confirmed our initial assumption that the actual dataset was divided into six separate files. 
 
 	> df1<- read.csv("data/rubberestate/rubber-paidemployee.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE) 
 	> df2<- read.csv("data/rubberestate/rubber-plantedarea.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE) 
@@ -694,7 +694,21 @@ Looks like we have a good model in here because the MAPE value is **0.029** whic
 
 **H. Conclusion**
 
-As we have seen, a rigorous model testing must be applied to build an efficient model. The predictors, `ProduceTonne` is most significant for prediction of the response variable, `` and is closely followed by other predictors, `TotalPaidEmployee` and `TapAreaHect`. We also see that **Regression tree** based approach provides **98% accurate** in predicting the response variable while Random Forest model (**0.049%**) does not even come close. The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
+In building a data powered case study, the primary component is the *research/business question*, that takes precedence above anything else. Experience has taught us that if one cannot think of a feasible research question then its best to perform exploratory data analysis first. This exploratory phase serves many purposes like it gives you a first hand account of the data at hand (*in terms of missing value, outliers, skewness, relationships etc*). During the exploratory phase, ensure to document and justify data management decisions so as to maintain *data accountability* and *data transparency*. This process subsequently leads in formulating the research question. Another approach could be to perform an extensive literature review, find the gap in existing literature, formulate the problem and then acquire the relevant dataset to answer the problem. Both approaches are correct but at the beginner level we would recommend the former approach because you will be more closer to *active action* rather than *passive thinking*. 
+
+Continuing further, in tree based models where the response or target variable can take a finite set of values are called, *classification tree's*. In these tree structures, the *leaves* represent the *class labels* and the *branches* represent the *node* of features that lead to those class labels. On the contrary the decision trees where the response or target variable can take continuous value *(like price of a house)* are called *regression trees*. The term, *Classification and Regression Trees (CART)* is thus an umbrella term that combines both the procedures.      
+
+As we have seen so far, a rigorous model testing must be applied to build an efficient model. The predictors, `ProduceTonne` is most significant for prediction of the response variable, `YieldperHectKg` and is closely followed by other predictors, `TotalPaidEmployee` and `TapAreaHect`. We also see that **Regression tree** based approach give **98% accuracy** in predicting the response variable while Random Forest model (**0.049%**) does not even come close.
+
+The reason we achieved such an high predictive accuracy for regression tree based model was because there was a strong positive linear relationship between the predictors and this works best for regression tree accuracy. In Fig-11, we show a graphical representation of which type of decision tree to use. The random forest algorithm would have served a response variable with finite set of values better. A simple and good introduction to understanding random forest is given [here.](http://blog.echen.me/2011/03/14/laymans-introduction-to-random-forests/)
+
+![plot](https://duttashi.github.io/images/which-type-of-decision-tree-to-use.png)
+
+Fig-11: Which Decision Tree method to use
+
+Another, hat tip for beginners in data science is to look at the response variable in deciding which algorithm to use. In this case study, the response variable was continuous in nature with strong positive linear relationship among the predictors. Therefore, the choice of regression trees was ideal.
+
+The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
 
 
 References
