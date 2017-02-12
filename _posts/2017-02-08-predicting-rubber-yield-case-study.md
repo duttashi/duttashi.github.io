@@ -12,7 +12,7 @@ published: true
 
 ---
 
-**1. Introduction**
+## Introduction
 
 Malaysia is the leading producer of natural rubber in the world. Being a leader in the production of natural rubber, Malaysia is contributing around 46% of total rubber production in the world. The rubber plantation was started in Malaysia in 1877. 
 
@@ -23,16 +23,21 @@ In Malaysia, rubber can grow anywhere, because of the suitability of climate and
 The rest of this report consist of the following sections;
 
 2. Research Question
+
 3. Data Source
+
 4. Making data management decisions
 	
   A. Exploratory Data Analysis (EDA)
+  
 	* Data preprocessing (rename and round)
-	* Data preprocessing (joining the tables)
+	
+  * Data preprocessing (joining the tables)
 	
   B. Data visualization
 	
   C. Data transformation
+  
 	* Skewed variable treatment
 	
   D. Feature importance
@@ -46,8 +51,10 @@ The rest of this report consist of the following sections;
   C. Model Building - Regression Analysis
 	
   D. Model Performance on various supervised algorithms
+  
 	* Regression Tree method
-	* Random Forest method
+	
+  * Random Forest method
 	
   D.1. Comparison of Predictive Model Performance
 	
@@ -71,19 +78,19 @@ The rest of this report consist of the following sections;
 
   References
 
-**2. Research Question**
+##2. Research Question
 
 Determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
 
-**3. Data Source**
+##3. Data Source
 
 The data comes from the Department of Statistics, Malaysia. This is an open data source portal and the data files can be accessed from their official [website](http://www.dosm.gov.my/v1/index.php?r=column3/accordion&menu_id=aHhRYUpWS3B4VXlYaVBOeUF0WFpWUT09)
 
-**4. Making data management decisions**
+##4. Making data management decisions
 
 Initially, the dataset consisted of six comma-separated files. Each file provided data (from year 1965 to year 2014) on factors like number of rubber estates in Malaysia, total planted area, production of natural rubber, tapped area, yield per hectare and total number of paid employees in the rubber estate.
 
-**A. Exploratory Data Analysis (EDA)**
+  **A. Exploratory Data Analysis (EDA)**
 
 Each data file had the same dimension of 51 rows in 2 continuous variables. On knowing that each of the six-data file had the same dimensions, it confirmed our initial assumption that the actual dataset was divided into six separate files. 
 
@@ -214,7 +221,7 @@ We see that the minimum yield per hectare is 937 kg and the minimum area planted
 
 Now, the dataset is ready for visualization. This will help us in determining a research question. At this point it’s best to describe about our dataset. for this, we use the method `describe` from the `psych` library (Revelle, 2014). A basic example can be see [here](http://www.statmethods.net/stats/descriptives.html)
 
-**B. Data visualization**: visualizing data in pursuit of finding relationship between predictors 
+  B. Data visualization: visualizing data in pursuit of finding relationship between predictors 
 
 We begin the data exploration by univariate data visualization. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
 
@@ -331,7 +338,7 @@ We end this discussion by a simple question. Does the yield increase if the plan
 
 Fig-7: Scatter plot matrix for predictor and response variable correlation
 
-**C. Data transformation**
+  **C. Data transformation**
 
 * Skewed variable treatment
 
@@ -362,7 +369,7 @@ A variable is considered ‘highly skewed’ if its absolute value is greater th
 
 There are no skewed predictors.
 
-**D. Feature importance**
+  **D. Feature importance**
 
 Now, that we have statistically quantified the validity of the predictors, we proceed to determining the most relevant features. Such features when found will help in building a robust predictive model. We will use the `Boruta` package (Kursa & Rudnicki, 2010). 
 
@@ -396,7 +403,7 @@ Fig-8: Feature importance plot
 
 We see from Fig-8, that `Boruta` predicts all the features to be important for building a predictive model. Let us know proceed to building the predictive model.
 
-**5. Predictive Data Analytics** 
+##5. Predictive Data Analytics
 
 In this section, we will discuss various approaches in model building, predictive power and their trade-offs.
 
@@ -676,7 +683,7 @@ Now let’s calculate the Min Max accuracy and MAPE
 
 Looks like we have a good model in here because the MAPE value is **0.029** which is quite low and min max accuracy of **0.97** which is quite high.
 
-**5. Conclusion**
+##5. Conclusion
 
 In building a data powered case study, the primary component is the *research/business question*, that takes precedence above anything else. Experience has taught us that if one cannot think of a feasible research question then its best to perform exploratory data analysis first. This exploratory phase serves many purposes like it gives you a first hand account of the data at hand (*in terms of missing value, outliers, skewness, relationships etc*). During the exploratory phase, ensure to document and justify data management decisions so as to maintain *data accountability* and *data transparency*. This process subsequently leads in formulating the research question. Another approach could be to perform an extensive literature review, find the gap in existing literature, formulate the problem and then acquire the relevant dataset to answer the problem. Both approaches are correct but at the beginner level we would recommend the former approach because you will be more closer to *active action* rather than *passive thinking*. 
 
@@ -695,7 +702,7 @@ Another, hat tip for beginners in data science is to look at the response variab
 The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
 
 
-References
+###References
 
 Bache, S. M., & Wickham, H. (2014). Magrittr: A forward-pipe operator for R. R package version, 1(1). 
 
