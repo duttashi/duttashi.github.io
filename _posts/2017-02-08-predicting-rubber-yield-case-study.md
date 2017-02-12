@@ -25,56 +25,51 @@ The rest of this report consist of the following sections;
 2. Research Question
 3. Data Source
 4. Making data management decisions
-
-	A. Exploratory Data Analysis (EDA)
-		
+	
+  A. Exploratory Data Analysis (EDA)
 	* Data preprocessing (rename and round)
 	* Data preprocessing (joining the tables)
-	* Data preprocessing (joining the tables)
 	
-	B. Data visualization
+  B. Data visualization
 	
-	C. Data transformation
-	
+  C. Data transformation
 	* Skewed variable treatment
 	
-	D. Feature importance
+  D. Feature importance
 
 5. Predictive Data Analytics
-
-	A. Creating the train and test dataset
-
-	B. Model Building - Evaluation Method
-
-	C. Model Building - Regression Analysis
-
-	D. Model Performance on various supervised algorithms
-
+	
+  A. Creating the train and test dataset
+	
+  B. Model Building - Evaluation Method
+	
+  C. Model Building - Regression Analysis
+	
+  D. Model Performance on various supervised algorithms
 	* Regression Tree method
-	
 	* Random Forest method
+	
+  D.1. Comparison of Predictive Model Performance
+	
+  E. Model Diagnostics
+	
+  * The p Value: Checking for statistical significance
+	
+  * Check the AIC and BIC
+	
+  * The R-Squared and Adjusted R-Squared
+	
+  * How do you know if the model is best fit for the data?
+	
+  * Residuals
+	
+  F. Model Inference Summary
+	
+  G. Calculate prediction accuracy and error rates
 
-		D.1. Comparison of Predictive Model Performance
-	
-	E. Model Diagnostics
-	
-	* The p Value: Checking for statistical significance
-	
-	* Check the AIC and BIC
-	
-	* The R-Squared and Adjusted R-Squared
-	
-	* How do you know if the model is best fit for your data?
-	
-	* Residuals
-	
-	F. Model Inference Summary
-	
-	G. Calculate prediction accuracy and error rates
-	
-	H. Conclusion
+6. Conclusion
 
-	References
+  References
 
 **2. Research Question**
 
@@ -99,23 +94,14 @@ Each data file had the same dimension of 51 rows in 2 continuous variables. On k
 	> df5<- read.csv("data/rubberestate/rubber-yield.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 	
 	> dim(df1)
-	
 	[1] 51  2
-	
 	> dim(df2)
-	
 	[1] 51  2
-	
 	> dim(df3)
-	
 	[1] 51  2
-	
 	> dim(df4)
-	
 	[1] 51  2
-	
 	> dim(df5)
-	
 	[1] 51  2
 
 Another peculiarity found was the column headings were too long for each of the data file. We decided to merge the six data files into a single dataset and rename the column names to short succinct names. For data analysis we are using the R programming language (Ihaka & Gentleman, 1996). 
