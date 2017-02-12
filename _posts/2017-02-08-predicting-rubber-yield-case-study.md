@@ -78,15 +78,15 @@ The rest of this report consist of the following sections;
 
   References
 
-##2. Research Question
+## 2. Research Question
 
 Determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
 
-##3. Data Source
+## 3. Data Source
 
 The data comes from the Department of Statistics, Malaysia. This is an open data source portal and the data files can be accessed from their official [website](http://www.dosm.gov.my/v1/index.php?r=column3/accordion&menu_id=aHhRYUpWS3B4VXlYaVBOeUF0WFpWUT09)
 
-##4. Making data management decisions
+## 4. Making data management decisions
 
 Initially, the dataset consisted of six comma-separated files. Each file provided data (from year 1965 to year 2014) on factors like number of rubber estates in Malaysia, total planted area, production of natural rubber, tapped area, yield per hectare and total number of paid employees in the rubber estate.
 
@@ -221,7 +221,7 @@ We see that the minimum yield per hectare is 937 kg and the minimum area planted
 
 Now, the dataset is ready for visualization. This will help us in determining a research question. At this point it’s best to describe about our dataset. for this, we use the method `describe` from the `psych` library (Revelle, 2014). A basic example can be see [here](http://www.statmethods.net/stats/descriptives.html)
 
-  B. Data visualization: visualizing data in pursuit of finding relationship between predictors 
+  **B. Data visualization: visualizing data in pursuit of finding relationship between predictors** 
 
 We begin the data exploration by univariate data visualization. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
 
@@ -683,7 +683,7 @@ Now let’s calculate the Min Max accuracy and MAPE
 
 Looks like we have a good model in here because the MAPE value is **0.029** which is quite low and min max accuracy of **0.97** which is quite high.
 
-##5. Conclusion
+## 5. Conclusion
 
 In building a data powered case study, the primary component is the *research/business question*, that takes precedence above anything else. Experience has taught us that if one cannot think of a feasible research question then its best to perform exploratory data analysis first. This exploratory phase serves many purposes like it gives you a first hand account of the data at hand (*in terms of missing value, outliers, skewness, relationships etc*). During the exploratory phase, ensure to document and justify data management decisions so as to maintain *data accountability* and *data transparency*. This process subsequently leads in formulating the research question. Another approach could be to perform an extensive literature review, find the gap in existing literature, formulate the problem and then acquire the relevant dataset to answer the problem. Both approaches are correct but at the beginner level we would recommend the former approach because you will be more closer to *active action* rather than *passive thinking*. 
 
@@ -702,7 +702,7 @@ Another, hat tip for beginners in data science is to look at the response variab
 The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
 
 
-###References
+### References
 
 Bache, S. M., & Wickham, H. (2014). Magrittr: A forward-pipe operator for R. R package version, 1(1). 
 
