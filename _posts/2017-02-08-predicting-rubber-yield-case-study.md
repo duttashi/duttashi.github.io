@@ -116,23 +116,16 @@ Another peculiarity found was the column headings were too long for each of the 
 Besides, we also found that column value for number of employees was expressed in decimals! Now, there cannot be 2.5 employees so we decided to round all such values.
 	
 	> names(df1)
-	
 	[1] "Year"                                                             
 	[2] "Total.Number.of.Paid.Employee.During.the.Last.Pay.Period..Estate."
-	
 	> names(df2) # additional space after column names. do formatting
-	
 	[1] "Year"                                 "Planted.Area..Estate....000..Hectare"
-	
 	> names(df3)
 	[1] "Year"                             "Production..Estate....000..Tonne"
-	
 	> names(df4)
 	[1] "Year"                                "Tapped.Area..Estate....000..Hectare"
-	
 	> names(df5)
 	[1] "Year"                            "Yeild.per.Hectare..Estate...Kg."
-	
 	
 	> head(df1) # You cannot have employees in decimals. Round this variable
 	  Year Total.Number.of.Paid.Employee.During.the.Last.Pay.Period..Estate.
@@ -156,43 +149,29 @@ You will need to load this library in the R environment first before you can use
   * Data preprocessing (rename and round)
 
         > # Basic Data Management
-         
-	    > # Renaming the column name
-	    
-		> library(plyr)
-		
-	    > df1<- rename(df1, c("Total.Number.of.Paid.Employee.During.the.Last.Pay.Period..Estate." = "TotalPaidEmployee"))
-	    
+        > # Renaming the column name
+	    > library(plyr)
+		> df1<- rename(df1, c("Total.Number.of.Paid.Employee.During.the.Last.Pay.Period..Estate." = "TotalPaidEmployee"))
 	    > df2<-rename(df2, c("Planted.Area..Estate....000..Hectare" = "AreaPlantedHect"))
-	    
-		> df3<-rename(df3, c("Production..Estate....000..Tonne" = "ProduceTonne"))
-	    
-		> df4<-rename(df4, c("Tapped.Area..Estate....000..Hectare" = "TapAreaHect"))
-	    
-		> df5<-rename(df5, c("Yeild.per.Hectare..Estate...Kg." = "YieldperHectKg"))
-	    
-		> # Rounding the column value for TotalPaidEmployee because there can’t be  example 2.5 employees
-	    
-		> df1$TotalPaidEmployee<- round(df1$TotalPaidEmployee)
+	    > df3<-rename(df3, c("Production..Estate....000..Tonne" = "ProduceTonne"))
+	    > df4<-rename(df4, c("Tapped.Area..Estate....000..Hectare" = "TapAreaHect"))
+	    > df5<-rename(df5, c("Yeild.per.Hectare..Estate...Kg." = "YieldperHectKg"))
+	    > # Rounding the column value for TotalPaidEmployee because there can’t be  example 2.5 employees
+	    > df1$TotalPaidEmployee<- round(df1$TotalPaidEmployee)
 
 * Data preprocessing (joining the tables)
 	
 	We also notice that all the six data files have a common column which is, `Year`. So, we now join the files on this common column and save the resultant in a master data frame called, `df.master`. This process is known as the `inner join`.
 
 		> # Inner Join the data frames on common column
-	    
-		> df.m1<- merge(df1,df2, by="Year")
-	    
-		> df.m2<- merge(df3,df4, by="Year")
-	    
-		> df.m3<- merge(df.m2, df5, by="Year")
-	    
-		> df.master<- merge(df.m1, df.m3, by="Year")
+	    > df.m1<- merge(df1,df2, by="Year")
+	    > df.m2<- merge(df3,df4, by="Year")
+	    > df.m3<- merge(df.m2, df5, by="Year")
+	    > df.master<- merge(df.m1, df.m3, by="Year")
 
 	Now, that the dataset is ready for inspection, the first step would be to summarize it using the `summary` function call.
 
 		> summary(df.master)
-
       	Year      TotalPaidEmployee AreaPlantedHect   ProduceTonne     TapAreaHect     YieldperHectKg
 	 	Min.   :1965   Min.   : 10.00    Min.   : 49.70   Min.   : 53.00   Min.   : 38.50   Min.   : 937  
 	 	1st Qu.:1977   1st Qu.: 16.75    1st Qu.: 87.47   1st Qu.: 88.62   1st Qu.: 64.62   1st Qu.:1304  
@@ -209,13 +188,10 @@ We see that the minimum yield per hectare is 937 kg and the minimum area planted
 	We have applied the predictive mean modeling method for missing data imputation. This method is available in the `mice` (Buuren & Groothuis-Oudshoorn, 2011) library. You will need to load it in the R environment first.
 
 		>library(mice)
-		
 		> tempData <- mice(df.master,m=5,maxit=50,meth='pmm',seed=1234)
-		
 		> df.master<- mice::complete(tempData,1)
-		
 		> colSums(is.na(df.master))
-        
+      
 	    Year TotalPaidEmployee   AreaPlantedHect      ProduceTonne       TapAreaHect    YieldperHectKg 
                 0                 0                 0                 0                 0                 0 
 
@@ -226,14 +202,10 @@ Now, the dataset is ready for visualization. This will help us in determining a 
 We begin the data exploration by univariate data visualization. Here, we will be using the `%>%` or the pipe operator from the `magrittr` package (Bache & Wickham, 2014) and `select` statement from the `dplyr package` (Wickham & Francois, 2015) to visualize all the predictors excluding Year.
 
 	> library(magrittr)
-	
 	> library(dplyr)
-
 	> # Method 1: selecting individual predictor name
-	
 	> boxplot(df.master %>%
 	...           select(AreaPlantedHect,YieldperHectKg,ProduceTonne,TapAreaHect,TotalPaidEmployee))
-
 	> # Method 2: Use the minus sign before the predictor you dont want to plot such that the remaining predictors are plotted
 	
 	> boxplot(df.master %>%
@@ -285,19 +257,12 @@ Fig-5: Line Plot for predictors `AreaPlantedHect` and `TotalPaidEmployee`
 The evidence of strong positive linear relationship between the predictors, `AreaPlantedHect`, `TapAreaHect`, `TotalPaidEmployee` and `ProduceTonne` cannot be overlooked. We, cross-check this phenomenon by deducing the correlation between them. 
 
 	> cor(df.master$AreaPlantedHect, df.master$TapAreaHect) # very strong positive correlation
-	
 	[1] 0.9930814
-	
 	> cor(df.master$AreaPlantedHect, df.master$ProduceTonne) # very strong positive correlation
-	
 	[1] 0.9434092
-	
 	> cor(df.master$AreaPlantedHect, df.master$TotalPaidEmployee) # very strong positive correlation, as land size increases more labour is required
-	
 	[1] 0.9951871
-
 	> cor(df.master$AreaPlantedHect, df.master$YieldperHectKg) # negative correlation, proving the point above that the yield per hectare decreases as plantation size increases
-	
 	[1] -0.5466433
 
 we now have ample evidence that the predictors, `TotalPaidEmployee`,`AreaPlantedHect`,`ProduceTonee` and `TapAreaHect` have a strong positive correlationship. Let’s visualize it.
@@ -321,13 +286,9 @@ Fig-7: Scatter plot matrix for predictor and response variable correlation
 We end this discussion by a simple question. Does the yield increase if the plantation area increases? Lets find this out in the following graph, see Fig-8.
 
 	> library (RColorBrewer)
-	
 	# We will select the first 4 colors in the Set1 palette
-	
-	cols<-brewer.pal(n=4,name="Set1")
-	
+	> cols<-brewer.pal(n=4,name="Set1")
 	# cols contain the names of four different colors
-	
 	> plot(Training$AreaPlantedHect, Training$YieldperHectKg, pch=16,col=cols,
      main=" Does high plantation area yield more rubber?",
      xlab = "Area planted (in hectare)",
@@ -358,13 +319,9 @@ A variable is considered ‘highly skewed’ if its absolute value is greater th
 	... }
 	
 	[1] "Year: 0.0380159253762087"
-	
 	[1] "TotalPaidEmployee: 0.238560934226388"
-	
 	[1] "AreaPlantedHect: 0.118115337328111"
-	
 	[1] "ProduceTonne: -0.184114105316565"
-	
 	[1] "TapAreaHect: -0.0526176590077839"
 
 There are no skewed predictors.
@@ -376,25 +333,18 @@ Now, that we have statistically quantified the validity of the predictors, we pr
 We are interested in predicting the variable Yield per hectare in kg (`YieldperHectKg`) therefore we will remove it from the feature selection process and perform the analysis on the remaining predictors.
 
 	> library(Boruta)
-	
 	> set.seed(1234) # for code reproducibility
-	
 	> response <- df.master$YieldperHectKg
-	
 	> response <- df.master$YieldperHectKg
-	
 	> bor.results <- Boruta(df.master,response,
 	...                       maxRuns=101,
 	...                       doTrace=0)
 	
 	> cat("\n\nRelevant Attributes:\n")
 		Relevant Attributes:
-	
 	> getSelectedAttributes(bor.results)
-	
 	[1] "Year"              "TotalPaidEmployee" "AreaPlantedHect"   "ProduceTonne"      "TapAreaHect"      
 	[6] "YieldperHectKg"   
-
 	> plot(bor.results)
 
 ![plot](https://duttashi.github.io/images/casestudy-MY-Rubber-boruta.png)
@@ -412,17 +362,11 @@ In this section, we will discuss various approaches in model building, predictiv
 Researchers and data practitioners have always emphasized on building a model that is intensively trained on a larger sample of the train data. Therefore, we will divide the dataset into 70% training data and 30% testing data.
 
 	> ratio = sample(1:nrow(df.master), size = 0.25*nrow(df.master))
-	
 	> Test = df.master[ratio,] #Test dataset 25% of total
-	
 	> Training = df.master[-ratio,] #Train dataset 75% of total
-	
 	> dim(Training)
-	
 	[1] 39  6
-	
 	> dim(Test)
-	
 	[1] 12  6
 
 **B.	Model Building - Evaluation Method**
@@ -447,7 +391,6 @@ We then, created a multiple linear regression model for the response variable `Y
 The other predictors like `Year` and `AreaPlantedHect` do not contribute to the regression model.  
 
 	> linear.mod<- lm(YieldperHectKg~., data = Training)
-	
 	> summary(linear.mod)
 
 	Call:
@@ -486,11 +429,8 @@ Note, we did not remove the non-contributing predictors from the regression mode
 Next, we performed the model prediction on unseen data.
 
 	> predict<- predict(linear.mod, Test)
-	
 	> RMSE0<- RMSE(predict, Test$YieldperHectKg)
-	
 	> RMSE0
-	
 	[1] 0.04533296
 
 **D. Model Performance on various supervised algorithms**
@@ -500,18 +440,12 @@ We now test the model performance on some supervised algorithms to determine the
 * **Regression Tree method** 
 
 		> library(rpart)
-	
 		> model <- rpart(YieldperHectKg ~., data = Training, method = "anova")
-	
 		> predict <- predict(model, Test)
 		# RMSE
-	
 		> RMSE1 <- RMSE(predict, Test$YieldperHectKg)
-	
 		> RMSE1 <- round(RMSE1, digits = 3)
-	
 		> RMSE1
-	
 		> [1] 0.098
 	
 * **Random Forest method**
@@ -569,23 +503,16 @@ BIC = (−2) • ln(L) + k • ln(n)
 where n is the sample size.
 
 	> AIC(linear.mod)
-	
 	[1] 399.1521
-	
 	> BIC(linear.mod)
-	
 	[1] 410.797
 
 For model comparison, the model with the lowest AIC and BIC score is preferred. Suppose, we had build another linear model with only two predictors, `ProduceTonne` and `TapAreaHect` given as;
 
 	> linear.mod1<- lm(YieldperHectKg~ProduceTonne+TapAreaHect, data = Training)
-	
 	> AIC(linear.mod1)
-	
 	[1] 402.8458
-	
 	> BIC(linear.mod1)
-	
 	[1] 409.5001
 
 The `AIC` & `BIC` for `linear.mod` is **lower** than the `linear.mod1` therefore, `linear.mod` is a **better model** for predicting the response variable.
@@ -654,11 +581,8 @@ A simple correlation between the actuals and predicted values can be used as a f
 A higher correlation accuracy implies that the actuals and predicted values have similar directional movement, i.e. when the actuals values increase the predicted also increase and vice-versa.
 
 	> predict<- predict(linear.mod, Test)
-	
 	> actuals_preds <- data.frame(cbind(actuals=Test$YieldperHectKg, predicteds=predict)) # make actuals_predicteds dataframe.
-	
 	> correlation_accuracy <- cor(actuals_preds)
-	
 	> correlation_accuracy
     
 	         actuals predicteds
@@ -670,15 +594,10 @@ The prediction accuracy of the model `linear.mod` on unseen data is **94%**
 Now let’s calculate the Min Max accuracy and MAPE
 
 	> min_max_accuracy <- mean (apply(actuals_preds, 1, min) / apply(actuals_preds, 1, max))
-	
 	> min_max_accuracy
-	
 	[1] 0.9721728
-	
 	> mape <- mean(abs((actuals_preds$predicteds - actuals_preds$actuals))/actuals_preds$actuals)
-	
 	> mape
-	
 	[1] 0.02970934
 
 Looks like we have a good model in here because the MAPE value is **0.029** which is quite low and min max accuracy of **0.97** which is quite high.
