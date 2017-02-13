@@ -22,7 +22,7 @@ In Malaysia, rubber can grow anywhere, because of the suitability of climate and
 
 The rest of this report consist of the following sections;
 
-2. Research Question
+2. Business/Research Question
 
 3. Data Source
 
@@ -30,7 +30,7 @@ The rest of this report consist of the following sections;
 	
   A. Exploratory Data Analysis (EDA)
   
-	* Data preprocessing (rename and round)
+  * Data preprocessing (rename and round)
 	
   * Data preprocessing (joining the tables)
 	
@@ -38,7 +38,7 @@ The rest of this report consist of the following sections;
 	
   C. Data transformation
   
-	* Skewed variable treatment
+ * Skewed variable treatment
 	
   D. Feature importance
 
@@ -52,7 +52,7 @@ The rest of this report consist of the following sections;
 	
   D. Model Performance on various supervised algorithms
   
-	* Regression Tree method
+  * Regression Tree method
 	
   * Random Forest method
 	
@@ -74,11 +74,11 @@ The rest of this report consist of the following sections;
 	
   G. Calculate prediction accuracy and error rates
 
-6. Conclusion
+Conclusion
 
-  References
+References
 
-### 2. Research Question
+### 2. Business/Research Question
 
 Determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
 
@@ -683,7 +683,7 @@ Now let’s calculate the Min Max accuracy and MAPE
 
 Looks like we have a good model in here because the MAPE value is **0.029** which is quite low and min max accuracy of **0.97** which is quite high.
 
-### 5. Conclusion
+### 6. Conclusion
 
 In building a data powered case study, the primary component is the *research/business question*, that takes precedence above anything else. Experience has taught us that if one cannot think of a feasible research question then its best to perform exploratory data analysis first. This exploratory phase serves many purposes like it gives you a first hand account of the data at hand (*in terms of missing value, outliers, skewness, relationships etc*). During the exploratory phase, ensure to document and justify data management decisions so as to maintain *data accountability* and *data transparency*. This process subsequently leads in formulating the research question. Another approach could be to perform an extensive literature review, find the gap in existing literature, formulate the problem and then acquire the relevant dataset to answer the problem. Both approaches are correct but at the beginner level we would recommend the former approach because you will be more closer to *active action* rather than *passive thinking*. 
 
