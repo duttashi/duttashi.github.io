@@ -353,7 +353,7 @@ Fig-8: Feature importance plot
 
 We see from Fig-8, that `Boruta` predicts all the features to be important for building a predictive model. Let us know proceed to building the predictive model.
 
-##5. Predictive Data Analytics
+## 5. Predictive Data Analytics
 
 In this section, we will discuss various approaches in model building, predictive power and their trade-offs.
 
