@@ -20,73 +20,73 @@ The favorable rubber plantation climate requires a mean temperature of 27°C, ne
 
 In Malaysia, rubber can grow anywhere, because of the suitability of climate and top soil; but most of the rubber estates are located in the western coastal plains of Malaysia. The plantation in coastal zone gets the benefit of nearest port for its export. Yet very low areas are avoided in order not to suffer from stagnation of water. The greatest production is in it's Johor State of Southern Malaysia. Over here the rubber cultivation occupies about 4-2 million acres or about 66% of the total cultivated area in the nation.
 
-The rest of this report consist of the following sections;
+This report consist of the following sections;
 
-2. Business/Research Question
+1. Business/Research Question
 
-3. Data Source
+2. Data Source
 
-4. Making data management decisions
+3. Making data management decisions
 	
-  A. Exploratory Data Analysis (EDA)
+  	A. Exploratory Data Analysis (EDA)
   
-  * Data preprocessing (rename and round)
+  	* Data preprocessing (rename and round)
 	
-  * Data preprocessing (joining the tables)
+  	* Data preprocessing (joining the tables)
 	
-  B. Data visualization
+  	B. Data visualization
 	
-  C. Data transformation
+  	C. Data transformation
   
- * Skewed variable treatment
+ 	* Skewed variable treatment
 	
-  D. Feature importance
+  	D. Feature importance
 
-5. Predictive Data Analytics
+4. Predictive Data Analytics
 	
-  A. Creating the train and test dataset
+ 	A. Creating the train and test dataset
 	
-  B. Model Building - Evaluation Method
+  	B. Model Building - Evaluation Method
 	
-  C. Model Building - Regression Analysis
+  	C. Model Building - Regression Analysis
 	
-  D. Model Performance on various supervised algorithms
+  	D. Model Performance on various supervised algorithms
   
-  * Regression Tree method
+  	* Regression Tree method
 	
-  * Random Forest method
+  	* Random Forest method
 	
-  D.1. Comparison of Predictive Model Performance
+  	D.1. Comparison of Predictive Model Performance
 	
-  E. Model Diagnostics
+  	E. Model Diagnostics
 	
-  * The p Value: Checking for statistical significance
+  	* The p Value: Checking for statistical significance
 	
-  * Check the AIC and BIC
+  	* Check the AIC and BIC
 	
-  * The R-Squared and Adjusted R-Squared
+  	* The R-Squared and Adjusted R-Squared
 	
-  * How do you know if the model is best fit for the data?
+  	* How do you know if the model is best fit for the data?
 	
-  * Residuals
+  	* Residuals
 	
-  F. Model Inference Summary
+  	F. Model Inference Summary
 	
-  G. Calculate prediction accuracy and error rates
+  	G. Calculate prediction accuracy and error rates
 
-Conclusion
+5. Conclusion
 
 References
 
-### 2. Business/Research Question
+### 1. Business/Research Question
 
 Determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
 
-### 3. Data Source
+### 2. Data Source
 
 The data comes from the Department of Statistics, Malaysia. This is an open data source portal and the data files can be accessed from their official [website](http://www.dosm.gov.my/v1/index.php?r=column3/accordion&menu_id=aHhRYUpWS3B4VXlYaVBOeUF0WFpWUT09)
 
-### 4. Making data management decisions
+### 3. Making data management decisions
 
 Initially, the dataset consisted of six comma-separated files. Each file provided data (from year 1965 to year 2014) on factors like number of rubber estates in Malaysia, total planted area, production of natural rubber, tapped area, yield per hectare and total number of paid employees in the rubber estate.
 
@@ -353,7 +353,7 @@ Fig-8: Feature importance plot
 
 We see from Fig-8, that `Boruta` predicts all the features to be important for building a predictive model. Let us know proceed to building the predictive model.
 
-## 5. Predictive Data Analytics
+## 4. Predictive Data Analytics
 
 In this section, we will discuss various approaches in model building, predictive power and their trade-offs.
 
@@ -602,7 +602,7 @@ Now let’s calculate the Min Max accuracy and MAPE
 
 Looks like we have a good model in here because the MAPE value is **0.029** which is quite low and min max accuracy of **0.97** which is quite high.
 
-### 6. Conclusion
+### 5. Conclusion
 
 In building a data powered case study, the primary component is the *research/business question*, that takes precedence above anything else. Experience has taught us that if one cannot think of a feasible research question then its best to perform exploratory data analysis first. This exploratory phase serves many purposes like it gives you a first hand account of the data at hand (*in terms of missing value, outliers, skewness, relationships etc*). During the exploratory phase, ensure to document and justify data management decisions so as to maintain *data accountability* and *data transparency*. This process subsequently leads in formulating the research question. Another approach could be to perform an extensive literature review, find the gap in existing literature, formulate the problem and then acquire the relevant dataset to answer the problem. Both approaches are correct but at the beginner level we would recommend the former approach because you will be more closer to *active action* rather than *passive thinking*. 
 
