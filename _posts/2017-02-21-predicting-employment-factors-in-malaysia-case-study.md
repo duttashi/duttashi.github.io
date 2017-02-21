@@ -53,10 +53,9 @@ This study is organized as follows;
   * Multicollinearity
   * Multicollinearity treatment
   
-		* Principal Component Analysis (PCA)
-		* Plotting the PCA (biplot) components
-		* Determining the contribution (%) of each parameter in the calculated PCA
-
+	* Principal Component Analysis (PCA)
+	* Plotting the PCA (biplot) components
+	* Determining the contribution (%) of each parameter
 
 4. Predictive Data Analytics
 	
@@ -556,7 +555,7 @@ Multicollinearity occurs because two (or more) variables are related or they mea
 
 There are several methods for dealing with multicollinearity. The simplest is to construct a correlation matrix and corresponding scatterplots. If the correlations between predictors approach 1, then multicollinearity might be a problem. In that case, one can make some educated guesses about which predictors to retain in the analysis.
 
-Use, *Variance Inflation Factor (VIF)*. The VIF is a metric computed for every *X* variable that goes into a linear model. If the VIF of a variable is high, it means the information in that variable is already explained by the other *X* variables present in the given model, which means, more redundant is that variable. According to some references, if the VIF is too large(more than 5 or 10), we consider that the multicollinearity is existent. So, **lower the VIF (<2) the better it is**. VIF for a X var is calculated as; ![vif](https://duttashi.github.io/images/vif.png)
+Use, *Variance Inflation Factor (VIF)*. The VIF is a metric computed for every *X* variable that goes into a linear model. If the VIF of a variable is high, it means the information in that variable is already explained by the other *X* variables present in the given model, which means, more redundant is that variable. According to some references, if the VIF is too large(more than 5 or 10), we consider that the multicollinearity is existent. So, **lower the VIF (<2) the better it is**. VIF for a X var is calculated as; ![vif0](https://duttashi.github.io/images/vif.png)
 
 where, Rsq is the Rsq term for the model with given X as response against all other Xs that went into the model as predictors.
 

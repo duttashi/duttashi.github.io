@@ -551,6 +551,7 @@ MSE (Mean Squared Error)- Lower the better
 
 Min_Max Accuracy- Higher the better
 
+RMSE- lower the better
 
 **v. Residuals**
 
