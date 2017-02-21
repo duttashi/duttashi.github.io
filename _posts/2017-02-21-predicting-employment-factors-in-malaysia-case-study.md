@@ -762,7 +762,7 @@ We tested this model using the root mean square evaluation method. The RMSE is 0
 
 Fig-14: Residuals vs Fitted values for the response variable, "Employed"
 
-The given model yields a prediction accuracy of 99% on unseen data. The min_max accuracy is 99% and the MAPE value is quite small 0.001 which is good.
+The given model yields a prediction accuracy of 99% on unseen data. The min_max accuracy is 99% and the MAPE value is quite small 0.001 that is good.
 
 	> actuals_preds <- data.frame(cbind(actuals=test.data$Employed, predicteds=predict)) # make actuals_predicteds dataframe.
 	> correlation_accuracy <- cor(actuals_preds)
