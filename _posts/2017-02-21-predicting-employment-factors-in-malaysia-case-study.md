@@ -52,9 +52,11 @@ This study is organized as follows;
   * Correlation detection
   * Multicollinearity
   * Multicollinearity treatment
-  		* Principal Component Analysis (PCA)
+  
+		* Principal Component Analysis (PCA)
 		* Plotting the PCA (biplot) components
 		* Determining the contribution (%) of each parameter in the calculated PCA
+
 
 4. Predictive Data Analytics
 	
@@ -456,9 +458,7 @@ For subsequent data analytical activities, we converted the factor data type of 
 	> df.cmplt$State<-as.factor(gsub("W.P Labuan","Labuan", df.cmplt$State,ignore.case=T))
 	> df.cmplt$State<- as.numeric(df.cmplt$State)
 
- 	1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 
- 	7 19 12 20 16  8 28 26 12  7  7 27  4 11  4 13
-
+ 		
 **D. Correlation Detection & Treatment**
 
 * **Detecting skewed variables**
@@ -762,7 +762,6 @@ We tested this model using the root mean square evaluation method. The RMSE is 0
 
 Fig-14: Residuals vs Fitted values for the response variable, "Employed"
 
-The given model yields a prediction accuracy of 99% on unseen data. The min_max accuracy is 99% and the MAPE value is quite small 0.001 that is good.
 
 	> actuals_preds <- data.frame(cbind(actuals=test.data$Employed, predicteds=predict)) # make actuals_predicteds dataframe.
 	> correlation_accuracy <- cor(actuals_preds)
