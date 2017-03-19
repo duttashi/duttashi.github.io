@@ -52,10 +52,9 @@ This study is organized as follows;
   * Correlation detection
   * Multicollinearity
   * Multicollinearity treatment
-  
-	* Principal Component Analysis (PCA)
-	* Plotting the PCA (biplot) components
-	* Determining the contribution (%) of each parameter
+  		* Principal Component Analysis (PCA)
+		* Plotting the PCA (biplot) components
+		* Determining the contribution (%) of each parameter
 
 4. Predictive Data Analytics
 	
@@ -70,7 +69,7 @@ This study is organized as follows;
 	* Regression Tree method
 	* Random Forest method
 	
-	D.1 Model Performance comparison
+	E. Model Performance comparison
 	
 5. Conclusion
 
