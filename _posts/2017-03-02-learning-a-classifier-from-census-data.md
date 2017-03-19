@@ -47,15 +47,15 @@ This study is organized as follows;
 
 5. Conclusion  
  
-###1. Research question
+### 1. Research question
 
 This study is driven by the question, "*Predict if a person's income is above or below 50K$/yr given certain features(both quantitative and qualitative)..*"
 
-###2. The dataset
+### 2. The dataset
 
 The dataset used for the analysis is an extraction from the 1994 census data by Barry Becker and donated to the UCI Machine Learning [repository](http://archive.ics.uci.edu/ml/datasets/Census+Income). This dataset is popularly called the “Adult” data set.
 
-###3. Making data management decisions
+### 3. Making data management decisions
 
 With the research question in place and the data source identified, we begin the data storytelling journey. But wait, we first require to load the data,
 
