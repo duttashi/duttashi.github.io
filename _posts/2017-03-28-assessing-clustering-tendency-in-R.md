@@ -1,1 +1,0 @@
-# https://www.r-bloggers.com/assessing-clustering-tendency-a-vital-issue-unsupervised-machine-learning/
