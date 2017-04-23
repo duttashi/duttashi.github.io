@@ -12,7 +12,7 @@ As the tag line suggests, this blog primarily focusses on data analytical activi
 
 With a blended work experience of over a decade in teaching and educational technologies. my research interest is in the soft set theory and its applicability in data clustering. I am a data analyst by profession and a PhD candidate by interest in the Department of Information Systems, University of Malaya (UM), Kuala Lumpur, Malaysia. 
 
-My supervisors are [Assoc. Prof. Dr. Tutut Herawan](https://www.researchgate.net/profile/Tutut_Herawan2) and [Assoc. Prof. Dr. Maizatul Akmar Ismail](https://umexpert.um.edu.my/maizatul).  
+My research supervisor is [Assoc. Prof. Dr. Maizatul Akmar Ismail](https://umexpert.um.edu.my/maizatul). I also serve as a reviewer for several ISI and Scopus indexed journals.
 
 Subject matter of the posts on this blog typically deals with my day-to-day encounters with mathematical or scientific ideas that I find beautiful, valuable, interesting, amusing, or (less often) infuriating. I benefit much from online sources – hence, I’d like to return something to the community by posting tutorials and code-snippets on this platform.
 
