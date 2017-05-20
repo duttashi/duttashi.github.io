@@ -2,7 +2,7 @@
 
 layout: post
 title: Predicting employment related factors in Malaysia- A regression analysis approach
-date: 2017-02-21
+date: 2017-05-21
 share: true
 excerpt: "A case study on determining factors responsible for a steady employment in Malaysia based on data from the department of statistics "
 categories: blog
