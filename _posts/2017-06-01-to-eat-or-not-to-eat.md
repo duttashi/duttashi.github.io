@@ -108,7 +108,7 @@ The different levels are uninterpretable in their current format. I will use the
 
 #### 3. Initial data visualization 
 
-#### a. Is there a relationship between cap-surface and cap-shape of a mushroom?
+##### a. Is there a relationship between cap-surface and cap-shape of a mushroom?
 
 	> p<- ggplot(data = mushroom.data, aes(x=cap.shape, y=cap.surface, color=class))
 	> p + geom_jitter(alpha=0.3) + scale_color_manual(breaks = c('edible','poisonous'),values=c('darkgreen','red'))
@@ -119,7 +119,7 @@ Fig-1: Mushroom cap-shape and cap-surface
 
 From Fig-1, we can easily notice, the mushrooms with a, `flat` cap-shape and `scaly`, `smooth` or `fibrous` cap-surface are `poisonous`. While, the mushrooms with a, `bell`,`knob` or `sunken` cap-shape and are `fibrous`, `smooth` or `scaly` are `edible`. A majority of `flat` cap-shaped mushrooms with `scaly` or `smooth` cap surface are `poisonous`. 
 
-#### b. Is mushroom habitat and its population related? 
+##### b. Is mushroom habitat and its population related? 
 
 	> p<- ggplot(data = mushroom.data, aes(x=population, y=habitat, color=class))
 	> p + geom_jitter(alpha=0.3) +  
@@ -131,7 +131,7 @@ Fig-2: Mushroom cap-shape and cap-surface
 
 From Fig-2, we see that mushrooms which are `clustered` or `scattered` in population and living in `woods` are entirely `poisonous`. Those that live in `grasses`, `wasteland`, `meadows`, `leaves`, `paths` and `urban` area's are `edible`.
 
-#### c. What's the deal with living condition and odor?
+##### c. What's the deal with living condition and odor?
 
 	> p<- ggplot(data = mushroom.data, aes(x=habitat, y=habitat, color=class))
 	> p + geom_jitter(alpha=0.3) +scale_color_manual(breaks = c('edible','poisonous'),values=c('darkgreen','red'))
