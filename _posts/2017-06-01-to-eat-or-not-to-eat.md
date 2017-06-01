@@ -8,7 +8,7 @@ excerpt: "In this post, I provide an in-depth treatment of categorical nominal d
 categories: blog
 tags: [R, categorical data, data analysis]
 comments: true
-published: false
+published: true
 
 ---
 
