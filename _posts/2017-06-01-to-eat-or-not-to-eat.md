@@ -108,6 +108,7 @@ The different levels are uninterpretable in their current format. I will use the
 
 #### 3. Initial data visualization 
 
+The data visualization code below was inspired from [here](https://github.com/stoltzmaniac/Mushroom-Classification/blob/master/preliminaryAnalysis.R)
 ##### a. Is there a relationship between cap-surface and cap-shape of a mushroom?
 
 	> p<- ggplot(data = mushroom.data, aes(x=cap.shape, y=cap.surface, color=class))
