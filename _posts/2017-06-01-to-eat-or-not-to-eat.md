@@ -2,7 +2,7 @@
 
 layout: post
 title: To eat or not to eat! That's the question? Measuring the association between categorical variables
-date: 2017-06-01
+date: 2017-06-03
 share: true
 excerpt: "In this post, I provide an in-depth treatment of categorical nominal data to measure significance and association between the variables. "
 categories: blog
