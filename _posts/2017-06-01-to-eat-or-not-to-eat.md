@@ -71,7 +71,7 @@ Next, I quickly summarize the dataset to get a brief glimpse. The reader's shoul
 	population                             population            6
 	habitat                                   habitat            7
 
-As we can see, the variable, `gill.attachement` has two levels (*Thanks to Prof. Anthony Unwin for pointing out the earlier error in gill.attachment*).  
+As we can see, the variable, `gill.attachement` has two levels (*Thanks to Prof. Antony Unwin for pointing out the earlier error in gill.attachment*). The variable, `veil.type` has one level.   
 
 The different levels are uninterpretable in their current format. I will use the data dictionary and recode the levels into meaningful names. 
 
@@ -105,7 +105,7 @@ The different levels are uninterpretable in their current format. I will use the
 
 #### 3. Initial data visualization
 
-Since, we are dealing with categorical data, plotting it is slightly different. Here we use bar charts/plots or mosaic plots rather than dot plots or scatter plots. (*Thanks to Prof. Anthony Unwin for pointing it out*). The dot plot is useful for plotting continuous variables. It can be used, to plot categorical variables, but then such a visualization will be confusing.  
+Since, we are dealing with categorical data, plotting it is slightly different. Here we use bar charts/plots or mosaic plots rather than dot plots or scatter plots. (*Thanks to Prof. Antony Unwin for pointing it out*). The dot plot is useful for plotting continuous variables. It can be used, to plot categorical variables, but then such a visualization will be confusing.  
 
 ##### a. Univariate data visualization (Stacked Bar plot)
 
