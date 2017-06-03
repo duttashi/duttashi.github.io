@@ -41,40 +41,37 @@ As a first step, I imported the data in R environment as;
                                        "veil-type","veil-color","ring-number","ring-type","spore-print-color",
                                        "population","habitat"))
 
-Next, I quickly summarize the dataset to get a brief glimpse. The reader's should note that the data has no missing values.
+Next, I quickly summarize the dataset to get a brief glimpse. The reader's should note that the data has no missing values. (*Thanks to Junhewk Kim for pointing out the earlier error in data levels*)
 
 	# Calculate number of levels for each variable
 	> mushroom.data.levels<-cbind.data.frame(Variable=names(mushroom.data), Total_Levels=sapply(mushroom.data,function(x){as.numeric(length(levels(x)))}))
 	> print(mushroom.data.levels)
-	                                         Variable Total_Levels
+                                         Variable Total_Levels
 	class                                       class            2
-	cap.shape                               cap.shape            5
-	cap.surface                           cap.surface            3
+	cap.shape                               cap.shape            6
+	cap.surface                           cap.surface            4
 	cap.color                               cap.color           10
 	bruises                                   bruises            2
-	odor                                         odor            8
-	gill.attachment                   gill.attachment            1
+	odor                                         odor            9
+	gill.attachment                   gill.attachment            2
 	gill.spacing                         gill.spacing            2
-	gill.size                               gill.size            3
-	gill.color                             gill.color           10
-	stalk.shape                           stalk.shape            3
-	stalk.root                             stalk.root            6
+	gill.size                               gill.size            2
+	gill.color                             gill.color           12
+	stalk.shape                           stalk.shape            2
+	stalk.root                             stalk.root            5
 	stalk.surface.above.ring stalk.surface.above.ring            4
-	stalk.surface.below.ring stalk.surface.below.ring            5
-	stalk.color.above.ring     stalk.color.above.ring            7
-	stalk.color.below.ring     stalk.color.below.ring            8
-	veil.type                               veil.type            2
-	veil.color                             veil.color            2
+	stalk.surface.below.ring stalk.surface.below.ring            4
+	stalk.color.above.ring     stalk.color.above.ring            9
+	stalk.color.below.ring     stalk.color.below.ring            9
+	veil.type                               veil.type            1
+	veil.color                             veil.color            4
 	ring.number                           ring.number            3
 	ring.type                               ring.type            5
-	spore.print.color               spore.print.color            7
-	population                             population            7
-	habitat                                   habitat            8
+	spore.print.color               spore.print.color            9
+	population                             population            6
+	habitat                                   habitat            7
 
-As we can see, the variable, `gill.attachement` has just one level. Nor, does it make any significant contribution to the target `class` so dropping it.
-
-	# dropping variable with constant variance
-	> mushroom.data$gill.attachment<- NULL
+As we can see, the variable, `gill.attachement` has two levels (*Thanks to Prof. Anthony Unwin for pointing out the earlier error in gill.attachment*).  
 
 The different levels are uninterpretable in their current format. I will use the data dictionary and recode the levels into meaningful names. 
 
@@ -106,42 +103,68 @@ The different levels are uninterpretable in their current format. I will use the
 	> levels(mushroom.data$habitat)<-c("woods","grasses","leaves","meadows","paths","urban","waste")
 	 
 
-#### 3. Initial data visualization 
+#### 3. Initial data visualization
 
-The data visualization code below was inspired from [here](https://github.com/stoltzmaniac/Mushroom-Classification/blob/master/preliminaryAnalysis.R)
-##### a. Is there a relationship between cap-surface and cap-shape of a mushroom?
+Since, we are dealing with categorical data, plotting it is slightly different. Here we use bar charts/plots or mosaic plots rather than dot plots or scatter plots. (*Thanks to Prof. Anthony Unwin for pointing it out*). The dot plot is useful for plotting continuous variables. It can be used, to plot categorical variables, but then such a visualization will be confusing.  
 
-	> p<- ggplot(data = mushroom.data, aes(x=cap.shape, y=cap.surface, color=class))
-	> p + geom_jitter(alpha=0.3) + scale_color_manual(breaks = c('edible','poisonous'),values=c('darkgreen','red'))
+##### a. Univariate data visualization (Stacked Bar plot)
+
+	> p<- ggplot(data = mushroom.data)
+	> p+geom_bar(mapping = aes(x = cap.shape, fill=class), position = position_dodge())+ theme(legend.position = "top")
+	> table(mushroom.data$cap.shape, mushroom.data$class)
 	
 ![plot1](https://duttashi.github.io/images/casestudy_mushrooms_plot1.png)
 
-Fig-1: Mushroom cap-shape and cap-surface
+Fig-1: Mushroom cap-shape and class
 
-From Fig-1, we can easily notice, the mushrooms with a, `flat` cap-shape and `scaly`, `smooth` or `fibrous` cap-surface are `poisonous`. While, the mushrooms with a, `bell`,`knob` or `sunken` cap-shape and are `fibrous`, `smooth` or `scaly` are `edible`. A majority of `flat` cap-shaped mushrooms with `scaly` or `smooth` cap surface are `poisonous`. 
+From Fig-1, we can easily notice, the mushrooms with a, `flat` cap-shape are mostly edible (*n=1596*) and an equally similar number are `poisonous` (*n=1556*). A majority of `bell`shaped mushrooms (*n=404*) are *edible*. All `conical` cap-shaped mushrooms are poisonous (*n=4*). And, all `sunken` cap-shaped mushrooms are edible (*n=32*).   
 
-##### b. Is mushroom habitat and its population related? 
+##### b. How is habitat related to class? (Mosaic Plot)
 
-	> p<- ggplot(data = mushroom.data, aes(x=population, y=habitat, color=class))
-	> p + geom_jitter(alpha=0.3) +  
-  	scale_color_manual(breaks = c('edible','poisonous'),values=c('darkgreen','red'))
+	> library(vcd) # for mosaicplot()
+	> table(mushroom.data$habitat, mushroom.data$class) # creates a contingency table
+        
+              edible poisonous
+  	woods     1880      1268
+  	grasses   1408       740
+  	leaves     240       592
+  	meadows    256        36
+  	paths      136      1008
+  	urban       96       272
+  	waste      192         0
+	> mosaicplot(~ habitat+class, data = mushroom.data,cex.axis = 0.9, shade = TRUE, 
+           main="Bivariate data visualization",
+           sub = "Relationship between mushroom habitat and class",
+           las=2, off=10,border="chocolate",xlab="habitat", ylab="class" )
 
 ![plot2](https://duttashi.github.io/images/casestudy_mushrooms_plot2.png)
 
-Fig-2: Mushroom cap-shape and cap-surface
+Fig-2: Mushroom habitat and class
 
-From Fig-2, we see that mushrooms which are `clustered` or `scattered` in population and living in `woods` are entirely `poisonous`. Those that live in `grasses`, `wasteland`, `meadows`, `leaves`, `paths` and `urban` area's are `edible`.
+From Fig-2, we see a majority of mushrooms that live in `woods`, `grasses`, `leaves`, `meadows` and `paths` are edible. Surprisingly, the one's living in `waste` areas are entirely edible. 
 
-##### c. What's the deal with living condition and odor?
+##### c. How is population related with class?
+	> table(mushroom.data$population, mushroom.data$class)
+           
+            edible poisonous
+	  abundant     384         0
+	  clustered    288        52
+	  numerous     400         0
+	  scattered    880       368
+	  several     1192      2848
+	  solitary    1064       648
 
-	> p<- ggplot(data = mushroom.data, aes(x=habitat, y=habitat, color=class))
-	> p + geom_jitter(alpha=0.3) +scale_color_manual(breaks = c('edible','poisonous'),values=c('darkgreen','red'))
+	> mosaicplot(~ population+class, data = mushroom.data,
+           cex.axis = 0.9, shade = TRUE, 
+           main="Bivariate data visualization",
+           sub = "Relationship between mushroom population and class",
+           las=2, off=10,border="chocolate",xlab="population", ylab="class")
 
 ![plot3](https://duttashi.github.io/images/casestudy_mushrooms_plot3.png)
 
-Fig-3: Mushroom habitat and odor
+Fig-3: Mushroom population and class
 
-From Fig-3, we notice, the mushrooms with `fishy`, `spicy`,`pungent`, `foul`, `musty` and `creosote` odor are clearly marked `poisonous` irrespective of there habitat. Whereas the one's with `almond`, `anise` odour are `edible` mushrooms. We also notice, that a minority of no odour mushrooms are poisonous while the one's living in `meadows` are entirely poisonous in nature.
+From Fig-3, we can see a majority of mushroom population that is either, `clustered`, `scattered`, `several` or `solitary` are edible. The mushrooms that are either `abundant` or `numerous` in population are completely edible. 
 
 Although, there could be many other pretty visualizations but I will leave that as a future work.
 
