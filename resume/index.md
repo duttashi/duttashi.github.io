@@ -11,9 +11,9 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 
 - **PhD**
 	
-	Faculty of Computer Science and Information Systems University of Malaya, Kuala Lumpur, Malaysia 
+	Department pf Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
 
-	Field of Research; Computer Science (Educational Data Clustering)
+	Research area: Computer Science (Educational Data Mining)
 
 	Thesis- A soft set approach to evaluate academic performance based on student’s academic and demographic data
 
@@ -21,7 +21,7 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 
 - **M.Sc**, University of Staffordshire, UK
 
-	Majors: Computer Science
+	Major: Computer Science
 
 	Dissertation Title: A Framework for mining the top call drivers as experienced in technical contact centers 	
 	[Published paper](http://bit.ly/2tPVqZ5)  
@@ -30,7 +30,7 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 
 - **B.Sc**, Panjab University, Chandigarh, India
 
-	Majors: Botany
+	Major: Botany (Plant Science)
 
 ### RESEARCH PUBLICATIONS
 -------------------------
@@ -52,21 +52,21 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 
 Not employed since April 2016 till present
 
-- Data Analyst (Jun 2015 Apr 2016)
+- Data Analyst (Jun 2015 until Apr 2016)
 
-- Graduate Research Assistant (Data Science)(Jun 2014 Jun 2015)
+- Graduate Research Assistant (Data Science)(Jun 2014 until Jun 2015)
 
-- Teaching Assistant (Data Science)(04/06/2012 until 01/03/2013)
+- Teaching Assistant (Data Science)(June 2012 until March 2013)
  
-- Technical Consultant Level 2 (14/12/2009 until 20/02/2011)
+- Technical Consultant Level 2 (December 2009 until February 2011)
  
-- Technical Consultant Level 1 (18/07/2006 until 16/12/2009)
+- Technical Consultant Level 1 (October 2006 until December 2009)
  
-- Project Assistant (12/04/2004 until 11/09/2006)
+- Project Assistant (April 2004 until September 2006)
  
-- Senior Lecturer (Data Science) (02/12/2002 until 31/03/2004)
+- Senior Lecturer (Data Science) (December 2002 until March 2004)
  
-- Lecturer (Data Science) (02/07/1999 until 30/11/2002)
+- Lecturer (Data Science) (July 1999 until November 2002)
 
 ### Skills
 -------------------------
