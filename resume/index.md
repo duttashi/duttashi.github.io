@@ -11,7 +11,7 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 
 - **PhD**
 	
-	Department pf Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
+	Department of Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
 
 	Research area: Computer Science (Educational Data Mining)
 
@@ -54,9 +54,9 @@ Not employed since April 2016 till present
 
 - Data Analyst (Jun 2015 until Apr 2016)
 
-- Graduate Research Assistant (Data Science)(Jun 2014 until Jun 2015)
+- Graduate Research Assistant (Data Science) (Jun 2014 until Jun 2015)
 
-- Teaching Assistant (Data Science)(June 2012 until March 2013)
+- Teaching Assistant (Data Science) (June 2012 until March 2013)
  
 - Technical Consultant Level 2 (December 2009 until February 2011)
  
