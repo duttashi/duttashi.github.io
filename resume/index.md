@@ -1,6 +1,3 @@
-# Ashish Dutt
--------------------------
-
 Email: ashishdutt@yahoo.com.my 
 
 [Researchgate](https://www.researchgate.net/profile/Ashish_Dutt), [Google Scholar](http://bit.ly/2uOXBNM), Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
