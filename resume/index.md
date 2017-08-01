@@ -2,8 +2,6 @@ Email: ashishdutt@yahoo.com.my
 
 [Researchgate](https://www.researchgate.net/profile/Ashish_Dutt), [Google Scholar](http://bit.ly/2uOXBNM), Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
-Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lumpur 50603, Malaysia
-
 ### Education
 -------------------------
 
@@ -14,8 +12,6 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 	Department of Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
 
 	Research area: Computer Science (Educational Data Mining)
-
-	Thesis- A soft set approach to evaluate academic performance based on student’s academic and demographic data
 
 2010-2012
 
@@ -49,8 +45,6 @@ Address: Room A-7-44, 12th Residential College, University of Malaya, Kuala Lump
 
 ### CAREER PATH
 -------------------------
-
-Not employed since April 2016 till present
 
 - Data Analyst (Jun 2015 until Apr 2016)
 
