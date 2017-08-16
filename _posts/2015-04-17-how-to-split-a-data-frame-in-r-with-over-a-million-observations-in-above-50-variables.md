@@ -12,7 +12,7 @@ share: true
 ---
 In a previous post dated April 6<sup>th</sup> 2015 I had written on how to split a data frame to training and test dataset. Today, I had to do it again so I was following my own post when I stumbled into the following error,
 
-	“Error in `$&lt;-.data.frame`(`*tmp*`, "spl", value = c(TRUE, FALSE, TRUE,  : replacement has 80 rows, data has 201813”
+	“Error in `data.frame`(`*tmp*`, "spl", value = c(TRUE, FALSE, TRUE,  : replacement has 80 rows, data has 201813”
 
 So what does it mean? Googling did not help much when it occurred to me that the data frame had 80 variables (continuous and categorical) with more than 2 million observations. Hmmm, how do I fix it? How do I get my training and test datasets?
 
