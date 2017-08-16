@@ -1,23 +1,29 @@
+# Ashish Dutt
+
+-------------------------
+
 Email: ashishdutt@yahoo.com.my 
 
-[Researchgate](https://www.researchgate.net/profile/Ashish_Dutt), [Google Scholar](http://bit.ly/2uOXBNM), Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
+[Researchgate](https://www.researchgate.net/profile/Ashish_Dutt)  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 ### Education
 -------------------------
 
-2014-2018 (expected)
+2014-2019 (expected)
 
 - **PhD**
 	
-	Department of Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
+	Faculty of Computer Science and Information Systems University of Malaya, Kuala Lumpur, Malaysia 
 
-	Research area: Computer Science (Educational Data Mining)
+	Field of Research; Computer Science (Educational Data Mining)
+
+	Thesis- A soft set approach to evaluate academic performance based on student’s academic and demographic data
 
 2010-2012
 
 - **M.Sc**, University of Staffordshire, UK
 
-	Major: Computer Science
+	Majors: Computer Science
 
 	Dissertation Title: A Framework for mining the top call drivers as experienced in technical contact centers 	
 	[Published paper](http://bit.ly/2tPVqZ5)  
@@ -26,12 +32,12 @@ Email: ashishdutt@yahoo.com.my
 
 - **B.Sc**, Panjab University, Chandigarh, India
 
-	Major: Botany (Plant Science)
+	Majors: Botany
 
 ### RESEARCH PUBLICATIONS
 -------------------------
 
-1.	**Dutt, A**., Ismail, MA., Herawan, T., A Systematic Review on Educational Data Mining (2017). IEEE Access (accepted) [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7820050).
+1.	**Dutt, A**., Ismail, MA., Herawan, T., A Systematic Review on Educational Data Mining (2017). [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
 
 2.	 Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability. Indian Journal of Science and Technology, 8(11).
 
@@ -43,29 +49,47 @@ Email: ashishdutt@yahoo.com.my
 
 6.	Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering. Paper presented at the The 3rd International Conference on Computer Engineering and Mathematical Sciences (ICCEMS 2014), Langkawi, Malaysia. 
 
+### Reviewer
+------------------------- 
+
+I serve as a reviewer to many international journals. *Peer-review is a voluntary service and one is not paid for it.*  
+
+- **IEEE Access** Journal (ISSN: 2169-3536)
+
+IEEE Access is an Open Access journal. It is a *Q1* (JCR year 2016) journal in *Computer Science* with an impact factor of 2.95. It is published by IEEE, USA.
+
+- **IEEE Transactions on Learning Technologies** Journal (ISSN: 1939-1382)
+
+IEEE Transactions on Learning Technologies is a *Q2* (JCR year 2016) journal in *Computer Science and Interdisciplinary Applications* with an impact factor of 2.083. It is published by IEEE Computer Society from California, USA. It publishes 4 issues/year
+
+- **Kybernetes** Journal (ISSN: 0368-492X)
+
+Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetics* with an impact factor of 0.811. It is published by Emerald group at Yorkshire, England and publishes 10 issues/year.
+
 ### CAREER PATH
 -------------------------
 
-- Data Analyst (Jun 2015 until Apr 2016)
+- Data Analyst (Jun 2015 Apr 2016)
 
-- Graduate Research Assistant (Data Science) (Jun 2014 until Jun 2015)
+- Graduate Research Assistant (Data Science)(Jun 2014 Jun 2015)
 
-- Teaching Assistant (Data Science) (June 2012 until March 2013)
+- Teaching Assistant (Data Science)(04/06/2012 until 01/03/2013)
  
-- Technical Consultant Level 2 (December 2009 until February 2011)
+- Technical Consultant Level 2 (14/12/2009 until 20/02/2011)
  
-- Technical Consultant Level 1 (October 2006 until December 2009)
+- Technical Consultant Level 1 (18/07/2006 until 16/12/2009)
  
-- Project Assistant (April 2004 until September 2006)
+- Project Assistant (12/04/2004 until 11/09/2006)
  
-- Senior Lecturer (Data Science) (December 2002 until March 2004)
+- Senior Lecturer (Data Science) (02/12/2002 until 31/03/2004)
  
-- Lecturer (Data Science) (July 1999 until November 2002)
+- Lecturer (Data Science) (02/07/1999 until 30/11/2002)
 
-### Skills
+### Programming Skills
 -------------------------
 
-- R programming 
+- R 
+- SAS  
 
 ### Functional Knowledge
 -------------------------
@@ -109,3 +133,4 @@ Email: ashishdutt@yahoo.com.my
 	Objective: Analyze the dataset to determine the causes of breast cancer in women.
 
 	Deliverable: Used the Gap minder [dataset](http://www.gapminder.org/) and performed exploratory and inferential data analysis. The findings are listed on my [blog](http://bit.ly/2mYdRKO) and the python code is listed on [GitHub](http://bit.ly/2mYqhlZ).
+
