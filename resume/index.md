@@ -1,5 +1,4 @@
-# Ashish Dutt
-
+### Contact information
 -------------------------
 
 Email: ashishdutt@yahoo.com.my 
