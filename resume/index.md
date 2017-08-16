@@ -4,7 +4,7 @@ Email: ashishdutt@yahoo.com.my
 
 [Researchgate](https://www.researchgate.net/profile/Ashish_Dutt)  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
-### Education
+#### Education
 -------------------------
 
 2014-2019 (expected)
@@ -32,7 +32,7 @@ Email: ashishdutt@yahoo.com.my
 
 	Majors: Botany
 
-### RESEARCH PUBLICATIONS
+#### RESEARCH PUBLICATIONS
 -------------------------
 
 1.	**Dutt, A**., Ismail, MA., Herawan, T., A Systematic Review on Educational Data Mining (2017). [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
@@ -47,7 +47,7 @@ Email: ashishdutt@yahoo.com.my
 
 6.	Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering. Paper presented at the The 3rd International Conference on Computer Engineering and Mathematical Sciences (ICCEMS 2014), Langkawi, Malaysia. 
 
-### Reviewer
+#### Reviewer
 ------------------------- 
 
 I serve as a reviewer to many international journals. *Peer-review is a voluntary service and one is not paid for it.*  
@@ -64,7 +64,7 @@ IEEE Transactions on Learning Technologies is a *Q2* (JCR year 2016) journal in 
 
 Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetics* with an impact factor of 0.811. It is published by Emerald group at Yorkshire, England and publishes 10 issues/year.
 
-### CAREER PATH
+#### CAREER PATH
 -------------------------
 
 - Data Analyst (Jun 2015 Apr 2016)
@@ -83,21 +83,21 @@ Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetic
  
 - Lecturer (Data Science) (02/07/1999 until 30/11/2002)
 
-### Programming Skills
+#### Programming Skills
 -------------------------
 
 - R 
 - SAS  
 
-### Functional Knowledge
+#### Functional Knowledge
 -------------------------
 
 - Python 2.7
 - SQL
 
-### Projects
+#### Projects
 
-#### Completed Projects
+##### Completed Projects
 -------------------------
 
 1.	**Project: Predicting employment related factors in Malaysia- A regression analysis approach**
