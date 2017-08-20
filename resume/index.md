@@ -7,7 +7,7 @@ Email: ashishdutt@yahoo.com.my
 #### Education
 -------------------------
 
-2014-2019 (expected)
+2014-2018 (expected)
 
 - **PhD**
 	
@@ -87,13 +87,13 @@ Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetic
 -------------------------
 
 - R 
-- SAS  
 
 #### Functional Knowledge
 -------------------------
 
 - Python 2.7
 - SQL
+- SAS
 
 #### Projects
 
