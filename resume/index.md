@@ -52,6 +52,8 @@ Email: ashishdutt@yahoo.com.my
 
 I serve as a reviewer to many international journals. *Peer-review is a voluntary service and one is not paid for it.*  
 
+##### Active reviewer for the following journals
+
 - **IEEE Access** Journal (ISSN: 2169-3536)
 
 IEEE Access is an Open Access journal. It is a *Q1* (JCR year 2016) journal in *Computer Science* with an impact factor of 2.95. It is published by IEEE, USA.
@@ -63,6 +65,14 @@ IEEE Transactions on Learning Technologies is a *Q2* (JCR year 2016) journal in 
 - **Kybernetes** Journal (ISSN: 0368-492X)
 
 Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetics* with an impact factor of 0.811. It is published by Emerald group at Yorkshire, England and publishes 10 issues/year.
+
+##### Past/Inactive reviewer for the following journals
+
+- **IETE Journal of Research** Journal (ISSN: 0377-2063)
+is a bimonthly journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. It publishes 6 issues/year.
+
+- **Soft Computing** Journal (ISSN: 1432-7643)
+is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg.
 
 #### CAREER PATH
 -------------------------
