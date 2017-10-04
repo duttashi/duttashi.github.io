@@ -159,7 +159,7 @@ You will need to load this library in the R environment first before you can use
 	    > # Rounding the column value for TotalPaidEmployee because there can’t be  example 2.5 employees
 	    > df1$TotalPaidEmployee<- round(df1$TotalPaidEmployee)
 
-* Data preprocessing (joining the tables)
+* Data pre-processing (joining the tables)
 	
 	We also notice that all the six data files have a common column which is, `Year`. So, we now join the files on this common column and save the resultant in a master data frame called, `df.master`. This process is known as the `inner join`.
 
