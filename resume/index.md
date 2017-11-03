@@ -54,6 +54,10 @@ I serve as a reviewer to many international journals. *Peer-review is a voluntar
 
 ##### Active reviewer for the following journals
 
+- **Applied Soft Computing** Journal (1568-4946)
+
+Applied Soft Computing (ASoC) is an international journal promoting an integrated view of soft computing to solve real life problems. Soft computing is a collection of methodologies, which aim to exploit tolerance for imprecision, uncertainty and partial truth to achieve tractability, robustness and low solution. It is a *Q1* (JCR year 2016) in *Computer Science* with an impact factor of 3.541. It is published by *Elsevier Science, Netherlands* and publishes *12* issues per year.
+
 - **IEEE Access** Journal (ISSN: 2169-3536)
 
 IEEE Access is an Open Access journal. It is a *Q1* (JCR year 2016) journal in *Computer Science* with an impact factor of 2.95. It is published by IEEE, USA.
