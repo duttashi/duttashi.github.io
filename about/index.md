@@ -22,6 +22,8 @@ My research guide is [Assoc. Prof. Dr. Maizatul Akmar Ismail](https://umexpert.u
 - `Soft Computing`, ISSN: 1432-7643, `Q2 (Computer Science)`, `Springer`, USA; `12` issues/year 
 - `IETE Journal of Research`, ISSN: 0377-2063, `Q4 (Engineering)`, `Taylor & Francis`, India; `6` issues/year.
 
+Interested readers are advised to view my [Publons](https://publons.com/a/1324629/) profile to veirfy my peer-review work's.
+
 As the tag line suggests, this blog primarily focuses on data analytical activities. I chose to create this blog so as to keep readers with similar interest updated of my research work. The technical aspects of my research work as well my continued tryst with data analysis will be updated here. Look at my work on [Github](https://github.com/duttashi/) 
 
 My blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
