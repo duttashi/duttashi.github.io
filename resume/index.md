@@ -54,28 +54,34 @@ I serve as a reviewer to many international journals. *Peer-review is a voluntar
 
 ##### Active reviewer for the following journals
 
-- **Applied Soft Computing** Journal (1568-4946)
+- **Applied Soft Computing** Journal (1568-4946) - *ISI indexed*
 
-Applied Soft Computing (ASoC) is an international journal promoting an integrated view of soft computing to solve real life problems. Soft computing is a collection of methodologies, which aim to exploit tolerance for imprecision, uncertainty and partial truth to achieve tractability, robustness and low solution. It is a *Q1* (JCR year 2016) in *Computer Science* with an impact factor of 3.541. It is published by *Elsevier Science, Netherlands* and publishes *12* issues per year.
+Applied Soft Computing (ASoC) is an international journal promoting an integrated view of soft computing to solve real life problems. Soft computing is a collection of methodologies, which aim to exploit tolerance for imprecision, uncertainty and partial truth to achieve tractability, robustness and low solution. It is a *Q1* (JCR year 2016) in *Computer Science* with an impact factor of 3.541. It is published by *Elsevier Science, Netherlands* and publishes **12 issues/year**.
 
-- **IEEE Access** Journal (ISSN: 2169-3536)
+- **IEEE Access** Journal (ISSN: 2169-3536) - *ISI indexed*
 
 IEEE Access is an Open Access journal. It is a *Q1* (JCR year 2016) journal in *Computer Science* with an impact factor of 2.95. It is published by IEEE, USA.
 
-- **IEEE Transactions on Learning Technologies** Journal (ISSN: 1939-1382)
+- **IEEE Transactions on Learning Technologies** Journal (ISSN: 1939-1382) - *ISI indexed*
 
-IEEE Transactions on Learning Technologies is a *Q2* (JCR year 2016) journal in *Computer Science and Interdisciplinary Applications* with an impact factor of 2.083. It is published by IEEE Computer Society from California, USA. It publishes 4 issues/year
+IEEE Transactions on Learning Technologies is a *Q2* (JCR year 2016) journal in *Computer Science and Interdisciplinary Applications* with an impact factor of 2.083. It is published by IEEE Computer Society from California, USA. It publishes **4 issues/year**
 
-- **Kybernetes** Journal (ISSN: 0368-492X)
+- **Kybernetes** Journal (ISSN: 0368-492X) - *ISI indexed*
 
-Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetics* with an impact factor of 0.811. It is published by Emerald group at Yorkshire, England and publishes 10 issues/year.
+Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetics* with an impact factor of 0.811. It is published by Emerald group at Yorkshire, England and publishes **10 issues/year**.
+Review speed (1st Decision): **6 weeks**
+
+- **International Journal of Electrical and Computer Engineering (IJECE)** Journal (ISSN: 2088-8708) - *Scopus indexed*
+
+IJECE is published by the Institute of Advanced Engineering and Science (IAES) with an impact factor of and *Q2 in Computer Science*. Review speed (1st Decision): **8 weeks**
 
 ##### Past/Inactive reviewer for the following journals
 
-- **IETE Journal of Research** Journal (ISSN: 0377-2063)
-is a bimonthly journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. It publishes 6 issues/year.
+- **IETE Journal of Research** Journal (ISSN: 0377-2063) - *ISI indexed*
+is a bimonthly journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. 
+It publishes **6 issues/year**.
 
-- **Soft Computing** Journal (ISSN: 1432-7643)
+- **Soft Computing** Journal (ISSN: 1432-7643) - *ISI indexed*
 is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg.
 
 #### CAREER PATH
