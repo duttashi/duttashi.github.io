@@ -4,11 +4,11 @@ Email: ashishdutt@yahoo.com.my
 
 - **Research**
 
-[Researchgate](https://www.researchgate.net/profile/Ashish_Dutt), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56294315000), [Orcid](https://orcid.org/0000-0003-3122-9265)  
+  [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56294315000), [Orcid](https://orcid.org/0000-0003-3122-9265)  
 
 - **Programming & others**
 
-Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
+  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 #### Education
 -------------------------
