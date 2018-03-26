@@ -13,7 +13,7 @@ Email: ashishdutt@yahoo.com.my
 #### Education
 -------------------------
 
-2014-2018 (expected)
+2014-2019 (expected)
 
 - **PhD**
 	
