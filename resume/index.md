@@ -79,7 +79,11 @@ Review speed (1st Decision): **6 weeks**
 
 - **International Journal of Electrical and Computer Engineering (IJECE)** Journal (ISSN: 2088-8708) - *Scopus indexed*
 
-IJECE is published by the Institute of Advanced Engineering and Science (IAES) with an impact factor of and *Q2 in Computer Science*. Review speed (1st Decision): **8 weeks**
+IJECE is published by the Institute of Advanced Engineering and Science (IAES) with an impact factor of 0.99 and *Q2 in Computer Science*. Review speed (1st Decision): **8 weeks**
+
+- **International Journal of Educational Technology in Higher Education** Journal (ISSN: 2365-9440) - *Scopus indexed*
+
+[ETHE](https://educationaltechnologyjournal.springeropen.com/about) is associated with Universitat Oberta de Catalunya and published by Springer Nature. It has an impact factor of 1.33 in Scopus. Subject area: Education, Computer Science Applications. Review speed (1st Decision): **21 days**, Acceptance to Publication: **28 days** 
 
 ##### Past/Inactive reviewer for the following journals
 
@@ -119,7 +123,6 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 
 - Python 2.7
 - SQL
-- SAS
 
 #### Projects
 
