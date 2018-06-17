@@ -1,28 +1,18 @@
-# So Simple Theme
+[![Project Status: Active – The project is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2017--05--01-green.svg)](/commits/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+My personal website based on the [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) theme
 
-## Notable features:
+Website: https://duttashi.github.io/
 
-* Compatible with Jekyll 3 and GitHub Pages.
-* Responsive templates. Looks good on mobile, tablet, and desktop devices.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
-* Support for Disqus Comments
+## Contact
+If you'd like to contact me regarding bugs, questions, or general consulting, feel free to drop me a line - 
+[ashishdutt@yahoo.com.my]
 
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+*Copyright 2016 [Ashish Dutt](https://duttashi.github.io/).*
 
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+<p align="center">
+<a href="https://www.paypal.me/ashishdutt">
+<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
+</a>
+</p>
 
----
-
-## Getting Started
-
-So Simple takes advantage of Sass and data files to make customizing easier and requires Jekyll 3.x.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

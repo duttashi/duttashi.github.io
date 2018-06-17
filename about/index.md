@@ -1,26 +1,14 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About Me
+
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+My name is Ashish Dutt and I love making beautiful charts, the statistical programming language R, black coffee, and red wine.
 
-## So Simple Theme is all about:
+I completed my first degree in biological sciences in 1995, but I realised my calling was with computer science. I was fascinated with computers. My interest was further piqued, when I saw this `dumb machine` could be `programmed` to compete with the `human brain`. In order to understand how these `dumb machines` can work so efficiently,  I worked  for a decade, in various technical roles from `junior` to `mid-senior level positions`, for top IT companies in India, like `IBM`, `Dell` and `HP`. This practical work experience was instrumental in helping me, to earn a Master's in Computer Science in year 2012. Meanwhile, I worked in academia (teaching and doing research) and ed tech before moving into data science and discovering R. Now, my background in biology, computer science, and education has given me a strong foundation for using data to answer interesting questions and communicate about technical topics with diverse audiences. At present, I'm a PhD candidate in the department of information systems, University of Malaya (UM), Kuala Lumpur, Malaysia. My research interest is in unsupervised learning in education. My research guide is [Assoc. Prof. Dr. Maizatul Akmar Ismail](https://umexpert.um.edu.my/maizatul). 
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+As the tag line suggests, this blog primarily focuses on data analytical activities. I chose to create this blog so as to keep readers with similar interest updated of my research work. The technical aspects of my research work as well my continued tryst with data analysis will be updated here. Look at my work on [Github](https://github.com/duttashi/) 
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+My blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+<br /><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
