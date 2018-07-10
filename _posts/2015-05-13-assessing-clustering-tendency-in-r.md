@@ -52,7 +52,7 @@ Remove the column 'Species' from this dataset because if you dont you will get a
 
 For package documentation see <a href="https://cran.r-project.org/web/packages/NbClust/NbClust.pdf">here</a>
 
-# You will then get a brief summary of the results as shown below
+#### You will then get a brief summary of the results as shown below
 
 	*******************************************************
 	Among all indices:

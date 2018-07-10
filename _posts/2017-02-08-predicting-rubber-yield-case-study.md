@@ -6,7 +6,7 @@ date: 2017-02-09
 share: true
 excerpt: "A case study on predicting rubber yield per tonne based on rubber plantation data of Malaysia"
 categories: blog
-tags: [R, data analysis]
+tags: [R, data analysis, classification]
 comments: true
 published: true
 
@@ -619,7 +619,7 @@ Fig-11: Which Decision Tree method to use
 
 Another, hat tip for beginners in data science is to look at the response variable in deciding which algorithm to use. In this case study, the response variable was continuous in nature with strong positive linear relationship among the predictors. Therefore, the choice of regression trees was ideal.
 
-The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R) 
+The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/Full%20Case%20Studies/CaseStudy-MY-RubberPlantation.R) 
 
 
 ### References

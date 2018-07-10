@@ -831,7 +831,7 @@ Regression Tree RMSE: 0.037
 
 In this analytical study, we have explored three supervised learning models to predict the factors contributing to an accurate prediction of employed persons by state in Malaysia. Our multiple linear regression model for the response variable `Employed` reveals that the predictors, `UnempRatePerct`and `LabrFrc` are the most significant predictors such that if included in the model will enhance the predictive power of the response variable. The other predictors such as `Year`, `OutLabrFrc`, `LabrFrcPerct`does not contribute to the regression model. This model gives an **accuracy of 99%** on unseen data and has the lowest RMSE of `0.003` as compared to the other supervised learning methods. Again, its worthwhile to mention here the reason for such a high accuracy of the predictive model because we chose the correct model for the response variable and ensured to carry out a rigorous data preprocessing and modeling activities.  
 
-The complete code is listed on my Github repository in [here](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-LaborForce.R)
+The complete code is listed on my Github repository in [here](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-MY-LaborForce.R)
 
 
 
