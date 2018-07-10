@@ -6,7 +6,7 @@ date: 2017-01-18
 share: true
 excerpt: "Fundamental concepts in building a predictive model"
 categories: blog
-tags: [R, data analysis]
+tags: [R, data analysis, classification]
 comments: true
 published: true
 
@@ -249,4 +249,4 @@ Figure 9: Normalised variables plot
 Note: For a good regression model, the red smoothed line should stay close to the mid-line and no point should have a large cook’s distance (i.e. should not have too much influence on the model.). On plotting the new model, the changes look minor, it is more closer to conforming with the assumptions.
 
 **End thoughts**
-Given a dataset, its very important to first ensure that it fulfills the aforementioned assumptions before you begin with any sort or inferential or predictive modelling. Moreover, by taking care of these assumptions you are ensuring a robust model that will survive and yield high predictive values.
+Given a dataset, its very important to first ensure that it fulfills the aforementioned assumptions before you begin with any sort or inferential or predictive modeling. Moreover, by taking care of these assumptions you are ensuring a robust model that will survive and yield high predictive values.

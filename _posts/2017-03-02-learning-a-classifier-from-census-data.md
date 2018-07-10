@@ -6,7 +6,7 @@ date: 2017-03-02
 share: true
 excerpt: "A case study on adult income data to predict income level"
 categories: blog
-tags: [R, data analysis]
+tags: [R, data analysis, classification]
 comments: true
 published: true
 
@@ -500,7 +500,7 @@ In this study, we aimed to predict a person's income based on variables like hab
 
 As a future work, we will extend this study to include feature engineering methods, to measure if the predictive power of the models could be increased or not.
 
-The complete code is listed on our Github [repository](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-UCI-IncomePredict.R)  
+The complete code is listed on my Github [repository](https://github.com/duttashi/LearningR/blob/master/scripts/Full%20Case%20Studies/CaseStudy-UCI-IncomePredict.R)  
 	
 
 
