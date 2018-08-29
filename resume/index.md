@@ -8,7 +8,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **Programming & others**
 
-  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
+  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [nemo](https://stackoverflow.com/users/4195053/nemo), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 #### Education
 -------------------------
@@ -56,7 +56,7 @@ Email: ashishdutt@yahoo.com.my
 #### Reviewer
 ------------------------- 
 
-I serve as a reviewer to many international journals. *Peer-review is a voluntary service and one is not paid for it.* 
+I serve as a reviewer to several international journals. *Peer-review is a voluntary service and one is not paid for it.* 
 
 <!-- start Publons.com widget -->
 <iframe src="https://publons.com/author/1324629/widget/embed/?width=640&height=460" width="640" height="460" style="border: solid 1px #ddd;"></iframe>
@@ -121,12 +121,10 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 #### Functional Knowledge
 -------------------------
 
-- Python 2.7
+- Python 3
 - SQL
 
-#### Projects
-
-##### Completed Projects
+#### Completed Projects
 -------------------------
 
 1.	**Project: Predicting employment related factors in Malaysia- A regression analysis approach**
@@ -160,4 +158,3 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 	Objective: Analyze the dataset to determine the causes of breast cancer in women.
 
 	Deliverable: Used the Gap minder [dataset](http://www.gapminder.org/) and performed exploratory and inferential data analysis. The findings are listed on my [blog](http://bit.ly/2mYdRKO) and the python code is listed on [GitHub](http://bit.ly/2mYqhlZ).
-
