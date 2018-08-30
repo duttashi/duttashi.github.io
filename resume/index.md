@@ -8,7 +8,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **Programming & others**
 
-  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [nemo](https://stackoverflow.com/users/4195053/nemo), Twitter: [@duttashish_](https://twitter.com/duttashish_)
+  Github: [duttashi](https://github.com/duttashi/), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 #### Education
 -------------------------
