@@ -21,7 +21,7 @@ Email: ashishdutt@yahoo.com.my
 
 	Field of Research; Computer Science (Educational Data Mining)
 
-	Thesis- A soft set approach to evaluate academic performance based on student’s academic and demographic data
+	Thesis- *work in progress.*
 
 2010-2012
 
