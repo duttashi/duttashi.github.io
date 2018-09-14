@@ -8,7 +8,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **Programming & others**
 
-  Github: [duttashi](https://github.com/duttashi/), Twitter: [@duttashish_](https://twitter.com/duttashish_)
+  Github: [duttashi](https://github.com/duttashi/), Stackoverflow: [nemo](https://stackoverflow.com/users/4195053/nemo) Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 #### Education
 -------------------------
@@ -41,7 +41,7 @@ Email: ashishdutt@yahoo.com.my
 #### RESEARCH PUBLICATIONS
 -------------------------
 
-1.	**Dutt, A**., Ismail, MA., Herawan, T., A Systematic Review on Educational Data Mining (2017). [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
+1.	**Dutt, A**., Ismail, MA., Herawan, T. (2017), A Systematic Review on Educational Data Mining. [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
 
 2.	 Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability. Indian Journal of Science and Technology, 8(11).
 
