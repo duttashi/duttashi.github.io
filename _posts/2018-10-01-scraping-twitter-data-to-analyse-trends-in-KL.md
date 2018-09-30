@@ -1,3 +1,18 @@
+---
+
+layout: post
+title: Scraping twitter data to visualize trending tweets in Kuala Lumpur
+date: 2018-10-01
+share: true
+excerpt: "In this post, I've scraped twitter data to search some hash-tags and visualized them. "
+categories: blog
+tags: [data analysis, R, visualization, web scraping]
+comments: true
+published: true
+
+---
+
+
 *(Disclaimer: I've no grudge against python programming language per se. I think its equally great. In the following post, I'm merely recounting my experience.)*
 
 It's been quite a while since I last posted. The reasons are numerous, notable being, unable to decide which programming language to choose for web data scraping. The contenders were data analytic maestro, `R` and data scraping guru, `python`. So, I decided to give myself some time to figure out which language will be best for my use case. My use case was, *Given some search keywords, scrape twitter for related posts and visualize the result*. First, I needed the *live data*. Again, I was at the cross-roads, "R or Python". Apparently python has some great packages for twitter data streaming like `twython`,`python-twitter`, `tweepy`. Equivalent R libraries are `twitteR`,`rwteet`. I chose the `rtweet` package for data collection over python for following reasons;
