@@ -26,62 +26,57 @@ So, using the following code snippet, I was able to scrape data. The code has fo
 
 1. A custom search for tweets function which will accept the search string. If search string is `NULL`, it will throw a message and stop, else it will search for hash tags specified in search string and return a data frame as output.
 
-    	#required libraries
-		> library(rtweet)
-		> library(tidytext)
-		> library(tidyverse)
-		> library(stringr)
-		> library(stopwords)
-		> library(rtweet) # for search_tweets()
-		# Create a function that will accept multiple hashtags and will search the twitter api for related tweets
+	library(rtweet)
+	library(tidytext)
+	library(tidyverse)
+	library(stringr)
+	library(stopwords)
+	library(rtweet) # for search_tweets()
 
-		> search_tweets_queries <- function(x, n = 100, ...) {
-		  ## check inputs
-		  stopifnot(is.atomic(x), is.numeric(n))
-		  if (length(x) == 0L) {
-		stop("No query found", call. = FALSE)
-		  }  
-		  ## search for each string in column of queries
-		  rt <- lapply(x, search_tweets, n = n, ...)
-		  ## add query variable to data frames
-		  rt <- Map(cbind, rt, query = x, stringsAsFactors = FALSE)
-		  ## merge users data into one data frame
-		  rt_users <- do.call("rbind", lapply(rt, users_data))
-		  ## merge tweets data into one data frame
-		  rt <- do.call("rbind", rt)
-		  ## set users attribute
-		  attr(rt, "users") <- rt_users
-		  ## return tibble (validate = FALSE makes it a bit faster)
-		  tibble::as_tibble(rt, validate = FALSE)
-		}
-    
 2. A data frame containing the search terms. Note, here my search hash-tags are `KTM`, `MRT` and `monorail`. 
 
-	    # create data frame with query column
-	    > df_query <- data.frame(
-	      query = c("KTM", "monorail","MRT"),
-	      n = rnorm(3), # change this number according to the number of searchwords in parameter query. As of now, the parameter got 3 keywords, therefore this nuber is set to 3.
-	      stringsAsFactors = FALSE
-	    )
+Create a function that will accept multiple hashtags and will search the twitter api for related tweets
+
+	search_tweets_queries <- function(x, n = 100, ...) {
+	  ## check inputs
+	  stopifnot(is.atomic(x), is.numeric(n))
+	  if (length(x) == 0L) {
+	    stop("No query found", call. = FALSE)
+	  }  
+	  ## search for each string in column of queries
+	  rt <- lapply(x, search_tweets, n = n, ...)
+	  ## add query variable to data frames
+	  rt <- Map(cbind, rt, query = x, stringsAsFactors = FALSE)
+	  ## merge users data into one data frame
+	  rt_users <- do.call("rbind", lapply(rt, users_data))
+	  ## merge tweets data into one data frame
+	  rt <- do.call("rbind", rt)
+	  ## set users attribute
+	  attr(rt, "users") <- rt_users
+	  ## return tibble (validate = FALSE makes it a bit faster)
+	  tibble::as_tibble(rt, validate = FALSE)
+	}
 
 3. Using the `search_tweets_queries` defined in step 1, to search for tweets. Note, the usage of `retryonratelimit=TRUE` indicates if search rate limit reached, then the crawler will sleep for a while and start again. Refer to the `rtweet` [documentation](https://rtweet.info/) for more information.
 
-		# pass query column to the search_tweet_queries function defined above
-		> df_collect_tweets <- search_tweets_queries(df_query$query, include_rts = FALSE, retryonratelimit = TRUE, 
-		#geocode for Kuala Lumpur
-		geocode = "3.14032,101.69466,93.5mi"
-		)
+		df_query <- data.frame(query = c("KTM", "monorail","MRT"),
+	  	  n = rnorm(3), # change this number according to the number of searchwords in parameter query. As of now, the parameter got 3 keywords, therefore this nuber is set to 3.
+		  stringsAsFactors = FALSE
+	)
+
+		df_collect_tweets <- search_tweets_queries(df_query$query, include_rts = FALSE,retryonratelimit = TRUE, 
+	    #geocode for Kuala Lumpur
+	    geocode = "3.14032,101.69466,93.5mi")
 
 4. Once the data is collected, I'll keep some selected columns only.
 
-	    # Select and keep only relevant columns
-	    > df_select_tweets<- df_collect_tweets %>%
-	      select(c(user_id,created_at,screen_name, !is.na(hashtags),text,
-	       source,display_text_width>0,lang,!is.na(place_name),
-	       !is.na(place_full_name),
-	       !is.na(geo_coords), !is.na(country), !is.na(location),
-	       retweet_count,account_created_at, account_lang, query)
-	     )
+		df_select_tweets<- df_collect_tweets %>%
+		  select(c(user_id,created_at,screen_name, !is.na(hashtags),text,
+		   source,display_text_width>0,lang,!is.na(place_name),
+		   !is.na(place_full_name),
+		   !is.na(geo_coords), !is.na(country), !is.na(location),
+		   retweet_count,account_created_at, account_lang, query)
+		 )
 
 5. **Text mining**: The collected data need to be cleaned. Therefore, I've used the basic `gsub()` function and `str_replace_all()` from the `stringr` library.
 
