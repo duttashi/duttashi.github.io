@@ -59,17 +59,14 @@ Create a function that will accept multiple hashtags and will search the twitter
 
 3. Using the `search_tweets_queries` defined in step 1, to search for tweets. Note, the usage of `retryonratelimit=TRUE` indicates if search rate limit reached, then the crawler will sleep for a while and start again. Refer to the `rtweet` [documentation](https://rtweet.info/) for more information.
 
-	df_query <- data.frame(
-	  query = c("KTM", "monorail","MRT"),
-	  #query = c("section377"),
-	  n = rnorm(3), # change this number according to the number of searchwords in parameter query. As of now, the parameter got 3 keywords, therefore this nuber is set to 3.
-	  stringsAsFactors = FALSE
+		df_query <- data.frame(query = c("KTM", "monorail","MRT"),
+	  	  n = rnorm(3), # change this number according to the number of searchwords in parameter query. As of now, the parameter got 3 keywords, therefore this nuber is set to 3.
+		  stringsAsFactors = FALSE
 	)
 
-	df_collect_tweets <- search_tweets_queries(df_query$query, include_rts = FALSE,retryonratelimit = TRUE, 
+		df_collect_tweets <- search_tweets_queries(df_query$query, include_rts = FALSE,retryonratelimit = TRUE, 
 	    #geocode for Kuala Lumpur
-	    geocode = "3.14032,101.69466,93.5mi"
-	    )
+	    geocode = "3.14032,101.69466,93.5mi")
 
 4. Once the data is collected, I'll keep some selected columns only.
 
