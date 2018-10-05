@@ -3,7 +3,7 @@ layout: page
 title: Helpful Data Science Resources Elsewhere
 ---
 
-[R Bloggers](http://www.r-bloggers.com)
+[R-bloggers](http://www.r-bloggers.com)
 
 [StatsBlogs](http://www.statsblogs.com/)
 
@@ -28,3 +28,5 @@ title: Helpful Data Science Resources Elsewhere
 [Hilary Parker](http://hilaryparker.com)
 
 [Trey Causey](http://treycausey.com)
+
+[R-weekly](https://rweekly.org/live)
