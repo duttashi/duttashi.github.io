@@ -13,13 +13,13 @@ I am a PhD student (2014-2019) in feature clustering at the Department of Inform
 
 My supervisor is [Maizatul A. Ismail]((https://umexpert.um.edu.my/maizatul)).
 
-I am currently working on a feature clustering approach to improve heterogeneous cluster purity.
+I am currently working on a feature clustering approach to improve heterogeneous cluster purity. My research was funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship).
 
 I also contribute to R.
 
 
 - by submitting my own packages on CRAN (or just [GitHub](https://github.com/duttashi?tab=repositories)).
-- by [contributing to other projects when I can](https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aduttashi+).
+- by [contributing to other projects when I can](https://github.com/pulls?q=mentions%3Aduttashi).
 - by asking and answering questions on [Stack Overflow](https://stackoverflow.com/users/4195053/ashish?tab=profile).
 - by [blogging](https://duttashi.github.io/blog/).   
 
