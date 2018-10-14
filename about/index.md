@@ -5,7 +5,7 @@ title: About Me
 ---
 
 I am fond of **Data Science** and a **R, Python, SQL** enthusiast.
-You can find me on [Twitter](https://twitter.com/duttashish_) and [GitHub](https://github.com/duttashi) as @duttashi and on [Stack Overflow](https://stackoverflow.com/users/4195053/ashish?tab=profile) as Ashish.
+You can find me on [Twitter](https://twitter.com/duttashish_) and [GitHub](https://github.com/duttashi) as @duttashi 
 
 **Current work**
 
@@ -20,7 +20,6 @@ I also contribute to R.
 
 - by submitting my own packages on CRAN (or just [GitHub](https://github.com/duttashi?tab=repositories)).
 - by [contributing to other projects when I can](https://github.com/pulls?q=mentions%3Aduttashi).
-- by asking and answering questions on [Stack Overflow](https://stackoverflow.com/users/4195053/ashish?tab=profile).
 - by [blogging](https://duttashi.github.io/blog/).   
 
 **Hometown - Education**
