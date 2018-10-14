@@ -25,4 +25,4 @@ I also contribute to R.
 
 **Hometown - Education**
 
-I'm from [Jhansi](https://en.wikipedia.org/wiki/Jhansi), India. I completed my schooling from [La Martiniere College](http://www.lamartinierelucknow.org/), Lucknow. I graduated with a Bachelors in **Science** from [Panjab University](http://puchd.ac.in/), Chandigarh. I obtained a Master's in **Computing** from [Staffordshire University](http://www.staffs.ac.uk/).  
+I'm from [Jhansi](https://en.wikipedia.org/wiki/Jhansi), India. I completed my schooling from [La Martiniere College](http://www.lamartinierelucknow.org/), Lucknow. I graduated with a Bachelors in **Science** from [Panjab University](http://puchd.ac.in/), Chandigarh. Thereafter, I worked in industry for over a decade and then graduated with a Master's in **Computer Science** from [Staffordshire University](http://www.staffs.ac.uk/).  
