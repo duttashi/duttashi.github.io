@@ -3,6 +3,9 @@ layout: page
 title: Helpful Data Science Resources Elsewhere
 ---
 
+<p><a href="https://feedburner.google.com" target="_blank"><img src="//feedburner.google.com/fb/images/pub/powered_by_fb.gif" alt="Powered by FeedBurner" style="border:0"/></a></p>
+
+
 [R-bloggers](http://www.r-bloggers.com)
 
 [StatsBlogs](http://www.statsblogs.com/)
