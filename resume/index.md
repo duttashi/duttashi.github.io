@@ -85,6 +85,10 @@ IJECE is published by the Institute of Advanced Engineering and Science (IAES) w
 
 [ETHE](https://educationaltechnologyjournal.springeropen.com/about) is associated with Universitat Oberta de Catalunya and published by Springer Nature. It has an impact factor of 1.33 in Scopus. Subject area: Education, Computer Science Applications. Review speed (1st Decision): **21 days**, Acceptance to Publication: **28 days** 
 
+- **Research in Learning Technology** Journal (ISSN: 2156-7069) - *Scopus Indexed*
+
+Published by the Association for Learning Technology. There is no publication fees. [Link](https://journal.alt.ac.uk/index.php/rlt/index)
+
 ##### Past/Inactive reviewer for the following journals
 
 - **IETE Journal of Research** Journal (ISSN: 0377-2063) - *ISI indexed*
