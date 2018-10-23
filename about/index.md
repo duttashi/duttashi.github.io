@@ -13,7 +13,7 @@ I am a PhD student (2014-2019) in feature clustering at the Department of Inform
 
 My supervisor is [Maizatul A. Ismail]((https://umexpert.um.edu.my/maizatul)).
 
-I am currently working on a feature clustering approach to improve heterogeneous cluster purity. My research was funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship).
+I am currently working on a feature clustering approach to improve heterogeneous cluster purity. My research is funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship).
 
 I also contribute to R.
 
