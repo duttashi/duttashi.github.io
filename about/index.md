@@ -5,15 +5,11 @@ title: About Me
 ---
 
 I am fond of **Data Science** and a **R, Python, SQL** enthusiast.
-You can find me on [Twitter](https://twitter.com/duttashish_) and [GitHub](https://github.com/duttashi) as @duttashi 
+You can find me on [Twitter](https://twitter.com/duttashish_) and [GitHub](https://github.com/duttashi). 
 
 **Current work**
 
-I am a PhD student (2014-2019) in feature clustering at the Department of Information Systems, [Universiti Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia.
-
-My supervisor is [Maizatul A. Ismail]((https://umexpert.um.edu.my/maizatul)).
-
-I am currently working on a feature clustering approach to improve heterogeneous cluster purity. My research is funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship).
+I am a PhD student (2014-2019) in feature clustering at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. I'm working on a feature clustering approach to improve heterogeneous cluster purity. My research is funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship). My supervisor is [Assoc. Prof. Dr. Maizatul A. Ismail](https://umexpert.um.edu.my/maizatul).
 
 I also contribute to R.
 
