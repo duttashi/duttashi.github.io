@@ -1,23 +1,22 @@
 # Site navigation links
-
 - title: Blog
   url: /blog/
 
 - title: About
   url: /about/
-
+  
 - title: Github
-  url: http://github.com/duttashi
+  url: https://github.com/duttashi
   
 - title: Projects
   url: /projects/
   
- - title: Resume
-  url: /resume/
-
-- title: Research
+ - title: Research
   url: https://www.researchgate.net/profile/Ashish_Dutt
 
+- title: Resume
+  url: /resume/
+  
 #- title: LinkedIn
 # url: https://www.linkedin.com/in/duttashish
   
