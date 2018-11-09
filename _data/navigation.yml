@@ -17,7 +17,10 @@
 
  - title: Resume
   url: /resume/
-  
+
+- title: Search
+  url: /search/
+
 #- title: LinkedIn
 # url: https://www.linkedin.com/in/duttashish
   
@@ -27,5 +30,4 @@
 #- title: Resources
 #  url: /blogroll/
 
-- title: Search
-  url: /search/
+
