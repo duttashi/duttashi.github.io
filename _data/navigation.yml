@@ -1,14 +1,10 @@
 # main links links
-main:
   - title: Home
     url: /blog/
 
   - title: "About"
     url: /about/    
 
-  - title: "Github"
-    url: https://github.com/duttashi    
-    
   - title: "Projects"
     url: /projects/
         
