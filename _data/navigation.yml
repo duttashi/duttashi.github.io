@@ -1,31 +1,24 @@
-# Site navigation links
+# main links links
+  - title: Home
+    url: /blog/
 
-- title: Blog
-  url: /blog/
+  - title: "About"
+    url: /about/    
 
-- title: About
-  url: /about/
-
-- title: Github
-  url: http://github.com/duttashi
-  
-- title: Projects
-  url: /projects/
-  
- - title: Resume
-  url: /resume/
-
-- title: Research
-  url: https://www.researchgate.net/profile/Ashish_Dutt
+  - title: "Projects"
+    url: /projects/
+        
+  - title: "Research"
+    url: https://www.researchgate.net/profile/Ashish_Dutt
+    
+  - title: "CV"
+    url: /resume/
+    
+  - title: "Search"
+    url: /search/
 
 #- title: LinkedIn
 # url: https://www.linkedin.com/in/duttashish
   
 #- title: ORCID
 #  url: http://orcid.org/0000-0003-3122-9265
-
-- title: Resources
-  url: /blogroll/
-
-- title: Search
-  url: /search/
