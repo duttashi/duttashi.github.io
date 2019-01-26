@@ -100,33 +100,27 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 
 #### CAREER PATH
 -------------------------
+- Research Data Scientist (May 2016 till present)
 
-- Data Analyst (Jun 2015 Apr 2016)
+- Data Analyst (Jun 2015 April 2016)
 
-- Graduate Research Assistant (Data Science)(Jun 2014 Jun 2015)
+- Graduate Research Assistant (Jun 2014 Jun 2015)
 
-- Teaching Assistant (Data Science)(04/06/2012 until 01/03/2013)
+- Technical Consultant Level 2 (Dec 2009 until Feb 2011)
  
-- Technical Consultant Level 2 (14/12/2009 until 20/02/2011)
+- Technical Consultant Level 1 (July 2006 until Dec 2009)
  
-- Technical Consultant Level 1 (18/07/2006 until 16/12/2009)
+- Project Assistant (April 2004 until Sept 2006)
  
-- Project Assistant (12/04/2004 until 11/09/2006)
- 
-- Senior Lecturer (Data Science) (02/12/2002 until 31/03/2004)
- 
-- Lecturer (Data Science) (02/07/1999 until 30/11/2002)
-
 #### Programming Skills
 -------------------------
 
-- R 
+- R, SQL 
 
 #### Functional Knowledge
 -------------------------
 
 - Python 3
-- SQL
 
 #### Completed Projects
 -------------------------
