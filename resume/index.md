@@ -8,12 +8,12 @@ Email: ashishdutt@yahoo.com.my
 
 - **Programming & others**
 
-  Github: [duttashi](https://github.com/duttashi/), Stackoverflow: [Ashish](https://stackoverflow.com/users/4195053/ashish) Twitter: [@duttashish_](https://twitter.com/duttashish_)
+  Github: [duttashi](https://github.com/duttashi/), Stackoverflow: [mnm](https://stackoverflow.com/users/4195053/mnm) Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 #### Education
 -------------------------
 
-2014-2019 (expected)
+2014-2020 (expected)
 
 - **PhD**
 	
