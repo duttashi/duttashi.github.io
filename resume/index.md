@@ -100,7 +100,7 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 
 #### CAREER PATH
 -------------------------
-- Research Data Scientist (May 2016 till present)- [freelancing]
+- Research Data Scientist (May 2016 till present)
 
 - Data Analyst (Jun 2015 April 2016)
 
