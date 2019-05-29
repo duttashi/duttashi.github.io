@@ -19,7 +19,7 @@ Email: ashishdutt@yahoo.com.my
 	
 	Faculty of Computer Science and Information Systems University of Malaya, Kuala Lumpur, Malaysia 
 
-	Field of Research; Computer Science (Educational Data Mining)
+	Field of Research- Mixed data clustering in Educational Data Mining
 
 	Thesis- *work in progress.*
 
@@ -27,7 +27,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **M.Sc**, University of Staffordshire, UK
 
-	Majors: Computer Science
+	Majors: Unsupervised learning (*data mining*)
 
 	Dissertation Title: A Framework for mining the top call drivers as experienced in technical contact centers 	
 	[Published paper](http://bit.ly/2tPVqZ5)  
@@ -36,7 +36,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **B.Sc**, Panjab University, Chandigarh, India
 
-	Majors: Botany
+	Majors: Life Science
 
 #### RESEARCH PUBLICATIONS
 -------------------------
@@ -137,7 +137,7 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 
 	Project duration: February 2017
 
-	Objective: Determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
+	Objective: To determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
 
 	Deliverable: Used the agriculture [data](http://bit.ly/2mh2lXh) from the Department of Statistics, Malaysia and performed predictive analytics. The findings are presented on my [blog](http://bit.ly/2mh9bvS) and the R code is listed [GitHub](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R).
 
