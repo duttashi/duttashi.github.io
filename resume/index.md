@@ -19,7 +19,7 @@ Email: ashishdutt@yahoo.com.my
 	
 	Faculty of Computer Science and Information Systems University of Malaya, Kuala Lumpur, Malaysia 
 
-	Field of Research; Computer Science (Educational Data Mining)
+	Field of Research- Mixed data clustering in Educational Data Mining
 
 	Thesis- *work in progress.*
 
@@ -27,7 +27,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **M.Sc**, University of Staffordshire, UK
 
-	Majors: Computer Science
+	Majors: Unsupervised learning (*data mining*)
 
 	Dissertation Title: A Framework for mining the top call drivers as experienced in technical contact centers 	
 	[Published paper](http://bit.ly/2tPVqZ5)  
@@ -36,7 +36,7 @@ Email: ashishdutt@yahoo.com.my
 
 - **B.Sc**, Panjab University, Chandigarh, India
 
-	Majors: Botany
+	Majors: Life Science
 
 #### RESEARCH PUBLICATIONS
 -------------------------
