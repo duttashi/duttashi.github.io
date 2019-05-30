@@ -115,44 +115,47 @@ is dedicated to system solutions based on soft computing techniques. It is publi
 #### Programming Skills
 -------------------------
 
-- R, SQL 
+- R<sup>1</sup>
+- Python<sup>2</sup>
+- SQL <sup>2</sup>  
 
-#### Functional Knowledge
--------------------------
+*Legend:* 
 
-- Python 3
+- <sup>**1**</sup> expert knowledge
+- <sup>**2**</sup> intermediate knowledge 
 
 #### Completed Projects
--------------------------
+-----------------------
 
-1.	**Project: Predicting employment related factors in Malaysia- A regression analysis approach**
+1.	**Project: A classification approach to model the employee flight risk behaviour**
+
+	Project duration: March-May 2019
+
+	Objective: Determine the factors which contribute to accurately predicting flight risk behaviour proclivities in employees.
+
+	Deliverable: Used the labor force data and performed exploratory, inferential and predictive data analysis. The findings are listed on my [research blog](http://bit.ly/2lswF51) and the R code is listed on GitHub. See [exploratory data analysis code](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-hr_attrition-EDA.R) and [predictive modeling](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-hr_attrition-Predictive_Modelling.R).
+
+
+2.	**Project: Predicting employment related factors in Malaysia- A regression analysis approach**
 
 	Project duration: February 2017
 
 	Objective: Determine the factors which contribute to accurately predicting unemployment rate from historical statistical data on labour force data in Malaysia.
 
-	Deliverable: Used the labor force data from the [Department of Statistics](http://bit.ly/2mh2lXh), Malaysia and performed exploratory, inferential and predictive data analysis. The findings are listed on my [research blog](http://bit.ly/2lswF51) and the R code is listed on [GitHub](http://bit.ly/2nur4r8).
+	Deliverable: Used the labor force data from the [Department of Statistics](http://bit.ly/2mh2lXh), Malaysia and performed exploratory, inferential and predictive data analysis. The findings are listed on my [research blog](http://bit.ly/2lswF51) and the R code is listed on [GitHub](https://bit.ly/2HIQrT7).
 
-2.	**Project: Predicting rubber plantation yield- A regression analysis approach**
+3.	**Project: Predicting rubber plantation yield- A regression analysis approach**
 
 	Project duration: February 2017
 
 	Objective: To determine the factors which contribute to accurately predicting high rubber yield per kg based on historical rubber plantation data.
 
-	Deliverable: Used the agriculture [data](http://bit.ly/2mh2lXh) from the Department of Statistics, Malaysia and performed predictive analytics. The findings are presented on my [blog](http://bit.ly/2mh9bvS) and the R code is listed [GitHub](https://github.com/duttashi/LearningR/blob/master/scripts/CaseStudy-MY-RubberPlantation.R).
+	Deliverable: Used the agriculture [data](http://bit.ly/2mh2lXh) from the Department of Statistics, Malaysia and performed predictive analytics. The findings are presented on my [blog](http://bit.ly/2mh9bvS) and the R code is listed [GitHub](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-MY-RubberPlantation.R).
 
-3.	**Project: House price prediction using advanced regression techniques**
+4.	**Project: House price prediction using advanced regression techniques**
 
 	Project duration: September-November 2016
 
 	Objective: Analyze the dataset to improve upon feature engineering and advanced regression algorithms like random forests, gradient boosting with xgboost
 
-	Deliverable: Used the Ames housing [dataset](http://bit.ly/2gJ1f3K) and performed exploratory and inferential data analysis. The findings are listed on my [blog](http://bit.ly/2njWxgr) and the R code is listed on GitHub.
-
-4.	**Project: Exploratory data analysis of the GapMinder dataset**
-
-	Project duration: February 2016
-
-	Objective: Analyze the dataset to determine the causes of breast cancer in women.
-
-	Deliverable: Used the Gap minder [dataset](http://www.gapminder.org/) and performed exploratory and inferential data analysis. The findings are listed on my [blog](http://bit.ly/2mYdRKO) and the python code is listed on [GitHub](http://bit.ly/2mYqhlZ).
+	Deliverable: Used the Ames housing [dataset](http://bit.ly/2gJ1f3K) and performed exploratory and inferential data analysis. The findings are listed on my [blog](http://bit.ly/2njWxgr) and the R code is listed on [GitHub](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-AV-DreamHouse.R).
