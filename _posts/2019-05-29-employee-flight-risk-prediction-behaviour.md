@@ -170,13 +170,13 @@ c.	k-nearest neighbor (knn) and
 
 d.	logistic regression 
 
-The CART model on the validation set gave an accuracy of 97% while the knn model gave an accuracy of 99.79%. See Fig-8.
+The CART, SVM and the KNN model gave an accuracy of over 98% on the training set. I chose the CART and the SVM model for testing. Both models yield an accuracy of 95.5% on the validation set, as shown in Fig-8. 
 
 ![plot8](https://duttashi.github.io/images/casestudy-hr-attrition-plt8.png)
 
 Fig-8: Predictive modeling results
 
-I chose the knn model as the final model. And I tested this model on the hr_attrition_test data. As shown in Fig-8, the knn model has the highest accuracy and the kappa statistic. Finally to conclude using the knn modeling technique, we can predict the employee attrition at an accuracy of `99.79%`.
+From Fig-8, I chose the cart model as the final model. Thereafter, I tested this model on the `hr_attrition_test data`. Finally to conclude using the cart modeling technique, we can predict the employee attrition at an accuracy of `95.5%`.
 
 
 **Summary**
