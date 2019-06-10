@@ -64,39 +64,42 @@ I serve as a reviewer to several international journals. *Peer-review is a volun
 
 ##### Active reviewer for the following journals
 
-- **IEEE Access** Journal (ISSN: 2169-3536) - *ISI indexed*
+- <span style="color:green"> **IEEE Access** Journal (ISSN: 2169-3536) - *ISI indexed*</span>
 
 IEEE Access is an Open Access journal. It is a *Q1* (JCR year 2016) journal in *Computer Science* with an impact factor of 2.95. It is published by IEEE, USA.
 
-- **IEEE Transactions on Learning Technologies** Journal (ISSN: 1939-1382) - *ISI indexed*
+- <span style="color:green"> **IEEE Transactions on Learning Technologies** Journal (ISSN: 1939-1382) - *ISI indexed* </span>
 
 IEEE Transactions on Learning Technologies is a *Q2* (JCR year 2016) journal in *Computer Science and Interdisciplinary Applications* with an impact factor of 2.083. It is published by IEEE Computer Society from California, USA. It publishes **4 issues/year**
 
-- **Kybernetes** Journal (ISSN: 0368-492X) - *ISI indexed*
+- <span style="color:green"> **Kybernetes** Journal (ISSN: 0368-492X) - *ISI indexed*</span>
 
 Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetics* with an impact factor of 0.811. It is published by Emerald group at Yorkshire, England and publishes **10 issues/year**.
 Review speed (1st Decision): **6 weeks**
 
-- **International Journal of Electrical and Computer Engineering (IJECE)** Journal (ISSN: 2088-8708) - *Scopus indexed*
+- <span style="color:green"> **International Journal of Electrical and Computer Engineering (IJECE)** Journal (ISSN: 2088-8708) - *Scopus indexed*</span>
 
 IJECE is published by the Institute of Advanced Engineering and Science (IAES) with an impact factor of 0.99 and *Q2 in Computer Science*. Review speed (1st Decision): **8 weeks**
 
-- **International Journal of Educational Technology in Higher Education** Journal (ISSN: 2365-9440) - *Scopus indexed*
+- <span style="color:green"> **International Journal of Educational Technology in Higher Education** Journal (ISSN: 2365-9440) - *Scopus indexed*</span>
 
 [ETHE](https://educationaltechnologyjournal.springeropen.com/about) is associated with Universitat Oberta de Catalunya and published by Springer Nature. It has an impact factor of 1.33 in Scopus. Subject area: Education, Computer Science Applications. Review speed (1st Decision): **21 days**, Acceptance to Publication: **28 days** 
 
-- **Research in Learning Technology** Journal (ISSN: 2156-7069) - *Scopus Indexed*
+- <span style="color:green"> **Research in Learning Technology** Journal (ISSN: 2156-7069) - *Scopus Indexed*</span>
 
 Published by the Association for Learning Technology. There is no publication fees. [Link](https://journal.alt.ac.uk/index.php/rlt/index)
 
 ##### Past/Inactive reviewer for the following journals
 
-- **IETE Journal of Research** Journal (ISSN: 0377-2063) - *ISI indexed*
+- <span style="color:red"> **IETE Journal of Research** Journal (ISSN: 0377-2063) - *ISI indexed* </span>
 is a bimonthly journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. 
 It publishes **6 issues/year**.
 
-- **Soft Computing** Journal (ISSN: 1432-7643) - *ISI indexed*
+- <span style="color:red"> **Soft Computing** Journal (ISSN: 1432-7643) - *ISI indexed* </span>
 is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg.
+
+- <span style="color:red"> **Journal of Educational Data Mining** (ISSN: 2157-2100) - *Not indexed* </span> I reviewed one article for this journal. The paper style was single column and was **45 pages long!!**. It was mostly *social science based*. Also, post review, I did not receive the final decision email from the journal. I had to write to the journal editor requesting one!
+Thereafter, I was invited to review another article. When I asked for the paper length and final decision email, the journal **never responded**!  
 
 #### CAREER PATH
 -------------------------
