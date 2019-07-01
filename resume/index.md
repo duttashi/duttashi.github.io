@@ -10,7 +10,10 @@ Email: `ashishdutt@yahoo.com.my`
 
 - **Programming & others**
 
-  	
+	- Github: [duttashi](https://github.com/duttashi/)
+	- Stackoverflow: [mnm](https://stackoverflow.com/users/4195053/mnm)
+	- Twitter: [@duttashish_](https://twitter.com/duttashish_)
+
 
 #### Education
 -------------------------------
