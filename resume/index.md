@@ -1,17 +1,21 @@
 -------------------------
 
-Email: ashishdutt@yahoo.com.my 
+Email: `ashishdutt@yahoo.com.my` 
 
 - **Research**
 
-  [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56294315000), [Orcid](https://orcid.org/0000-0003-3122-9265)  
+	- [Google Scholar](https://scholar.google.com/citations?user=AIGfYdEAAAAJ&hl=en)
+	- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56294315000)
+	- [Orcid](https://orcid.org/0000-0003-3122-9265)  
 
 - **Programming & others**
 
-  Github: [duttashi](https://github.com/duttashi/), Stackoverflow: [mnm](https://stackoverflow.com/users/4195053/mnm) Twitter: [@duttashish_](https://twitter.com/duttashish_)
+  	- Github: [duttashi](https://github.com/duttashi/)
+  	- Stackoverflow: [mnm](https://stackoverflow.com/users/4195053/mnm) 
+  	- Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 #### Education
--------------------------
+-------------------------------
 
 2014-2020 (expected)
 
@@ -41,17 +45,19 @@ Email: ashishdutt@yahoo.com.my
 #### RESEARCH PUBLICATIONS
 -------------------------
 
-1.	**Dutt, A**., Ismail, MA., Herawan, T. (2017), A Systematic Review on Educational Data Mining. [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
+1. **Dutt, A**., Ismail, MA. (**2019**), Can we predict student learning performance from LMS data? A classification approach. [conference](https://www.atlantis-press.com/proceedings/iccie-18/125910340)
 
-2.	 Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability. Indian Journal of Science and Technology, 8(11).
+2.	**Dutt, A**., Ismail, MA., Herawan, T. (2017), A Systematic Review on Educational Data Mining. [journal](http://ieeexplore.ieee.org/document/7820050/)
 
-3.	**Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (2014). Clustering Algorithms Applied in Educational Data Mining. International Journal of Information and Electronics Engineering (IJIEE), 5(2).
+3.	 Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability [journal](http://www.indjst.org/index.php/indjst/article/view/70657/0)
 
-4.	 **Dutt, A.**, Aghabozorgi. (2014). A Framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals. 6th International Conference on Education and Information Management (ICEIM-2014), Kuala Lumpur, Malaysia.
+4.	**Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (2014). Clustering Algorithms Applied in Educational Data Mining [journal](http://www.ijiee.org/vol5/513-F1002.pdf)
 
-5.	 Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T.. (2014). An Approachable Analytical Study on Big Educational Data Mining. In: Murgante, B., Misra, S., Rocha, A.M.A.C., Torre, C., Rocha, J.G., Falcão, M.I., Taniar, D., Apduhan, B.O., Gervasi, O. Computational Science and Its Applications (ICSSA). Springer International Publishing. 721-737.
+5.	 **Dutt, A.**, Aghabozorgi. (2014). A Framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
 
-6.	Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering. Paper presented at the The 3rd International Conference on Computer Engineering and Mathematical Sciences (ICCEMS 2014), Langkawi, Malaysia. 
+6.	 Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T.. (2014). An Approachable Analytical Study on Big Educational Data Mining [conference](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
+
+7.	Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
 
 #### Reviewer
 ------------------------- 
