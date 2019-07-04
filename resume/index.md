@@ -96,14 +96,15 @@ IJECE is published by the Institute of Advanced Engineering and Science (IAES) w
 
 Published by the Association for Learning Technology. There is no publication fees. [Link](https://journal.alt.ac.uk/index.php/rlt/index)
 
+- <span style="color:green"> **Soft Computing** Journal (ISSN: 1432-7643) - *ISI indexed* </span>
+is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg. Subject area: Computer Science Applications. 
+Review speed (1st Decision): **45 days**
+
 ##### Past/Inactive reviewer for the following journals
 
 - <span style="color:red"> **IETE Journal of Research** Journal (ISSN: 0377-2063) - *ISI indexed* </span>
-is a bimonthly journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. 
+is a bimonthly Q4 journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. 
 It publishes **6 issues/year**.
-
-- <span style="color:red"> **Soft Computing** Journal (ISSN: 1432-7643) - *ISI indexed* </span>
-is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg.
 
 - <span style="color:red"> **Journal of Educational Data Mining** (ISSN: 2157-2100) - *Not indexed* </span> I reviewed one article for this journal. The paper style was single column and was **45 pages long!!**. It was mostly *social science based*. Also, post review, I did not receive the final decision email from the journal. I had to write to the journal editor requesting one!
 Thereafter, I was invited to review another article. When I asked for the paper length and final decision email, the journal **never responded**!  
