@@ -12,7 +12,7 @@ published: true
 
 ---
 
-### How to upload external data in Amazon AWS S3
+### Building a data pipeline: uploading external data in AWS S3.
 
 **Step 1**: In the AWS S3 user management console, click on your bucket name.
 
