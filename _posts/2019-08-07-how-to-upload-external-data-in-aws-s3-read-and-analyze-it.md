@@ -4,9 +4,9 @@ layout: post
 title: Building a data pipeline: uploading external data in AWS S3.
 date: 2019-08-07
 share: true
-excerpt: "In this post, I have suggested some preliminary steps for building a data pipeline in AWS S3"
+excerpt: "In this post, I have suggested some preliminary steps for building a data pipeline in AWS S3. "
 categories: blog
-tags: [AWS S3, AWS Sagemaker]
+tags: [AWS S3, AWS Sagemaker, R]
 comments: true
 published: true
 
@@ -16,7 +16,7 @@ published: true
 
 **Step 1**: In the AWS S3 user management console, click on your bucket name.
 
-![plot1](https://duttashi.github.io/images/s3-1.png)
+![plot1](https://duttashi.github.io/images/s3-1.PNG)
 
 
 **Step 2:** Use the upload tab to upload external data into your bucket.
