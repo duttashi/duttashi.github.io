@@ -6,7 +6,7 @@ date: 2019-8-11
 share: true
 excerpt: "In this post, I have suggested some preliminary steps for building a data pipeline in AWS S3"
 categories: blog
-tags: [Python3, AWS S3, AWS Sagemaker]
+tags: [R, AWS S3, AWS Sagemaker]
 comments: true
 published: true
 
