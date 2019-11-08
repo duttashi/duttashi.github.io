@@ -76,7 +76,7 @@ There are two methods to access the data file;
 1. The Client method
 1. The Object URL method
 
-See this [IPython notebook](https://github.com/duttashi/serverless-computing/blob/master/AWS_scripts/accessing%20data%20in%20s3%20bucket%20with%20python.ipynb) for details.
+See this [IPython notebook](https://github.com/duttashi/serverless/blob/master/scripts/S3/accessing%20data%20in%20s3%20bucket%20with%20python.ipynb) for details.
 
 **AWS Data pipeline**
 
