@@ -1,18 +1,16 @@
 ---
 
 layout: post
-title: Building a data pipeline- uploading external data in AWS S3
-date: 2019-8-11
+title: Building a data pipeline: uploading external data in AWS S3.
+date: 2019-08-11
 share: true
 excerpt: "In this post, I have suggested some preliminary steps for building a data pipeline in AWS S3"
 categories: blog
-tags: [R, AWS S3, AWS Sagemaker]
+tags: [AWS S3, AWS Sagemaker]
 comments: true
 published: true
 
 ---
-
-
 ### Introduction
 
 Recently, I stepped into the AWS ecosystem to learn and explore its capabilities. I'm documenting my experiences in these series of posts. Hopefully, they will serve as a reference point to me in future or for anyone else following this path. The objective of this post is, to understand how to create a data pipeline. Read on to see how I did it. Certainly, there can be much more efficient ways, and I hope to find them too. If you know such better method's, please suggest them in the `comments` section.
@@ -78,7 +76,7 @@ There are two methods to access the data file;
 1. The Client method
 1. The Object URL method
 
-See this [IPython notebook](https://github.com/duttashi/serverless-computing/blob/master/AWS_scripts/accessing%20data%20in%20s3%20bucket%20with%20python.ipynb) for details.
+See this [IPython notebook](https://github.com/duttashi/functions/blob/master/scripts/python/accessing%20data%20in%20s3%20bucket%20with%20python.ipynb) for details.
 
 **AWS Data pipeline**
 
@@ -87,4 +85,5 @@ To build an AWS Data pipeline, following steps need to be followed;
 - Ensure the user has the required `IAM Roles`. See this [AWS documentation](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-get-setup.html)
 - To use AWS Data Pipeline, you create a pipeline definition that specifies the business logic for your data processing. A typical pipeline definition consists of [activities](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-concepts-activities.html) that define the work to perform, [data nodes](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-concepts-datanodes.html) that define the location and type of input and output data, and a [schedule](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-concepts-schedules.html) that determines when the activities are performed.
 
-Note: **To be continued** 
+
+- 
