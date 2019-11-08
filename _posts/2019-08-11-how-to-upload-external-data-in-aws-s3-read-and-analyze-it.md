@@ -11,9 +11,10 @@ comments: true
 published: true
 
 ---
+
 ### Introduction
 
-Recently, I stepped in the AWS ecosystem to learn and explore its capabilities. I'm documenting my experiences in these series of posts. Hopefully, they will serve as a reference point to me in future or for anyone else following this path. The objective of this post is, to understand how to create a data pipeline. Read on to see how I did it. Certainly, there can be much more efficient ways, and I hope to find them too. If you know such better method's, please suggest them in the `comments` section.
+Recently, I stepped into the AWS ecosystem to learn and explore its capabilities. I'm documenting my experiences in these series of posts. Hopefully, they will serve as a reference point to me in future or for anyone else following this path. The objective of this post is, to understand how to create a data pipeline. Read on to see how I did it. Certainly, there can be much more efficient ways, and I hope to find them too. If you know such better method's, please suggest them in the `comments` section.
 
 #### How to upload external data in Amazon AWS S3
 
