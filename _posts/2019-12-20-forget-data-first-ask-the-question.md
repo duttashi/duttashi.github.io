@@ -25,14 +25,25 @@ If you've read so far, you'll notice a few imminent common themes, namely:
 
 Besides my research, I offer consultation service in data science domain. Most of my clients are simply unaware of a clear formulated question. They (`read client`) will acquire the data from some place and then recruit Subject Matter Experts (SMEs), Data Engineer/Scientist (DS) to figure out what the data means!
 
+Consider the following hypothetical scenario. A company say `X` acquires some product sales data  say `PE data` from another company say `Y`. `X` wants to build a predictive model, using `PE data` to determine correlated variables responsible for dropping product sales. `X` hires a SME, and a DS to build the model. Needless to state, `X` has no PD nor DD on the project. The SME evaluates the `PE data` to identify `correlated variables (corr_vars)`. The DS objects that some of the independent `corr_vars`, display a correlation above 75% with the dependent variable and are thus not contributing to the prediction sensitivity. A stalemate condition. What is the solution then?
+
 There is no Project Documentation (PD) nor Data Dictionaries (DD) in place. It's like `reverse engineering`. I think this business strategy is short-sighted and will do nobody any good. I think building PD and DD from `observed data` is incorrect, because, it leaves many unanswered questions like:
 
-a. How to determine the observed data is correct?
+Q. How to determine the observed data is correct?
 
 Possible answer: A school of thought is to consult the relevant SME for the dataset to validate the observed data.
 
-But then another question arises, `What is the gurantee the SME's data validation verdict is correct?`.
+But then another question arises, 
 
-Consider the following hypothetical scenario. A company say `X` acquires power grid energy data  say `PE data` from another company say `Y`. `X` wants to build a predictive model, using `PE data` to determine correlated variables responsible for power energy grid failure. `X` hires a SME, and a DS to build the model. Needless to state, `X` has no PD nor DD on the project. The SME evaluates the `PE data` to identify `correlated variables (corr_vars)`. The DS objects that some of the independent `corr_vars`, display a correlation above 75% with the dependent variable and are thus not contributing to the prediction sensitivity. A stalemate condition. What is the solution then?
+Q. What is the guarantee the SME's data validation verdict is correct?
+
+Possible answer: if the SME is unable to provide a satisfactory response to its data validation actions, then I think the project is in trouble. A satisfactory response must consist of an/or assumption about data and the validation method. Suppose the SME says, 
+
+> Prepare a normally distributed data because the current data in question suffers from ... (*SME provides the reason for the assumption*)
+
+ 
+   
+
+
 
           
