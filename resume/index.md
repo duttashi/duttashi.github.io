@@ -22,11 +22,11 @@ Email: `ashishdutt@yahoo.com.my`
 
 - **PhD**
 	
-	Faculty of Computer Science and Information Systems University of Malaya, Kuala Lumpur, Malaysia 
+	Faculty of Computer Science and Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
 
-	Field of Research- Mixed data clustering in Educational Data Mining
+	Field of Research- Computer Science (mixed data clustering)
 
-	Thesis- *work in progress.*
+	Thesis- A Partition based Feature Selection Approach for Mixed Data Clustering, *work in progress.*
 
 2010-2012
 
@@ -46,19 +46,21 @@ Email: `ashishdutt@yahoo.com.my`
 #### RESEARCH PUBLICATIONS
 -------------------------
 
-1. **Dutt, A**., Ismail, MA. (**2019**), Can we predict student learning performance from LMS data? A classification approach. [conference paper](https://www.atlantis-press.com/proceedings/iccie-18/125910340)
+1. **Dutt, A**., Ismail, MA., A Partition based Feature Selection Approach for Mixed Data Clustering (2019). *Accepted for publication in Malaysian Journal of Computer Science*.
 
-2.	**Dutt, A**., Ismail, MA., Herawan, T. (2017), A Systematic Review on Educational Data Mining. [journal paper](http://ieeexplore.ieee.org/document/7820050/)
+2. **Dutt, A**., Ismail, MA. (**2019**), Can we predict student learning performance from LMS data? A classification approach. [conference paper](https://www.atlantis-press.com/proceedings/iccie-18/125910340)
 
-3.	 Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability [journal paper](http://www.indjst.org/index.php/indjst/article/view/70657/0)
+3. **Dutt, A**., Ismail, MA., Herawan, T. (2017), A Systematic Review on Educational Data Mining. [journal paper](http://ieeexplore.ieee.org/document/7820050/)
 
-4.	**Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (2014). Clustering Algorithms Applied in Educational Data Mining [journal paper](http://www.ijiee.org/vol5/513-F1002.pdf)
+4. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability [journal paper](http://www.indjst.org/index.php/indjst/article/view/70657/0)
 
-5.	 **Dutt, A.**, Aghabozorgi. (2014). A Framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference paper](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
+5. **Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (2014). Clustering Algorithms Applied in Educational Data Mining [journal paper](http://www.ijiee.org/vol5/513-F1002.pdf)
 
-6.	 Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T.. (2014). An Approachable Analytical Study on Big Educational Data Mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
+6. **Dutt, A.**, Aghabozorgi. (2014). A Framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference paper](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
 
-7.	Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
+7. Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T.. (2014). An Approachable Analytical Study on Big Educational Data Mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
+
+7. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
 
 #### Reviewer
 ------------------------- 
@@ -70,6 +72,10 @@ I serve as a reviewer to several international journals. *Peer-review is a volun
 <!-- end Publons.com widget -->
 
 ##### Active reviewer for the following journals
+
+- <span style="color:green"> **IEEE Transactions on Knowledge and Data Engineering** Journal (ISSN: 1041-4347) - *ISI indexed* </span>
+
+IEEE Trans on Knowledge and Data Engineering, is a *Q1* (JCR year 2018) journal in *Computer Science, Artificial Intelligence & Information Systems*, with an impact factor of 3.85. It is published by IEEE, USA. It publishes 12 issues/year.
 
 - <span style="color:green"> **IEEE Access** Journal (ISSN: 2169-3536) - *ISI indexed*</span>
 
@@ -111,17 +117,17 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 #### CAREER PATH
 -------------------------
-- Research Data Scientist (May 2016 till present)
-
-- Data Analyst (Jun 2015 April 2016)
-
-- Graduate Research Assistant (Jun 2014 Jun 2015)
-
-- Technical Consultant Level 2 (Dec 2009 until Feb 2011)
- 
-- Technical Consultant Level 1 (July 2006 until Dec 2009)
- 
-- Project Assistant (April 2004 until Sept 2006)
+- Lead Data Scientist (Jan 2020 till current)
+- Data Scientist (May 2019 till Dec 2019)
+- Research Data Scientist (June 2015 till current)
+- Data Analyst (Jun 2015 Apr 2016)
+- Graduate Research Assistant (Data Science)(Jun 2014 Jun 2015)
+- Teaching Assistant (Data Science)(04/06/2012 until 01/03/2013)
+- Technical Consultant Level 2 (14/12/2009 until 20/02/2011)
+- Technical Consultant Level 1 (18/07/2006 until 16/12/2009)
+- Project Assistant (Statistics) (12/04/2004 until 11/09/2006)
+- Senior Lecturer (Statistics) (02/12/2002 until 31/03/2004)
+- Lecturer (Statistics) (02/07/1999 until 30/11/2002)
  
 #### Programming Skills
 -------------------------
@@ -134,6 +140,12 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 - <sup>**1**</sup> expert knowledge
 - <sup>**2**</sup> intermediate knowledge 
+
+
+#### Ongoing Project
+-----------------------
+
+To build a predictive analytics based model for identifying loss in energy consumption for the Edotco Group Sdn Bhd.
 
 #### Completed Projects
 -----------------------
