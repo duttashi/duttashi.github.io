@@ -4,20 +4,20 @@
 
 Email: ashishdutt@yahoo.com.my 
 
-[Researchgate](https://www.researchgate.net/profile/Ashish_Dutt)  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [ashish](https://stackoverflow.com/users/4195053/ashish), Twitter: [@duttashish_](https://twitter.com/duttashish_)
+[Researchgate](https://www.researchgate.net/profile/Ashish_Dutt)  Github: [duttashi](https://github.com/duttashi/), StackOverFlow: [mnm](https://stackoverflow.com/users/4195053/mnm), Twitter: [@duttashish_](https://twitter.com/duttashish_)
 
 ### Education
 -------------------------
 
-2014-2019 (expected)
+2014-2020 (expected)
 
 - **PhD**
 	
 	Faculty of Computer Science and Information Systems University of Malaya, Kuala Lumpur, Malaysia 
 
-	Field of Research; Computer Science (Educational Data Mining)
+	Field of Research: Computer Science (mixed data clustering)
 
-	Thesis- A soft set approach to evaluate academic performance based on student’s academic and demographic data
+	Thesis: A Partition based Feature Selection Approach for Mixed Data Clustering 
 
 2010-2012
 
@@ -37,7 +37,9 @@ Email: ashishdutt@yahoo.com.my
 ### RESEARCH PUBLICATIONS
 -------------------------
 
-1.	**Dutt, A**., Ismail, MA., Herawan, T., A Systematic Review on Educational Data Mining (2017). [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
+1.	**Dutt, A**., Ismail, MA., A Partition based Feature Selection Approach for Mixed Data Clustering (2019). *Accepted for publication in Malaysian Journal of Computer Science*.
+
+2.	**Dutt, A**., Ismail, MA., Herawan, T., A Systematic Review on Educational Data Mining (2017). [IEEE Access](http://ieeexplore.ieee.org/document/7820050/).
 
 2.	 Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability. Indian Journal of Science and Technology, 8(11).
 
@@ -52,6 +54,10 @@ Email: ashishdutt@yahoo.com.my
 ### Reviewer 
 
 I serve as a reviewer to many international journals. *In academic domain, it is  a voluntary service and one is not paid for it.*  
+
+- **IEEE Transactions on Knowledge and Data Engineering** Journal (ISSN: 1041-4347)
+
+IEEE Trans on Knowledge and Data Engineering, is a *Q1* (JCR year 2018) journal in *Computer Science, Artificial Intelligence & Information Systems*, with an impact factor of 3.85. It is published by IEEE, USA. It publishes 12 issues/year.
 
 - **IEEE Access** Journal (ISSN: 2169-3536)
 
@@ -68,32 +74,27 @@ Kybernetes is a *Q4* (JCR year 2016) journal in *Computer Science and Cybernetic
 ### CAREER PATH
 -------------------------
 
+- Lead Data Scientist (Jan 2020 till current)
+- Data Scientist (May 2019 till Dec 2019)
+- Research Data Scientist (June 2015 till current)
 - Data Analyst (Jun 2015 Apr 2016)
-
 - Graduate Research Assistant (Data Science)(Jun 2014 Jun 2015)
-
 - Teaching Assistant (Data Science)(04/06/2012 until 01/03/2013)
- 
 - Technical Consultant Level 2 (14/12/2009 until 20/02/2011)
- 
 - Technical Consultant Level 1 (18/07/2006 until 16/12/2009)
- 
-- Project Assistant (12/04/2004 until 11/09/2006)
- 
-- Senior Lecturer (Data Science) (02/12/2002 until 31/03/2004)
- 
-- Lecturer (Data Science) (02/07/1999 until 30/11/2002)
+- Project Assistant (Statistics) (12/04/2004 until 11/09/2006)
+- Senior Lecturer (Statistics) (02/12/2002 until 31/03/2004)
+- Lecturer (Statistics) (02/07/1999 until 30/11/2002)
 
-### Skills
+### Expert Skill
 -------------------------
 
-- R programming
-- SAS programming 
+- R programming 
 
 ### Functional Knowledge
 -------------------------
 
-- Python 2.7
+- Python
 - SQL
 
 ### Projects
