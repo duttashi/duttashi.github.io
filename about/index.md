@@ -9,7 +9,7 @@ You can find me on [GitHub](https://github.com/duttashi), [StackOverflow](https:
 
 **Current work**
 
-I am a PhD student (2014-2019) at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. I'm working on a feature clustering approach to improve heterogeneous cluster purity. My research is funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship). My supervisor is [Assoc. Prof. Dr. Maizatul A. Ismail](https://umexpert.um.edu.my/maizatul).
+I am a PhD student (2014-2020) at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. I'm working on a feature clustering approach to improve heterogeneous cluster purity. My research is funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship). My supervisor is [Assoc. Prof. Dr. Maizatul A. Ismail](https://umexpert.um.edu.my/maizatul).
 
 I also contribute to R.
 
