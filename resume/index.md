@@ -46,21 +46,21 @@ Email: `ashishdutt@yahoo.com.my`
 #### RESEARCH PUBLICATIONS
 -------------------------
 
-1. **Dutt, A**., Ismail, MA., A Partition based Feature Selection Approach for Mixed Data Clustering (2019). *Accepted for publication in Malaysian Journal of Computer Science*.
+1. **Dutt, A**., Ismail, MA. (**2020**), A Partition based Feature Selection Approach for Mixed Data Clustering. *Accepted for publication in Malaysian Journal of Computer Science*.
 
 2. **Dutt, A**., Ismail, MA. (**2019**), Can we predict student learning performance from LMS data? A classification approach. [conference paper](https://www.atlantis-press.com/proceedings/iccie-18/125910340)
 
-3. **Dutt, A**., Ismail, MA., Herawan, T. (2017), A Systematic Review on Educational Data Mining. [journal paper](http://ieeexplore.ieee.org/document/7820050/)
+3. **Dutt, A**., Ismail, MA., Herawan, T. (**2017**), A Systematic Review on Educational Data Mining. [journal paper](http://ieeexplore.ieee.org/document/7820050/)
 
-4. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2015). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability [journal paper](http://www.indjst.org/index.php/indjst/article/view/70657/0)
+4. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (**2015**). Applying Clustering Approach to Analyze Reflective Dialogues and Students’ Problem Solving Ability [journal paper](http://www.indjst.org/index.php/indjst/article/view/70657/0)
 
-5. **Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (2014). Clustering Algorithms Applied in Educational Data Mining [journal paper](http://www.ijiee.org/vol5/513-F1002.pdf)
+5. **Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (**2014**). Clustering Algorithms Applied in Educational Data Mining [journal paper](http://www.ijiee.org/vol5/513-F1002.pdf)
 
-6. **Dutt, A.**, Aghabozorgi. (2014). A Framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference paper](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
+6. **Dutt, A.**, Aghabozorgi. (**2014**). A Framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference paper](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
 
-7. Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T.. (2014). An Approachable Analytical Study on Big Educational Data Mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
+7. Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T. (**2014**). An Approachable Analytical Study on Big Educational Data Mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
 
-7. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (2014). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
+7. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (**2014**). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
 
 #### Reviewer
 ------------------------- 
