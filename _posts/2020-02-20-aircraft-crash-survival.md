@@ -67,7 +67,7 @@ As the common adage goes, “a picture is worth a thousand words”. Once the da
 
 Fig-1: Common air crash descriptions
 
-ii.	Visualizing the common words used for air plane crash
+##### ii.	Visualizing the common words used for air plane crash
 
 ![plot2](https://duttashi.github.io/images/CS_DSI_2.png)
 
@@ -193,15 +193,21 @@ Therefore, an imbalanced classification problem is one in which the dependent va
 
 ##### i.	Methods to deal with imbalanced classification
 
-1.	Under Sampling
+
+
+1. Under Sampling
 
 With under-sampling, we randomly select a subset of samples from the class with more instances to match the number of samples coming from each class. The main disadvantage of under-sampling is that we lose potentially relevant information from the left-out samples.
 
-2.	Over Sampling
+
+
+1. Over Sampling
 
 With oversampling, we randomly duplicate samples from the class with fewer instances or we generate additional instances based on the data that we have, so as to match the number of samples in each class. While we avoid losing information with this approach, we also run the risk of over fitting our model as we are more likely to get the same samples in the training and in the test data, i.e. the test data is no longer independent from training data. This would lead to an overestimation of our model’s performance and generalization.
 
-3.	ROSE and SMOTE
+
+
+1. ROSE and SMOTE
 
 Besides over- and under-sampling, there are hybrid methods that combine under-sampling with the generation of additional data. Two of the most popular are ROSE and SMOTE.
 
