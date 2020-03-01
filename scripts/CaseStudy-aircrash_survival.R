@@ -2,8 +2,7 @@
 # Datasource # 2: http://www.planecrashinfo.com/database.htm
 # Objective-1: Justify whether it is safer to take the aircraft nowadays. Support your decision with data.
 # Objective-2: Apply machine learning techniques to predict any interesting topic of this.
-
-# Analysis conducted by Ashish Dutt
+# @author: https://github.com/duttashi
 # clean the workspace
 rm(list = ls())
 
@@ -30,7 +29,7 @@ library(grid) # for grid.rect()
 library(ggpubr) # for annotate_figure()
 
 # load the data
-kaggle_data<- read.csv("Pre-Screen Assessment (PSA)/1- Question/data/Airplane_Crashes_and_fatalities_Since_1908.csv",
+kaggle_data<- read.csv("data/Airplane_Crashes_and_fatalities_Since_1908.csv",
                        header=T, na.strings=c("","NA"), stringsAsFactors = FALSE)
 # lowercase the column names
 for( i in 1:ncol(kaggle_data)){
@@ -116,7 +115,7 @@ df$crash_hour<- as.numeric(factor(df$crash_hour))
 df$crash_minute<- as.integer(df$crash_minute)
 
 # write data to disk
-write.csv(df, file = "Pre-Screen Assessment (PSA)/1- Question/data/external_and_kaggle_data.csv")
+write.csv(df, file = "data/external_and_kaggle_data.csv")
 
 # Data structure and content
 summary(df)
@@ -211,18 +210,18 @@ df <- df %>%
   mutate(alive_dead_ratio=fatalities/aboard)
 
 # write to disk
-write.csv(df, file = "Pre-Screen Assessment (PSA)/1- Question/data/aircrash_partial_clean_data.csv")
+write.csv(df, file = "data/aircrash_partial_clean_data.csv")
 # subset data based on Military and Civilian crashes
 crash_mil<- df[df$crash_opr_type=='Military',]
 crash_civ<- df[df$crash_opr_type=='Civilian',]
 
-write.csv(crash_civ, file = "Pre-Screen Assessment (PSA)/1- Question/data/aircrash_civil_partial_clean_data.csv")
-write.csv(crash_mil, file = "Pre-Screen Assessment (PSA)/1- Question/data/aircrash_mil_partial_clean_data.csv")
+write.csv(crash_civ, file = "data/aircrash_civil_partial_clean_data.csv")
+write.csv(crash_mil, file = "data/aircrash_mil_partial_clean_data.csv")
 
 # subset data for air crashes since 2010
 # since 2010, there have been 205 civilian air crashes
 crash_civ_2k102k20<- subset(crash_civ, crash_year>2009 & crash_civ$survived>-1)
-write.csv(crash_civ_2k102k20, file = "Pre-Screen Assessment (PSA)/1- Question/data/aircrash_civil_2k102k20_cleandata.csv")
+write.csv(crash_civ_2k102k20, file = "data/aircrash_civil_2k102k20_cleandata.csv")
 names(crash_civ_2k102k20)
 
 ##### Data Visualizations
