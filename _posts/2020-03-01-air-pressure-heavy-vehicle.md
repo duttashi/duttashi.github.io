@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: A classification approach to predict the misclassification cost for detecting air pressure system failure in heavy vehicles
+title: Predicting the misclassification cost incurred in air pressure system failure in heavy vehicles
 date: 2020-03-01
 share: true
 excerpt: "In this post, I provide an in-depth analysis of the Air Pressure System (APS), which is a type of function used in heavy vehicles to assist braking and gear changing. "
@@ -109,9 +109,7 @@ And in Figure 4, I’ve shown the dot plot which depicts the PR-AUC scores visua
 
 ![plot4](https://duttashi.github.io/images/CS_DSI_2_4.png)
 
-Figure 6: Dot plot on imbalanced training dataset
-
-I will now show the PM results on the imbalanced data. In Table 3, I’ve shown the confusion matrix and in Table 4, I’ve shown the misclassification errors.
+Figure 4: Dot plot on imbalanced training dataset
 
 ##### v. Challenge metric computation on imbalanced training dataset
 
@@ -127,13 +125,11 @@ The company will incur $75, 050 in misclassification cost on the imbalanced data
 
 For data balancing, I chose 3 different methods, namely under-sampling, over-sampling and Synthetic Minority Over Sampling Technique (SMOTE). I found the over sampling technique to be most effective for logistic regression model.  So I applied this technique on the balanced training dataset
 
-I’ll now show the predictive modelling on the balanced training dataset. As shown earlier, I split the dataset into 70-30 ratio and applied a 3-fold cross validation. Then, I applied the logistic regression algorithm by up-sampling, down-sampling and synthetic minority over sampling methods shown in Figure 7.
+I’ll now show the predictive modelling on the balanced training dataset. As shown earlier, I split the dataset into 70-30 ratio and applied a 3-fold cross validation. Then, I applied the logistic regression algorithm by up-sampling, down-sampling and synthetic minority over sampling methods shown in Figure 5.
 
 ![plot5](https://duttashi.github.io/images/CS_DSI_2_5.png)
 
-Figure 7: Dot plot on balanced training dataset
-
-On the basis of results shown in Table 5, I chose over sampling method for data balancing and then applied the logistic regression algorithm to it.
+Figure 5: Dot plot on balanced training dataset
 
 ##### vii.	Challenge metric computation on balanced training dataset
 
