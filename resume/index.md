@@ -46,6 +46,8 @@ Email: `ashishdutt@yahoo.com.my`
 #### RESEARCH PUBLICATIONS
 -------------------------
 
+##### Published articles
+
 1. **Dutt, A**., Ismail, MA. (**2020**), A Partition based Feature Selection Approach for Mixed Data Clustering. *Accepted for publication in Malaysian Journal of Computer Science*.
 
 2. **Dutt, A**., Ismail, MA. (**2019**), Can we predict student learning performance from LMS data? A classification approach. [conference paper](https://www.atlantis-press.com/proceedings/iccie-18/125910340)
@@ -61,6 +63,10 @@ Email: `ashishdutt@yahoo.com.my`
 7. Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T. (**2014**). An Approachable Analytical Study on Big Educational Data Mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
 
 7. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (**2014**). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
+
+##### Under review articles
+
+- **Dutt, A**, Ismail, MA., Lam, HW., An alternative soft set approach for enrollment conflicts in state-controlled primary schools in Delhi
 
 #### Reviewer
 ------------------------- 
@@ -145,12 +151,26 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 #### Ongoing Project
 -----------------------
 
-To build a predictive analytics based model for identifying loss in energy consumption for the Edotco Group Sdn Bhd.
+1.	**Project: To develop a partition based feature selection algorithm for mixed data clustering**
+	
+	Project commissioned by: Department of Information System, University of Malaya 
+	
+	SDLC process methodology: Scrum
+	
+	Technologies stack: R
 
 #### Completed Projects
 -----------------------
 
-1.	**Project: A classification approach to model the employee flight risk behaviour**
+1.	**Project: A predictive analytic model to determine the run time, and, end of life of electric grids deployed in Bangladesh**
+	
+	Project commissioned by: [Edotoco](https://edotcogroup.com/malaysia/) Sdn Bhd
+	
+	SDLC process methodology: Scrum
+	
+	Technologies stack: R, PowerBI
+
+2.	**Project: A classification approach to model the employee flight risk behaviour**
 
 	Project duration: March-May 2019
 
