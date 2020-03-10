@@ -1,6 +1,6 @@
 # Site settings
 
-theme: jekyll-theme-so-simple
+theme: minima
 title: "Stories Data Speak"
 locale: en_US
 description: My thoughts and learnings.
