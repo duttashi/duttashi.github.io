@@ -1,11 +1,14 @@
-# Site wide configuration
+# Site settings
 
+theme: jekyll-theme-so-simple
 title: "Stories Data Speak"
 locale: en_US
 description: My thoughts and learnings.
 logo: site-logo.png
 search: true
 url: https://duttashi.github.io
+date_format: "%B %-d, %Y"
+
 
 # Jekyll configuration
 
@@ -57,3 +60,4 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  latestpostcount: 5
