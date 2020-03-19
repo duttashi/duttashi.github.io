@@ -123,7 +123,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 #### CAREER PATH
 -------------------------
-- Lead Data Scientist (Jan 2020 till current)
+- Senior Data Scientist (Dec 2019 till Feb 2020)
 - Data Scientist (May 2019 till Dec 2019)
 - Research Data Scientist (June 2015 till current)
 - Data Analyst (Jun 2015 Apr 2016)
