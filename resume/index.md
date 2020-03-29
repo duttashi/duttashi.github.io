@@ -123,17 +123,22 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 #### CAREER PATH
 -------------------------
+
+##### Industry Experience
+
 - Senior Data Scientist (Dec 2019 till Feb 2020)
 - Data Scientist (May 2019 till Dec 2019)
-- Research Data Scientist (June 2015 till current)
 - Data Analyst (Jun 2015 Apr 2016)
-- Graduate Research Assistant (Data Science)(Jun 2014 Jun 2015)
-- Teaching Assistant (Data Science)(04/06/2012 until 01/03/2013)
-- Technical Consultant Level 2 (14/12/2009 until 20/02/2011)
-- Technical Consultant Level 1 (18/07/2006 until 16/12/2009)
-- Project Assistant (Statistics) (12/04/2004 until 11/09/2006)
-- Senior Lecturer (Statistics) (02/12/2002 until 31/03/2004)
-- Lecturer (Statistics) (02/07/1999 until 30/11/2002)
+- Technical Consultant Level 2 (14/12/2009 - 20/02/2011)
+- Technical Consultant Level 1 (18/07/2006 - 16/12/2009)
+
+##### Research & Teaching Experience
+
+- Graduate Research Assistant (July 2014 - current)
+- Lecturer (Applied Statistics) (June 2017 - May 2018)
+- Project Assistant (Applied Statistics) (12/04/2004 - 11/09/2006)
+- Senior Lecturer (Applied Statistics) (02/12/2002 - 31/03/2004)
+- Lecturer (Applied Statistics) (02/07/1999 - 30/11/2002)
  
 #### Programming Skills
 -------------------------
