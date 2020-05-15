@@ -56,13 +56,13 @@ Email: `ashishdutt@yahoo.com.my`
 
 4. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (**2015**). Applying clustering approach to analyze reflective dialogues and students’ problem solving ability. [journal paper](http://www.indjst.org/index.php/indjst/article/view/70657/0)
 
-5. **Dutt, A.**, Aghabozorgi, S., Maizatul, A.B.I., Mahroeian, H. (**2014**). Clustering algorithms applied in educational data mining [journal paper](http://www.ijiee.org/vol5/513-F1002.pdf)
+5. **Dutt, A.**, Aghabozrgi, S., Maizatul, A.B.I., Mahroeian, H. (**2014**). Clustering algorithms applied in educational data mining [journal paper](http://www.ijiee.org/vol5/513-F1002.pdf)
 
-6. **Dutt, A.**, Aghabozorgi. (**2014**). A framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference paper](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
+6. **Dutt, A.**, Aghabozrgi. (**2014**). A framework for mining top call drivers as experienced in technical contact centres to facilitate self help portals [conference paper](https://www.researchgate.net/publication/266149265_A_Framework_for_Mining_Top_Call_Drivers_as_Experienced_in_Technical_Contact_Centers_to_Facilitate_Self_Help_Portals)
 
-7. Aghabozorgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T. (**2014**). An approachable analytical study on big educational data mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
+7. Aghabozrgi, S., Mahroeian, H., **Dutt, A**., Wah, T.Y., Herawan, T. (**2014**). An approachable analytical study on big educational data mining [conference paper](https://link.springer.com/chapter/10.1007/978-3-319-09156-3_50)
 
-7. Sardareh, S. A., Aghabozorgi, S., & **Dutt, A**. (**2014**). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
+7. Sardareh, S. A., Aghabozrgi, S., & **Dutt, A**. (**2014**). Reflective Dialogues and Students' Problem Solving Ability Analysis Using Clustering [conference paper](https://pdfs.semanticscholar.org/4f03/a16b55b113e3256cc786a6c5a4c5c8899e77.pdf)
 
 ##### Under review articles
 
