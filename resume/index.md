@@ -8,12 +8,10 @@ Email: `ashishdutt@yahoo.com.my`
 	- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56294315000)
 	- [Orcid](https://orcid.org/0000-0003-3122-9265)  
 
-- **Programming & others**
+- **Programming**
 
 	- Github: [duttashi](https://github.com/duttashi/)
-	- Stackoverflow: [mnm](https://stackoverflow.com/users/4195053/mnm)
-	- Twitter: [@duttashish_](https://twitter.com/duttashish_)
-
+	
 
 #### Education
 -------------------------------
