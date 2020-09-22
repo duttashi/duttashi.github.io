@@ -24,7 +24,7 @@ Email: `ashishdutt@yahoo.com.my`
 
 	Field of Research- Computer Science (mixed data clustering)
 
-	Thesis- A Partition based Feature Selection Approach for Mixed Data Clustering, *submitted for examination*
+	Thesis- A Partition based Feature Selection Approach for Mixed Data Clustering, *accepted with minor corrections*
 
 2010-2012
 
