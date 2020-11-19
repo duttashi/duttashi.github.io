@@ -16,30 +16,34 @@ Email: `ashishdutt@yahoo.com.my`
 #### Education
 -------------------------------
 
-2014-2020 (expected)
+2014-2020
 
 - **PhD**
 	
-	Faculty of Computer Science and Information Systems, University of Malaya, Kuala Lumpur, Malaysia 
+	Department of Information Systems, Faculty of Computer Science and Information Systems (FCSIT), University of Malaya, Kuala Lumpur, Malaysia 
 
-	Field of Research- Computer Science (mixed data clustering)
+	Field of Research- Computer Science (Mixed Data Clustering)
 
-	Thesis- A Partition based Feature Selection Approach for Mixed Data Clustering, *accepted with minor corrections*
+	Thesis- A Partition based Feature Selection Approach for Mixed Data Clustering
 
 2010-2012
 
-- **M.Sc**, University of Staffordshire, UK
+- **M.Sc**
 
-	Majors: Unsupervised learning (*data mining*)
+	University of Staffordshire, UK
+
+	Field of Research: Computer Science (Clustering)
 
 	Dissertation Title: A Framework for mining the top call drivers as experienced in technical contact centers 	
 	[Published paper](http://bit.ly/2tPVqZ5)  
 
 1996-1999
 
-- **B.Sc**, Panjab University, Chandigarh, India
+- **B.Sc**
 
-	Majors: Life Science
+	Panjab University, Chandigarh, India
+
+	Major: Life Science
 
 #### RESEARCH PUBLICATIONS
 -------------------------
@@ -153,7 +157,12 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 - <sup>**2**</sup> intermediate knowledge 
 
 
-#### Ongoing Project
+#### Ongoing Project('s)
+-----------------------
+
+Independent projects on [text mining](https://github.com/duttashi/text-analysis), [applied machine learning](https://github.com/duttashi/applied-machine-learning) and [web-data scraping](https://github.com/duttashi/scrapers)  
+
+#### Completed Projects
 -----------------------
 
 1.	**Project: To develop a partition based feature selection algorithm for mixed data clustering**
@@ -164,10 +173,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 	
 	Technologies stack: R
 
-#### Completed Projects
------------------------
-
-1.	**Project: A predictive analytic model to determine the run time, and, end of life of electric grids deployed in Bangladesh**
+2.	**Project: A predictive analytic model to determine the run time, and, end of life of electric grids deployed in Bangladesh**
 	
 	Project commissioned by: [Edotoco](https://edotcogroup.com/malaysia/) Sdn Bhd
 	
@@ -175,7 +181,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 	
 	Technologies stack: R, PowerBI
 
-2.	**Project: A classification approach to model the employee flight risk behaviour**
+3.	**Project: A classification approach to model the employee flight risk behaviour**
 
 	Project duration: March-May 2019
 
@@ -183,8 +189,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 	Deliverable: Used the labor force data and performed exploratory, inferential and predictive data analysis. The findings are listed on my [research blog](http://bit.ly/2lswF51) and the R code is listed on GitHub. See [exploratory data analysis code](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-hr_attrition-EDA.R) and [predictive modeling](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-hr_attrition-Predictive_Modelling.R).
 
-
-2.	**Project: Predicting employment related factors in Malaysia- A regression analysis approach**
+4.	**Project: Predicting employment related factors in Malaysia- A regression analysis approach**
 
 	Project duration: February 2017
 
@@ -192,7 +197,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 	Deliverable: Used the labor force data from the [Department of Statistics](http://bit.ly/2mh2lXh), Malaysia and performed exploratory, inferential and predictive data analysis. The findings are listed on my [research blog](http://bit.ly/2lswF51) and the R code is listed on [GitHub](https://bit.ly/2HIQrT7).
 
-3.	**Project: Predicting rubber plantation yield- A regression analysis approach**
+5.	**Project: Predicting rubber plantation yield- A regression analysis approach**
 
 	Project duration: February 2017
 
@@ -200,7 +205,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 	Deliverable: Used the agriculture [data](http://bit.ly/2mh2lXh) from the Department of Statistics, Malaysia and performed predictive analytics. The findings are presented on my [blog](http://bit.ly/2mh9bvS) and the R code is listed [GitHub](https://github.com/duttashi/learnr/blob/master/scripts/Full%20Case%20Studies/CaseStudy-MY-RubberPlantation.R).
 
-4.	**Project: House price prediction using advanced regression techniques**
+6.	**Project: House price prediction using advanced regression techniques**
 
 	Project duration: September-November 2016
 

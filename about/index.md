@@ -9,15 +9,10 @@ You can find me on [GitHub](https://github.com/duttashi), [StackOverflow](https:
 
 **Current work**
 
-I am a PhD student (2014-2020) at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. I'm working on a feature clustering approach to improve heterogeneous cluster purity. My research is funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship). My supervisor is [Assoc. Prof. Dr. Maizatul A. Ismail](https://umexpert.um.edu.my/maizatul).
+I'm interested in unsupervised and supervised algorithms, applicable to mixed data. For my phd, a novel partition-based feature selection approach for mixed data clustering was proposed. I completed research and wrote my thesis at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. My research was funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship). 
 
 I also contribute to R.
 
-
 - by submitting my own packages on CRAN (or just [GitHub](https://github.com/duttashi?tab=repositories)).
 - by [contributing to other projects when I can](https://github.com/pulls?q=mentions%3Aduttashi).
-- by [blogging](https://duttashi.github.io/blog/).   
-
-**Hometown - Education**
-
-I'm from [Jhansi](https://en.wikipedia.org/wiki/Jhansi), India. I completed my schooling from [La Martiniere College](http://www.lamartinierelucknow.org/), Lucknow. I graduated with a Bachelors in **Science** from [Panjab University](http://puchd.ac.in/), Chandigarh. Thereafter, I worked in industry for over a decade and then graduated with a Master's in **Computer Science** from [Staffordshire University](http://www.staffs.ac.uk/).  
+- by [blogging](https://duttashi.github.io/blog/).
