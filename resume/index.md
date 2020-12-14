@@ -77,10 +77,6 @@ Email: `ashishdutt@yahoo.com.my`
 
 I serve as a reviewer to several international journals. *Peer-review is a voluntary service and one is not paid for it.* 
 
-<!-- start Publons.com widget -->
-<iframe src="https://publons.com/author/1324629/widget/embed/?width=640&height=460" width="640" height="460" style="border: solid 1px #ddd;"></iframe>
-<!-- end Publons.com widget -->
-
 ##### Active reviewer for the following journals
 
 - <span style="color:green"> **IEEE Transactions on Knowledge and Data Engineering** Journal (ISSN: 1041-4347) - *ISI indexed* </span>
