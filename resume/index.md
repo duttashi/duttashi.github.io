@@ -112,15 +112,6 @@ Published by the Association for Learning Technology. There is no publication fe
 is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg. Subject area: Computer Science Applications. 
 Review speed (1st Decision): **45 days**
 
-##### Past/Inactive reviewer for the following journals
-
-- <span style="color:red"> **IETE Journal of Research** Journal (ISSN: 0377-2063) - *ISI indexed* </span>
-is a bimonthly Q4 journal published by the Institution of Electronics and Telecommunication Engineers (IETE), India. 
-It publishes **6 issues/year**.
-
-- <span style="color:red"> **Journal of Educational Data Mining** (ISSN: 2157-2100) - *Not indexed* </span> I reviewed one article for this journal. The paper style was single column and was **45 pages long!!**. It was mostly *social science based*. Also, post review, I did not receive the final decision email from the journal. I had to write to the journal editor requesting one!
-Thereafter, I was invited to review another article. When I asked for the paper length and final decision email, the journal **never responded**!  
-
 #### CAREER PATH
 -------------------------
 
@@ -134,7 +125,7 @@ Thereafter, I was invited to review another article. When I asked for the paper 
 
 ##### Research & Teaching Experience
 
-- Graduate Research Assistant (Jul 2014 - current)
+- Graduate Research Assistant (Jul 2014 - Feb 2020)
 - Lecturer (Applied Statistics) (Jun 2017 - May 2018)
 - Project Assistant (Applied Statistics) (Apr 2004 - Sep 2006)
 - Senior Lecturer (Applied Statistics) (Dec 2002 - Mar 2004)
