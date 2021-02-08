@@ -9,7 +9,7 @@ You can find me on [GitHub](https://github.com/duttashi), [StackOverflow](https:
 
 **Current work**
 
-I'm interested in unsupervised and supervised algorithms, applicable to mixed data. For my phd, a novel partition-based feature selection approach for mixed data clustering was proposed. I completed research and wrote my thesis at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. My research was funded by [iGRAS](https://ips.um.edu.my/services/finance/scholarship). 
+I'm interested in unsupervised and supervised algorithms, applicable to mixed data. For my phd, a novel partition-based feature selection approach for mixed data clustering was proposed. I completed research and wrote my thesis at the Department of Information Systems, [University of Malaya](https://www.um.edu.my/), Kuala Lumpur, Malaysia. My research was funded by [iGRAS](https://umresearch.um.edu.my/funding-opportunities-information-international-grant). 
 
 I also contribute to R.
 
