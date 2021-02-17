@@ -68,6 +68,11 @@ Email: `ashishdutt@yahoo.com.my`
 
 ##### Under review articles
 
+- Year 2021
+
+	- **Dutt, A**, Ismail, MA., Targio, I.A.H, A systematic review on mixed data clustering in educational data mining
+
+
 - Year 2020
 
 	- **Dutt, A**, Ismail, MA., An alternative soft set approach for enrollment conflicts in state-controlled primary schools in Delhi
