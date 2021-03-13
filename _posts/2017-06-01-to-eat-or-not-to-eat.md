@@ -176,7 +176,7 @@ I will now focus on exploratory data analysis.
 
 If we look at the structure of the dataset, we notice that each variable has several factor levels. Moreover, these levels are `unordered`. Such unordered categorical  variables are termed as **nominal variables**. The opposite of unordered is ordered, we all know that. The `ordered` categorical variables are called, **ordinal variables**.
    
-"In the measurement hierarchy, interval variables are highest, ordinal variables are next, and nominal variables are lowest. Statistical methods for variables of one type can also be used with variables at higher levels but not at lower levels.", see [Agresti](https://mathdept.iut.ac.ir/sites/mathdept.iut.ac.ir/files/AGRESTI.PDF)
+"In the measurement hierarchy, interval variables are highest, ordinal variables are next, and nominal variables are lowest. Statistical methods for variables of one type can also be used with variables at higher levels but not at lower levels.", see the book, `Categorical Data Analysis` by [Alan Agresti](https://www.wiley.com/en-us/Categorical+Data+Analysis%2C+3rd+Edition-p-9780470463635)
 
 I found this [cheat-sheet](https://stats.idre.ucla.edu/other/mult-pkg/whatstat/) that can aid in determining the right kind of test to perform on categorical predictors (independent/explanatory variables). Also, this [SO post](https://stats.stackexchange.com/questions/108007/correlations-with-categorical-variables) is very helpful. See the answer by user `gung`. 
 
