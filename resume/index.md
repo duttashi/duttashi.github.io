@@ -120,14 +120,6 @@ Review speed (1st Decision): **45 days**
 #### CAREER PATH
 -------------------------
 
-##### Industry Experience
-
-- Senior Data Scientist (Dec 2019 - Feb 2020)
-- Data Scientist (May 2019 - Dec 2019)
-- Data Analyst (Jun 2015 - Apr 2016)
-- Technical Consultant Level 2 (Dec 2009 - Feb 2011)
-- Technical Consultant Level 1 (Jul 2006 - Dec 2009)
-
 ##### Research & Teaching Experience
 
 - Graduate Research Assistant (Jul 2014 - Feb 2020)
