@@ -117,17 +117,6 @@ Published by the Association for Learning Technology. There is no publication fe
 is dedicated to system solutions based on soft computing techniques. It is published by Springer Berlin Heidelberg. Subject area: Computer Science Applications. 
 Review speed (1st Decision): **45 days**
 
-#### CAREER PATH
--------------------------
-
-##### Research & Teaching Experience
-
-- Graduate Research Assistant (Jul 2014 - Feb 2020)
-- Lecturer (Applied Statistics) (Jun 2017 - May 2018)
-- Project Assistant (Applied Statistics) (Apr 2004 - Sep 2006)
-- Senior Lecturer (Applied Statistics) (Dec 2002 - Mar 2004)
-- Lecturer (Applied Statistics) (Jul 1999 - Nov 2002)
- 
 #### Programming Skills
 -------------------------
 
