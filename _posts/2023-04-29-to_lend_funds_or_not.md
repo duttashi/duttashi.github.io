@@ -6,7 +6,7 @@ date: 2023-04-29
 share: true
 excerpt: "An imbalanced data analysis writeup"
 categories: blog
-tags: [Python-3, classification, imbalanced data, interview]
+tags: [Python-3, classification, imbalanced data]
 comments: true
 published: true
 
@@ -14,24 +14,24 @@ published: true
 
 
 
-## To lend funds or not to lend is the question? 
+### To lend funds or not to lend is the question? 
 
 The following analysis is based on a publicly available dataset hosted at [Kaggle](https://www.kaggle.com/search?q=lending+club+loan+data+in%3Adatasets). The full code is located on my [github](https://github.com/duttashi/scrapers/blob/master/AT%26T_round2_data_analysis.py)
 
-### EXPLORATORY DATA ANALYSIS
+#### EXPLORATORY DATA ANALYSIS
 
 - The dataset is a single csv file. It has a shape of 42,542 observations in 144 variables.
-o	The response or dependent variable is “loan_status” and is categorical in nature.
+	- The response or dependent variable is “loan_status” and is categorical in nature.
 -	Off the 144 variables, majority of them (~110) are continuous in nature and rest are categorical data types. 
 -	 All 144 variables have missing values.
-o	Variables with 80% missing data were removed. The dataset size reduced to 54 variables. 
--	Correlation treatment helped reduce dataset size to 45 variables. Turns out, independent variables such as “funded amount, funded amount inv, installment, total payment, total payment inv, total rec prncp, total rec int, collection recovery fee and pub rec bankruptcies” are strongly correlated (>=80%) with the dependent variable. 
+	- Variables with 80% missing data were removed. The dataset size reduced to 54 variables. 
+-	Correlation treatment helped reduce dataset size to 45 variables. Turns out, independent variables such as `funded amount, funded amount inv, installment, total payment, total payment inv, total rec prncp, total rec int, collection recovery fee and pub rec bankruptcies` are strongly correlated (>=80%) with the dependent variable. 
 -	By this stage, the dataset shape is 42,542 observations in 45 variables (25 continuous, 3 datetime, and 17 categorical).
 -	The dependent variable has 4 factor levels. I recoded the 4 factor levels to 2 as asked by the assignment. 
-o	34116 observations for loans that were fully paid
-o	8426 observations for loans that were charged off
--	The dependent variable was label encoded to make it suitable for model building. As earlier stated, it’s now a binary categorical variable with two levels. Label 1 refers to Fully Paid and Label 0 refers to Charged Off.
--	It should be noted, the dependent variable is imbalanced in nature. This means, data balancing method need to be applied for building a robust model.
+	- 34116 observations for loans that were fully paid
+	- 8426 observations for loans that were charged off
+- The dependent variable was label encoded to make it suitable for model building. As earlier stated, it’s now a binary categorical variable with two levels. Label 1 refers to Fully Paid and Label 0 refers to Charged Off.
+- It should be noted, the dependent variable is imbalanced in nature. This means, data balancing method need to be applied for building a robust model.
 
 
     import pandas as pd
@@ -46,10 +46,8 @@ o	8426 observations for loans that were charged off
 	from sklearn.linear_model import LogisticRegression
 	from sklearn.metrics import classification_report
 
-	# load data
-    df = pd.read_csv("../data/LoanStats3a.csv", skiprows=1, low_memory=False)
+	df = pd.read_csv("../data/LoanStats3a.csv", skiprows=1, low_memory=False)
     print("\ndata shape: ", df.shape) # (42538, 144)
-    # relabel factor levels of loan_status col
     df['loan_status']=df['loan_status'].replace({'Does not meet the credit policy. Status:Fully Paid':'Fully Paid',
        'Does not meet the credit policy. Status:Charged Off':'Charged Off'}
       )
@@ -67,9 +65,9 @@ o	8426 observations for loans that were charged off
     "There are " + str(mis_val_table_ren_columns.shape[0]) +
       " columns with missing values.")
     return mis_val_table_ren_columns
-    # Missing values statistics
+    
     missing_data_stats(df)
-    # missing data treatment
+    
     df1 = df[df.columns[df.isnull().mean()<=0.80]]
     print("df1 shape: ",df1.shape) # (42542, 54)
     cols = df1.columns.values
@@ -92,7 +90,7 @@ Fig-1: Average annual income of applicants from WV and NM
 
 Fig-2: Top 3 states with highest loan defaults
 
-### DATA SAMPLING
+#### DATA SAMPLING
 
 -	To build a classifier model, I took following steps,
 	- Data shape at this stage was `(42542, 45)`.
@@ -102,7 +100,7 @@ Fig-2: Top 3 states with highest loan defaults
 	- Did label encoding for categorical variables with factor levels less than or equal to 2 `(term, pymnt_plan, initial_list_status, application_type, hardship_flag, debt_settlement_flag, target)`. 
 	- Did one-hot encoding for rest of categorical variables with factor levels greater than 2. Dataset shape becomes `(2127, 6965)`
 
-### MODEL BUILDING
+#### MODEL BUILDING
 
 - Null Hypothesis: From Fig-1, its apparent there is no relationship between the average annual income of applicants from WV and NM. To verify this claim further, a significance test is conducted.
 
@@ -155,10 +153,8 @@ Model Summary statistcis as follws below,
 	weighted avg        0.98      0.98      0.98       426
 
 
-### End notes
+#### End notes
 
 To develop a strategy for risk averse customers, the following points may be considered;
 -	We should target semi-urban or rural locations. Reason, such areas are replete with middle-economic class and/or lower economic class groups of people. In such sections of society, the penetration of information on Peer to Peer (P2P) lending is low. Our priority should be to educate such masses of people on the benefits and pitfalls of P2P lending as compared to other lending methods.
 -	Next, such customers can be educated about the Mutual Fund (MF) investment options, in particular the debt MF growth option. This strategy may help to maintain low default rates because the debt MF expense ratio charged by MF companies are comparatively less as compared to equity MF expense ratios.
- 
- 
