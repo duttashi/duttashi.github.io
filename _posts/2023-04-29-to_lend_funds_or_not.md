@@ -4,7 +4,7 @@ layout: post
 title: Risky loan applicants data analysis case study 
 date: 2023-04-29
 share: true
-excerpt: "An imbalanced data analysis approach to understand the factors contributing to a loan default"
+excerpt: "An imbalanced data analysis approach to understand the factors contributing to a loan default."
 categories: blog
 tags: [Python-3, classification, imbalanced data]
 comments: true
@@ -14,7 +14,7 @@ published: true
 
 The following data analysis is based on a publicly available dataset hosted at [Kaggle](https://www.kaggle.com/search?q=lending+club+loan+data+in%3Adatasets). The complete code is located on my [github](https://github.com/duttashi/scrapers/blob/master/AT%26T_round2_data_analysis.py)
 
-#### EXPLORATORY DATA ANALYSIS
+##### EXPLORATORY DATA ANALYSIS
 
 - The dataset is a single csv file. It has a shape of 42,542 observations in 144 variables.
 	- The response or dependent variable is “loan_status” and is categorical in nature.
@@ -29,7 +29,7 @@ The following data analysis is based on a publicly available dataset hosted at [
 - The dependent variable was label encoded to make it suitable for model building. As earlier stated, it’s now a binary categorical variable with two levels. Label `1` refers to `Fully Paid` and Label `0` refers to `Charged Off`.
 - It should be noted, the dependent variable is imbalanced in nature. This means, data balancing method need to be applied for building a robust model.
 
-#### VISUALS
+##### VISUALS
 
 - A histogram comparing the annual income of applicants from the states of West Virginia (WV) and New Mexico (NM). Is there any relationship here? 
 
@@ -43,7 +43,7 @@ Fig-1: Average annual income of applicants from WV and NM
 
 Fig-2: Top 3 states with highest loan defaults
 
-#### DATA SAMPLING
+##### DATA SAMPLING
 
 -	To build a classifier model, I took following steps,
 	- Data shape at this stage was `(42542, 45)`.
@@ -53,19 +53,9 @@ Fig-2: Top 3 states with highest loan defaults
 	- Did label encoding for categorical variables with factor levels less than or equal to 2 `(term, pymnt_plan`, `initial_list_status`, `application_type`, `hardship_flag`, `debt_settlement_flag`, `target)`. 
 	- Did one-hot encoding for rest of categorical variables with factor levels greater than 2. Dataset shape becomes `(2127, 6965)`
 
-#### MODEL BUILDING
+##### MODEL BUILDING
 
-- Null Hypothesis: From Fig-1, its apparent there is no relationship between the average annual income of applicants from WV and NM. To verify this claim further, a significance test is conducted.
-
-	
-	annual_inc_mean = np.mean(df_f['annual_inc'])
-	tset, pval = ttest_1samp(df_f['annual_inc'], annual_inc_mean)
-	print("p-values: ",pval)
-	if (pval < 0.05):# p-value is 0.05 or 5%
-   	  print(" we are rejecting null hypothesis")
-	else:
-  	  print("we are accepting null hypothesis")
-
+- Null Hypothesis: From Fig-1, its apparent there is no relationship between the average annual income of applicants from WV and NM. To verify this claim further, a significance test is conducted using the `ttest_1samp()` function from the `scipy.stats` library.
 -	Used label encoded data.
 -	Performed a stratified random sampling to split the dataset into 80% train and 20% test parts (in code, see lines 124 to line 154).  
 	- Chose logistic regression algorithm
