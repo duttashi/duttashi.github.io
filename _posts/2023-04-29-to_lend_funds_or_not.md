@@ -12,7 +12,7 @@ published: true
 
 ---
 
-The following data analysis is based on a publicly available dataset hosted at [Kaggle](https://www.kaggle.com/search?q=lending+club+loan+data+in%3Adatasets). The full code is located on my [github](https://github.com/duttashi/scrapers/blob/master/AT%26T_round2_data_analysis.py)
+The following data analysis is based on a publicly available dataset hosted at [Kaggle](https://www.kaggle.com/search?q=lending+club+loan+data+in%3Adatasets). The complete code is located on my [github](https://github.com/duttashi/scrapers/blob/master/AT%26T_round2_data_analysis.py)
 
 #### EXPLORATORY DATA ANALYSIS
 
@@ -28,48 +28,6 @@ The following data analysis is based on a publicly available dataset hosted at [
 	- 8426 observations for loans that were charged off
 - The dependent variable was label encoded to make it suitable for model building. As earlier stated, it’s now a binary categorical variable with two levels. Label `1` refers to `Fully Paid` and Label `0` refers to `Charged Off`.
 - It should be noted, the dependent variable is imbalanced in nature. This means, data balancing method need to be applied for building a robust model.
-
-
-    import pandas as pd
-    pd.options.mode.chained_assignment = None
-	import numpy as np
-	import seaborn as sns
-	import matplotlib.pyplot as plt
-	from scipy.stats import ttest_1samp
-	from sklearn import preprocessing
-	from imblearn.over_sampling import SMOTE
-	from sklearn.model_selection import train_test_split
-	from sklearn.linear_model import LogisticRegression
-	from sklearn.metrics import classification_report
-
-	df = pd.read_csv("../data/LoanStats3a.csv", skiprows=1, low_memory=False)
-    print("\ndata shape: ", df.shape) # (42538, 144)
-    df['loan_status']=df['loan_status'].replace({'Does not meet the credit policy. Status:Fully Paid':'Fully Paid',
-       'Does not meet the credit policy. Status:Charged Off':'Charged Off'}
-      )
-    print(df['loan_status'].value_counts())
-    def missing_data_stats(df):
-    mis_val = df.isnull().sum()
-    mis_val_percent = 100 * df.isnull().sum() / len(df)
-    mis_val_table = pd.concat([mis_val, mis_val_percent], axis=1)
-    mis_val_table_ren_columns = mis_val_table.rename(
-    columns = {0 : 'Missing Values', 1 : '% of Total Values'})
-    mis_val_table_ren_columns = mis_val_table_ren_columns[
-    mis_val_table_ren_columns.iloc[:,1] != 0].sort_values(
-    '% of Total Values', ascending=False).round(1)
-    print ("The dataframe has " + str(df.shape[1]) + " columns.\n"  
-    "There are " + str(mis_val_table_ren_columns.shape[0]) +
-      " columns with missing values.")
-    return mis_val_table_ren_columns
-    
-    missing_data_stats(df)
-    
-    df1 = df[df.columns[df.isnull().mean()<=0.80]]
-    print("df1 shape: ",df1.shape) # (42542, 54)
-    cols = df1.columns.values
-    df1[cols]=df1[cols].fillna(df1.mode().iloc[0])
-    missing_data_stats(df1)
-
 
 #### VISUALS
 
