@@ -25,12 +25,12 @@ The following analysis is based on a publicly available dataset hosted at [Kaggl
 -	Off the 144 variables, majority of them (~110) are continuous in nature and rest are categorical data types. 
 -	 All 144 variables have missing values.
 	- Variables with 80% missing data were removed. The dataset size reduced to 54 variables. 
--	Correlation treatment helped reduce dataset size to 45 variables. Turns out, independent variables such as `funded amount, funded amount inv, installment, total payment, total payment inv, total rec prncp, total rec int, collection recovery fee and pub rec bankruptcies` are strongly correlated (>=80%) with the dependent variable. 
+-	Correlation treatment helped reduce dataset size to 45 variables. Turns out, independent variables such as `funded amount`, `funded amount inv`, `installment`, `total payment`, `total payment inv`, `total rec prncp`, `total rec int`, `collection recovery fee` and `pub rec bankruptcies` are strongly correlated (>=80%) with the dependent variable. 
 -	By this stage, the dataset shape is 42,542 observations in 45 variables (25 continuous, 3 datetime, and 17 categorical).
 -	The dependent variable has 4 factor levels. I recoded the 4 factor levels to 2 as asked by the assignment. 
 	- 34116 observations for loans that were fully paid
 	- 8426 observations for loans that were charged off
-- The dependent variable was label encoded to make it suitable for model building. As earlier stated, it’s now a binary categorical variable with two levels. Label 1 refers to Fully Paid and Label 0 refers to Charged Off.
+- The dependent variable was label encoded to make it suitable for model building. As earlier stated, it’s now a binary categorical variable with two levels. Label `1` refers to `Fully Paid` and Label `0` refers to `Charged Off`.
 - It should be noted, the dependent variable is imbalanced in nature. This means, data balancing method need to be applied for building a robust model.
 
 
@@ -75,7 +75,6 @@ The following analysis is based on a publicly available dataset hosted at [Kaggl
     missing_data_stats(df1)
 
 
-
 #### Initial plots
 
 - A histogram comparing the annual income of applicants from the states of West Virginia (WV) and New Mexico (NM). Is there any relationship here? 
@@ -97,7 +96,7 @@ Fig-2: Top 3 states with highest loan defaults
 	- Took a 0.05% random sample of the dataset for further analysis.
 	- Data shape of sample size was `(2127, 45)`.
 	- The reason I took a sample of the original dataset was the presence of several categorical variables with factor levels greater than 5. Label encoding such categorical variables yielded meaningless information in model building and one-hot encoding blew up the dataset size to more than 3GB!
-	- Did label encoding for categorical variables with factor levels less than or equal to 2 `(term, pymnt_plan, initial_list_status, application_type, hardship_flag, debt_settlement_flag, target)`. 
+	- Did label encoding for categorical variables with factor levels less than or equal to 2 `(term, pymnt_plan`, `initial_list_status`, `application_type`, `hardship_flag`, `debt_settlement_flag`, `target)`. 
 	- Did one-hot encoding for rest of categorical variables with factor levels greater than 2. Dataset shape becomes `(2127, 6965)`
 
 #### MODEL BUILDING
@@ -109,9 +108,9 @@ Fig-2: Top 3 states with highest loan defaults
 	tset, pval = ttest_1samp(df_f['annual_inc'], annual_inc_mean)
 	print("p-values: ",pval)
 	if (pval < 0.05):# p-value is 0.05 or 5%
-   		print(" we are rejecting null hypothesis")
+   	  print(" we are rejecting null hypothesis")
 	else:
-  		print("we are accepting null hypothesis")
+  	  print("we are accepting null hypothesis")
 
 -	Used label encoded data.
 -	Performed a stratified random sampling to split the dataset into 80% train and 20% test parts (in code, see lines 124 to line 154).  
@@ -123,8 +122,7 @@ Fig-2: Top 3 states with highest loan defaults
 	- F1 score for loan status with value Charged Off (0) is 99% 
 	- F1 score for loan status with value Fully Paid (1) is 100%
 
-
-Model Summary statistcis as follws below,
+Model Summary statistics as follows;
 
 
 #### Imbalanced data classification 
