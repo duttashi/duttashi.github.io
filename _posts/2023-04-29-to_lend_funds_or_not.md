@@ -2,7 +2,7 @@
 
 layout: post
 title: Risky loan applicants data analysis case study 
-date: 2023-04-29
+date: 2023-05-02
 share: true
 excerpt: "An imbalanced data analysis approach to understand the factors contributing to a loan default."
 categories: blog
@@ -84,7 +84,7 @@ Model Summary statistics as follows;
 	Name: target, dtype: int64
 
 #### Balanced data using SMOTE 
-              precision    recall  f1-score   support
+           precision    recall  f1-score   support
 
            0       0.98      0.90      0.94        68
            1       0.98      1.00      0.99       358
