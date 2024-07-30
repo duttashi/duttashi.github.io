@@ -116,14 +116,9 @@ Review speed (1st Decision): **45 days**
 #### Programming Skills
 -------------------------
 
-- R<sup>1</sup>
-- Python<sup>2</sup>
-- SQL <sup>2</sup>  
-
-*Legend:* 
-
-- <sup>**1**</sup> expert knowledge
-- <sup>**2**</sup> intermediate knowledge 
+- R
+- Python
+- SQL   
 
 
 #### Ongoing Project('s)
