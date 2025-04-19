@@ -1,6 +1,6 @@
 -------------------------
 
-Email: `drashishdutt@gmail.com` 
+Email: `ashish.dutt8@gmail.com` 
 
 - **Research**
 
